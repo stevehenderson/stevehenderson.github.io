@@ -20,5 +20,7 @@ permalink: /datascience/
 
    * [Datalore](https://datalore.io/)
 
+   * [Google Collab](https://colab.research.google.com/?utm_source=scs-index
+
 
 
