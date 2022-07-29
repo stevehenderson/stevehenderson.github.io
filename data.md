@@ -6,37 +6,39 @@
 
 ### Aggregate-level Cyber Attack Data
 
-[Targeted Cyberattacks logbook](https://apt.securelist.com/#firstPage)
+   * [Targeted Cyberattacks logbook](https://apt.securelist.com/#firstPage)
 
-[OWASP/WASC Web Hacking Incident Database (WHD)](​https://www.google.com/fusiontables/DataSource?snapid=S283929Jw2s)
+   * [OWASP/WASC Web Hacking Incident Database (WHD)](​https://www.google.com/fusiontables/DataSource?snapid=S283929Jw2s)
 
-[Dataloss DB (Includes a breakdown of the sony hack)](https://blog.datalossdb.org)
+   * [Dataloss DB (Includes a breakdown of the sony hack)](https://blog.datalossdb.org)
 
-[Verizon RISK Team](​http://www.verizonenterprise.com/DBIR/)
+   * [Verizon RISK Team](​http://www.verizonenterprise.com/DBIR/)
 
-[Hackmageddon](http://www.hackmageddon.com/2015-cyber-attacks-timeline-master-index/)
+   * [Hackmageddon](http://www.hackmageddon.com/2015-cyber-attacks-timeline-master-index/)
 Cyber attack timelines by month.  Burrow down.  The 2016 summaries link to google sheets where you can get the raw data.  The older timelines seem to only show png's.
 
-[​The Center for Strategic Studies](https://csis-prod.s3.amazonaws.com/s3fs-public/160824_Significant_Cyber_Events_List.pdf)
+   * [​The Center for Strategic Studies](https://csis-prod.s3.amazonaws.com/s3fs-public/160824_Significant_Cyber_Events_List.pdf)
 This timeline records significant cyber incidents since 2006. Focus on cyber attacks on government agencies, defense and high tech companies, or economic crimes with losses of more than a million dollars.
 
 ### Low-Level Data (PCAP, etc)
 
-   * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
-
    * [Army Cyber Institute CDX Data](http://www.usma.edu/acc/SitePages/CDX.aspx)
 
+   * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
+
    * [KDD CUP 99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) : A baseline dataset for IDS.  See: Stolfo, J., et al. "Cost-based modeling and evaluation for data mining with application to fraud and intrusion detection." Results from the JAM Project by Salvatore (2000).
+
+   * [Kitsune PCAPs](https://drive.google.com/drive/folders/1kmoWY4poGWfmmVSdSu-r_3Vo84Tu4PyE) : PCAPs for the [Kitsune ANN paper](https://archive.ics.uci.edu/ml/datasets/Kitsune+Network+Attack+Dataset)
+
+   * [NETRESEC Data](http://www.netresec.com/?page=PcapFiles) : Lots of CDX and CTF data!
 
    * [NSL-KDD](https://web.archive.org/web/20150205070216/http://nsl.cs.unb.ca/NSL-KDD/) : Augments issues with earlier version KDD CUP 99 (see above).  Also available from [here](http://www.unb.ca/research/iscx/dataset/iscx-NSL-KDD-dataset.html)
 
    * [Predict](https://www.predict.org/) : Protected Repository for the Defense of Infrastructure Against Cyber Threats. 
 
-### Other PCAP
-
-   * [NETRESEC Data](http://www.netresec.com/?page=PcapFiles) : Lots of CDX and CTF data!
-
    * [SimpleWeb](http://www.simpleweb.org/wiki/Traces) : PCAP traces for various network events/attacks
+
+   * [TMInfosec Datasets]([https://www.predict.org/](https://github.com/neu5ron/TMInfosec/blob/master/Datasets/PCAPs.md)) : Currated list of PCAps @TMInfosec
 
 ### Threat Data
 
