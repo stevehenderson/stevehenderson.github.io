@@ -1,5 +1,6 @@
 I'm installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting.  The issues was related to Linux not being able to compile and install `vmmon` and `vmnet` kernel modules.
 
+{% include codeHeader.html %}
 ```bash
 2022-07-29T08:55:47.901-04:00| host-220593| I005:       | 
 2022-07-29T08:55:47.901-04:00| host-220593| I005: make[1]: *** [Makefile:1875: /tmp/modconfig-wOXCH0/vmnet-only] Error 2
