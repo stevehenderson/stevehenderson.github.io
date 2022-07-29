@@ -22,7 +22,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ### Low-Level Data (PCAP, etc)
 
-   * [Army Cyber Institute CDX Data](http://www.usma.edu/acc/SitePages/CDX.aspx)
+   * [Army Cyber Institute CDX Data]([http://www.usma.edu/acc/SitePages/CDX.aspx](https://digitalcommons.usmalibrary.org/aci_datasets/1/)
 
    * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
 
@@ -42,7 +42,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ### Threat Data
 
-   * [FireHol](http://iplists.firehol.org/) - firehol uber list of lists
+   * [FireHol](http://iplists.firehol.org/) - firehol uber list of IPs 
 
 ## Email
 
@@ -50,7 +50,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ## Images
 
-   * [80 Million Tiny Images](http://groups.csail.mit.edu/vision/TinyImages/)
+   * [80 Million Tiny Images]([http://groups.csail.mit.edu/vision/TinyImages/](https://www.kaggle.com/datasets/aryashah2k/mit-80-million-tiny-images-dataset?resource=download)  : 80 Million 32 x 32 labeled images
 
 ## Media
 
