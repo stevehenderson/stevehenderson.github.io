@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>Steve's Sandbox</h1>
+
+This is a sandbox to capture the stuff I am working on.
+
+<ul>
+	<li><a href="{{ site.baseurl }}/cyber">Cyber</a></li>
+	<li><a href="{{ site.baseurl }}/datascience">Data Science</a></li>	
+</ul>
+
+
+<hr>
+
+<h1>Recent Posts:</h1>
+
+<div class="posts">
+  {% for post in site.posts limit 5%}
+    <article class="post">
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
