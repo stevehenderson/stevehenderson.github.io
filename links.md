@@ -5,7 +5,7 @@ permalink: /links/
 ---
 
 ## Code
-   * [Binder)(https://mybinder.org/) : Git to Jupyter Notebooks
+   * [Binder](https://mybinder.org/) : Git to Jupyter Notebooks
    * [github](https://github.com/stevehenderson) : My github profile
    * [go playground](https://go.dev/play/)  : Online go playground
    * [Google code search](https://cs.opensource.google/)  : Google Code Search
