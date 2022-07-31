@@ -16,6 +16,7 @@
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
    * [openCTI](https://www.opencti.io/en/)
+   * [SpiderFoot](https://www.spiderfoot.net/)
 
 ## SEIM
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
