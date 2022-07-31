@@ -11,6 +11,7 @@
 
 ## SEIM
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
+   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable Splunk killer
 
 ## Virtualization
 
