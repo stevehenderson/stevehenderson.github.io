@@ -1,0 +1,62 @@
+<p>I’m installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting.  The issues was related to Linux not being able to compile and install <code class="language-plaintext highlighter-rouge">vmmon</code> and <code class="language-plaintext highlighter-rouge">vmnet</code> kernel modules.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2022-07-29T08:55:47.901-04:00| host-220593| I005:       | 
+2022-07-29T08:55:47.901-04:00| host-220593| I005: make[1]: <span class="k">***</span> <span class="o">[</span>Makefile:1875: /tmp/modconfig-wOXCH0/vmnet-only] Error 2
+2022-07-29T08:55:47.901-04:00| host-220593| I005: make: <span class="k">***</span> <span class="o">[</span>Makefile:117: vmnet.ko] Error 2
+2022-07-29T08:55:47.901-04:00| host-220593| I005: Unable to <span class="nb">install </span>all modules.  See log <span class="k">for </span>details.
+</code></pre></div></div>
+
+<p>I needed to install some kernel modules to get VMWare Workstation to work.</p>
+
+<p>There are some <a href="https://github.com/mkubecek">kind souls</a> that manage a very nice repo for ptaching the kernel.</p>
+
+<p>This is how I used it</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/tmp
+git clone https://github.com/mkubecek/vmware-host-modules.git
+</code></pre></div></div>
+
+<p>Once checked out, you need to find your kernel version</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">uname</span> <span class="nt">-a</span>
+</code></pre></div></div>
+
+<p>Yields:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Linux coolbox 5.15.0-41-generic <span class="c">#44~20.04.1-Ubuntu SMP Fri Jun 24 13:27:29 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux</span>
+</code></pre></div></div>
+
+<p>So this kernel is <code class="language-plaintext highlighter-rouge">5.15</code></p>
+
+<p>If you search the tags for the vmware-host_modules repo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch <span class="nt">--tags</span>
+git tag <span class="nt">-l</span> w15<span class="k">*</span>
+</code></pre></div></div>
+
+<p>(Or use the web console)</p>
+
+<p>I find the tag I need:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git tag <span class="nt">-l</span> w16<span class="k">*</span>k5.15<span class="k">*</span>
+w16.1.2-k5.15
+w16.2.0-k5.15
+w16.2.1-k5.15
+w16.2.3-k5.15
+w16.2.4-k5.15
+</code></pre></div></div>
+
+<p>And check it out:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout w16.2.4-k5.15
+</code></pre></div></div>
+
+<p>I used the most up-to-date version for workstation that matched my kernel.</p>
+
+<p>Then build it:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make
+<span class="nb">sudo </span>make <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>Workstation then starts up!</p>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:8744/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:8744/" rel="alternate" type="text/html" /><updated>2022-07-31T19:53:28-04:00</updated><id>http://localhost:8744/feed.xml</id><title type="html">Steve Henderson</title><subtitle>Doing things the hard way!</subtitle><entry><title type="html">Kramdown</title><link href="http://localhost:8744/Kramdown/" rel="alternate" type="text/html" title="Kramdown" /><published>2022-07-31T00:00:00-04:00</published><updated>2022-07-31T00:00:00-04:00</updated><id>http://localhost:8744/Kramdown</id><content type="html" xml:base="http://localhost:8744/Kramdown/">&lt;p&gt;Working on code blocks&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spsarolkar.github.io/rouge-theme-preview/&quot;&gt;Rouge Theme&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Working on code blocks</summary></entry><entry><title type="html">Datproc, Presto and PySpark</title><link href="http://localhost:8744/Presto/" rel="alternate" type="text/html" title="Datproc, Presto and PySpark" /><published>2022-07-29T00:00:00-04:00</published><updated>2022-07-29T00:00:00-04:00</updated><id>http://localhost:8744/Presto</id><content type="html" xml:base="http://localhost:8744/Presto/">&lt;h2 id=&quot;google-dataproc-presto-and-jupyter&quot;&gt;Google Dataproc, Presto, and Jupyter&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/stevehenderson/4a03cedde6d0db228e6c3168ab028283.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><category term="blog" /><category term="presto" /><category term="pyspark" /><category term="collab" /><category term="datascience" /><summary type="html">Google Dataproc, Presto, and Jupyter</summary></entry><entry><title type="html">Vmware16 Install Issue</title><link href="http://localhost:8744/VMWare16-Install-Issue/" rel="alternate" type="text/html" title="Vmware16 Install Issue" /><published>2022-07-29T00:00:00-04:00</published><updated>2022-07-29T00:00:00-04:00</updated><id>http://localhost:8744/VMWare16-Install-Issue</id><content type="html" xml:base="http://localhost:8744/VMWare16-Install-Issue/">&lt;p&gt;I’m installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting.  The issues was related to Linux not being able to compile and install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vmmon&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vmnet&lt;/code&gt; kernel modules.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2022-07-29T08:55:47.901-04:00| host-220593| I005:       | 
+2022-07-29T08:55:47.901-04:00| host-220593| I005: make[1]: &lt;span class=&quot;k&quot;&gt;***&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Makefile:1875: /tmp/modconfig-wOXCH0/vmnet-only] Error 2
+2022-07-29T08:55:47.901-04:00| host-220593| I005: make: &lt;span class=&quot;k&quot;&gt;***&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Makefile:117: vmnet.ko] Error 2
+2022-07-29T08:55:47.901-04:00| host-220593| I005: Unable to &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;all modules.  See log &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;details.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I needed to install some kernel modules to get VMWare Workstation to work.&lt;/p&gt;
+
+&lt;p&gt;There are some &lt;a href=&quot;https://github.com/mkubecek&quot;&gt;kind souls&lt;/a&gt; that manage a very nice repo for ptaching the kernel.&lt;/p&gt;
+
+&lt;p&gt;This is how I used it&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/tmp
+git clone https://github.com/mkubecek/vmware-host-modules.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once checked out, you need to find your kernel version&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;uname&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yields:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linux coolbox 5.15.0-41-generic &lt;span class=&quot;c&quot;&gt;#44~20.04.1-Ubuntu SMP Fri Jun 24 13:27:29 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So this kernel is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5.15&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you search the tags for the vmware-host_modules repo:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch &lt;span class=&quot;nt&quot;&gt;--tags&lt;/span&gt;
+git tag &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; w15&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;(Or use the web console)&lt;/p&gt;
+
+&lt;p&gt;I find the tag I need:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git tag &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; w16&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;k5.15&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+w16.1.2-k5.15
+w16.2.0-k5.15
+w16.2.1-k5.15
+w16.2.3-k5.15
+w16.2.4-k5.15
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And check it out:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout w16.2.4-k5.15
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I used the most up-to-date version for workstation that matched my kernel.&lt;/p&gt;
+
+&lt;p&gt;Then build it:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Workstation then starts up!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting. The issues was related to Linux not being able to compile and install vmmon and vmnet kernel modules.</summary></entry><entry><title type="html">Swarm</title><link href="http://localhost:8744/SWARM/" rel="alternate" type="text/html" title="Swarm" /><published>2020-09-08T00:00:00-04:00</published><updated>2020-09-08T00:00:00-04:00</updated><id>http://localhost:8744/SWARM</id><content type="html" xml:base="http://localhost:8744/SWARM/">&lt;ul&gt;
+  &lt;li&gt;https://github.com/MAPIRlab/gaden&lt;/li&gt;
+  &lt;li&gt;https://github.com/ethanjpark/Plume_Tracing_UUV_Sim&lt;/li&gt;
+  &lt;li&gt;https://github.com/InsectRobotics/pompy&lt;/li&gt;
+  &lt;li&gt;https://github.com/git-prashant/gaussianPlume&lt;/li&gt;
+  &lt;li&gt;https://ieeexplore.ieee.org/document/8721123/&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Adding to the blog</title><link href="http://localhost:8744/Adding-Some-Stuff/" rel="alternate" type="text/html" title="Adding to the blog" /><published>2016-11-25T00:00:00-05:00</published><updated>2016-11-25T00:00:00-05:00</updated><id>http://localhost:8744/Adding%20Some%20Stuff</id><content type="html" xml:base="http://localhost:8744/Adding-Some-Stuff/">&lt;p&gt;I ended up copying some links over from my work page so I can have them out in the wild.&lt;/p&gt;
+
+&lt;p&gt;I also grabbed a C64 profile icon.  Yeah!&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="setup" /><category term="git" /><category term="search" /><summary type="html">I ended up copying some links over from my work page so I can have them out in the wild.</summary></entry><entry><title type="html">Rolling!</title><link href="http://localhost:8744/Rolling/" rel="alternate" type="text/html" title="Rolling!" /><published>2016-11-24T00:00:00-05:00</published><updated>2016-11-24T00:00:00-05:00</updated><id>http://localhost:8744/Rolling</id><content type="html" xml:base="http://localhost:8744/Rolling/">&lt;p&gt;OK I’m opening this blog to help track my various activities and lessons learned.
+Hoping to capture good gists and also code snippets, links, and more.&lt;/p&gt;
+
+&lt;p&gt;([This will be really helpful)[https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]&lt;/p&gt;</content><author><name></name></author><category term="welcome" /><category term="start" /><summary type="html">OK I’m opening this blog to help track my various activities and lessons learned. Hoping to capture good gists and also code snippets, links, and more.</summary></entry><entry><title type="html">You’re up and running!</title><link href="http://localhost:8744/Hello-World/" rel="alternate" type="text/html" title="You’re up and running!" /><published>2014-03-03T00:00:00-05:00</published><updated>2014-03-03T00:00:00-05:00</updated><id>http://localhost:8744/Hello-World</id><content type="html" xml:base="http://localhost:8744/Hello-World/">&lt;p&gt;Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/config.png&quot; alt=&quot;_config.yml&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><category term="welcome" /><summary type="html">Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).</summary></entry></feed>
