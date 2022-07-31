@@ -4,6 +4,14 @@
 
    * [BrainBoard](https://www.brainboard.co/) : Create Terraform from CloudAPI
 
+## Network Analysis
+   * [APackets](https://apackets.com/) : Online pcap file analyzer
+   * [CloudShark](https://www.cloudshark.org/captures) : Cloud-based Wireshark 
+      * [example](https://www.cloudshark.org/captures/abdc8742488f) 
+      * [more](https://packetlife.net/captures/)
+   * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A cloudshark clone (github)
+   * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   * 
+
 ## OSINT / Enrichment   
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
@@ -11,6 +19,7 @@
 
 ## SEIM
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
+   * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
    * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable Splunk killer
 
 ## Testing
