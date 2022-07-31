@@ -20,7 +20,7 @@
 ## SEIM
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
-   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable Splunk killer
+   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
 
 ## Testing
 
