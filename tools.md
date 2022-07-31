@@ -6,7 +6,7 @@
 
 ## OSINT / Enrichment   
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
-   * [GreNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
+   * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
    * [openCTI](https://www.opencti.io/en/)
 
 ## SEIM
