@@ -1,6 +1,6 @@
 $background: #272822;
 
-.highlight {
+pre.highlight {
   background-color: $background;
   padding: 1px 1px 1px 1px;
   border: 1px solid #ddd;  
@@ -12,126 +12,126 @@ $background: #272822;
     font-size: 10px;
   }
 
-  .hll {
+  pre.hll {
     background-color: #49483e;
   }
-  .c {
+  pre.c {
     color: #a8a38d;
   }
-  .err {
+  pre.err {
     color: #960050;
     background-color: #1e0010;
   }
-  .k {
+  pre.k {
     color: #66d9ef;
   }
-  .l {
+  pre.l {
     color: #ae81ff;
   }
-  .n {
+  pre.n {
     color: #f8f8f2;
   }
-  .o {
+  pre.o {
     color: #f92672;
   }
-  .p {
+  pre.p {
     color: #f8f8f2;
   }
-  .cm, .cp, .c1, .cs {
+  pre.cm, pre.cp, pre.c1, pre.cs {
     color: #a8a38d;
   }
-  .ge {
+  pre.ge {
     font-style: italic;
   }
-  .gs {
+  pre.gs {
     font-weight: bold;
   }
-  .kc, .kd {
+  pre.kc, pre.kd {
     color: #66d9ef;
   }
-  .kn {
+  pre.kn {
     color: #f92672;
   }
-  .kp, .kr, .kt {
+  pre.kp, pre.kr, pre.kt {
     color: #66d9ef;
   }
-  .ld {
+  pre.ld {
     color: #e6db74;
   }
-  .m {
+  pre.m {
     color: #ae81ff;
   }
-  .s {
+  pre.s {
     color: #e6db74;
   }
-  .na {
+  pre.na {
     color: #a6e22e;
   }
-  .nb {
+  pre.nb {
     color: #f8f8f2;
   }
-  .nc {
+  pre.nc {
     color: #a6e22e;
   }
-  .no {
+  pre.no {
     color: #66d9ef;
   }
-  .nd {
+  pre.nd {
     color: #a6e22e;
   }
-  .ni {
+  pre.ni {
     color: #f8f8f2;
   }
-  .ne, .nf {
+  pre.ne, pre.nf {
     color: #a6e22e;
   }
-  .nl, .nn {
+  pre.nl, pre.nn {
     color: #f8f8f2;
   }
-  .nx {
+  pre.nx {
     color: #a6e22e;
   }
-  .py {
+  pre.py {
     color: #f8f8f2;
   }
-  .nt {
+  pre.nt {
     color: #f92672;
   }
-  .nv {
+  pre.nv {
     color: #f8f8f2;
   }
-  .ow {
+  pre.ow {
     color: #f92672;
   }
-  .w {
+  pre.w {
     color: #f8f8f2;
   }
-  .mf, .mh, .mi, .mo {
+  pre.mf, pre.mh, pre.mi, pre.mo {
     color: #ae81ff;
   }
-  .sb, .sc, .sd, .s2 {
+  pre.sb, pre.sc, pre.sd, pre.s2 {
     color: #e6db74;
   }
-  .se {
+  pre.se {
     color: #ae81ff;
   }
-  .sh, .si, .sx, .sr, .s1, .ss {
+  pre.sh, pre.si, pre.sx, pre.sr, pre.s1, pre.ss {
     color: #e6db74;
   }
-  .bp, .vc, .vg, .vi {
+  pre.bp, pre.vc, pre.vg, pre.vi {
     color: #f8f8f2;
   }
-  .il {
+  pre.il {
     color: #ae81ff;
   }
-  .gh {}
-  .gu {
+  pre.gh {}
+  pre.gu {
     color: #75715e;
   }
-  .gd {
+  pre.gd {
     color: #f92672;
   }
-  .gi {
+  pre.gi {
     color: #a6e22e;
   }
 }
