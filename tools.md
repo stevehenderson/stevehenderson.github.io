@@ -8,8 +8,9 @@
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
    
 ## GraphQL
+   * [graphqlEditor](https://graphqleditor.com) : Nice graphql editor SaaS platform;  good for collaboration
    * [graphJin](https://graphjin.com/) : Create graphql from REST APIs
-   * [Hasura](https://hasura.io/) : Phenom GraphQL GW tool with many features.
+   * [Hasura](https://hasura.io/) : Phenom GraphQL GW tool with many features
 
 ## Infrastructure as Code
 
@@ -33,6 +34,7 @@
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
    * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
+   * [Splunk](https://www.splunk.com/) : Best in class SEIM
 
 ## Testing
 
@@ -42,7 +44,14 @@
 
    * [VMWare User Group (VMUG) Advantage Products](https://vmugadvantage.onthehub.com/)
 
+## Visualization
+
+   * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool
+   * [yEd Live](https://www.yworks.com/yed-live/) : Another fantastic diagramming tool.  Online and desktop versions.
+
+
 ## Workflow Automation / Management 
+   * [Airflow](https://airflow.apache.org/) :  Fantastic workflow/service automation orchestrator
    * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
    * [Node-Red](https://nodered.org/)
    * [WalkOFF](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
