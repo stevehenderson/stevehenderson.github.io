@@ -1,5 +1,16 @@
 # Tools
 
+## API Tools
+   * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
+
+## Database / Data Munge
+   * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
+   * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
+   
+## GraphQL
+   * [graphJin](https://graphjin.com/) : Create graphql from REST APIs
+   * [Hasura](https://hasura.io/) : Phenom GraphQL GW tool with many features.
+
 ## Infrastructure as Code
 
    * [BrainBoard](https://www.brainboard.co/) : Create Terraform from CloudAPI
