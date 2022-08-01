@@ -2,140 +2,147 @@ $background: #272822;
 
 pre.highlight {
   background-color: $background;
-  padding: 1px 1px 1px 1px;
+  padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);  
+  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  margin: 12px 0 10px 0;  
   overflow: scroll;
   
   code {
     font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-    font-size: 12px;
- 
+    font-size: 10px;
+  }
 
-        pre.highlight .hll {
-          background-color: #49483e;
-        }
-        pre.highlight .c {
-          color: #a8a38d;
-        }
-        pre.highlight .err {
-          color: #960050;
-          background-color: #1e0010;
-        }
-        pre.highlight .k {
-          color: #66d9ef;
-        }
-        pre.highlight .l {
-          color: #ae81ff;
-        }
-        pre.highlight .n {
-          color: #f8f8f2;
-        }
-        pre.highlight .o {
-          color: #f92672;
-        }
-        pre.highlight .p {
-          color: #f8f8f2;
-        }
-        pre.highlight .cm, pre.highlight .cp, pre.highlight .c1, pre.highlight .cs {
-          color: #a8a38d;
-        }
-        pre.highlight .ge {
-          font-style: italic;
-        }
-        pre.highlight .gs {
-          font-weight: bold;
-        }
-        pre.highlight .kc, pre.highlight .kd {
-          color: #66d9ef;
-        }
-        pre.highlight .kn {
-          color: #f92672;
-        }
-        pre.highlight .kp, pre.highlight .kr, pre.highlight .kt {
-          color: #66d9ef;
-        }
-        pre.highlight .ld {
-          color: #e6db74;
-        }
-        pre.highlight .m {
-          color: #ae81ff;
-        }
-        pre.highlight .s {
-          color: #e6db74;
-        }
-        pre.highlight .na {
-          color: #a6e22e;
-        }
-        pre.highlight .nb {
-          color: #f8f8f2;
-        }
-        pre.highlight .nc {
-          color: #a6e22e;
-        }
-        pre.highlight .no {
-          color: #66d9ef;
-        }
-        pre.highlight .nd {
-          color: #a6e22e;
-        }
-        pre.highlight .ni {
-          color: #f8f8f2;
-        }
-        pre.highlight .ne, pre.highlight .nf {
-          color: #a6e22e;
-        }
-        pre.highlight .nl, pre.highlight .nn {
-          color: #f8f8f2;
-        }
-        pre.highlight .nx {
-          color: #a6e22e;
-        }
-        pre.highlight .py {
-          color: #f8f8f2;
-        }
-        pre.highlight .nt {
-          color: #f92672;
-        }
-        pre.highlight .nv {
-          color: #f8f8f2;
-        }
-        pre.highlight .ow {
-          color: #f92672;
-        }
-        pre.highlight .w {
-          color: #f8f8f2;
-        }
-        pre.highlight .mf, pre.highlight .mh, pre.highlight .mi, pre.highlight .mo {
-          color: #ae81ff;
-        }
-        pre.highlight .sb, pre.highlight .sc, pre.highlight .sd, pre.highlight .s2 {
-          color: #e6db74;
-        }
-        pre.highlight .se {
-          color: #ae81ff;
-        }
-        pre.highlight .sh, pre.highlight .si, pre.highlight .sx, pre.highlight .sr, pre.highlight .s1, pre.highlight .ss {
-          color: #e6db74;
-        }
-        pre.highlight .bp, pre.highlight .vc, pre.highlight .vg, pre.highlight .vi {
-          color: #f8f8f2;
-        }
-        pre.highlight .il {
-          color: #ae81ff;
-        }
-        pre.highlight .gh {}
-        pre.highlight .gu {
-          color: #75715e;
-        }
-        pre.highlight .gd {
-          color: #f92672;
-        }
-        pre.highlight .gi {
-          color: #a6e22e;
-        }
-        }
+  pre.highlight .hll {
+    background-color: #49483e;
+  }
+  pre.highlight .c {
+    color: #a8a38d;
+  }
+  pre.highlight .err {
+    color: #960050;
+    background-color: #1e0010;
+  }
+  pre.highlight .k {
+    color: #66d9ef;
+  }
+  pre.highlight .l {
+    color: #ae81ff;
+  }
+  pre.highlight .n {
+    color: #f8f8f2;
+  }
+  pre.highlight .o {
+    color: #f92672;
+  }
+  pre.highlight .p {
+    color: #f8f8f2;
+  }
+  pre.highlight .cm, pre.highlight .cp, pre.highlight .c1, pre.highlight .cs {
+    color: #a8a38d;
+  }
+  pre.highlight .ge {
+    font-style: italic;
+  }
+  pre.highlight .gs {
+    font-weight: bold;
+  }
+  pre.highlight .kc, pre.highlight .kd {
+    color: #66d9ef;
+  }
+  pre.highlight .kn {
+    color: #f92672;
+  }
+  pre.highlight .kp, pre.highlight .kr, pre.highlight .kt {
+    color: #66d9ef;
+  }
+  pre.highlight .ld {
+    color: #e6db74;
+  }
+  pre.highlight .m {
+    color: #ae81ff;
+  }
+  pre.highlight .s {
+    color: #e6db74;
+  }
+  pre.highlight .na {
+    color: #a6e22e;
+  }
+  pre.highlight .nb {
+    color: #f8f8f2;
+  }
+  pre.highlight .nc {
+    color: #a6e22e;
+  }
+  pre.highlight .no {
+    color: #66d9ef;
+  }
+  pre.highlight .nd {
+    color: #a6e22e;
+  }
+  pre.highlight .ni {
+    color: #f8f8f2;
+  }
+  pre.highlight .ne, pre.highlight .nf {
+    color: #a6e22e;
+  }
+  pre.highlight .nl, pre.highlight .nn {
+    color: #f8f8f2;
+  }
+  pre.highlight .nx {
+    color: #a6e22e;
+  }
+  pre.highlight .py {
+    color: #f8f8f2;
+  }
+  pre.highlight .nt {
+    color: #f92672;
+  }
+  pre.highlight .nv {
+    color: #f8f8f2;
+  }
+  pre.highlight .ow {
+    color: #f92672;
+  }
+  pre.highlight .w {
+    color: #f8f8f2;
+  }
+  pre.highlight .mf, pre.highlight .mh, pre.highlight .mi, pre.highlight .mo {
+    color: #ae81ff;
+  }
+  pre.highlight .sb, pre.highlight .sc, pre.highlight .sd, pre.highlight .s2 {
+    color: #e6db74;
+  }
+  pre.highlight .se {
+    color: #ae81ff;
+  }
+  pre.highlight .sh, pre.highlight .si, pre.highlight .sx, pre.highlight .sr, pre.highlight .s1, pre.highlight .ss {
+    color: #e6db74;
+  }
+  pre.highlight .bp, pre.highlight .vc, pre.highlight .vg, pre.highlight .vi {
+    color: #f8f8f2;
+  }
+  pre.highlight .il {
+    color: #ae81ff;
+  }
+  pre.highlight .gh {}
+  pre.highlight .gu {
+    color: #75715e;
+  }
+  pre.highlight .gd {
+    color: #f92672;
+  }
+  pre.highlight .gi {
+    color: #a6e22e;
+  }
 }
 
+code{
+  background-color: "#282C34";
+  color: whitesmoke;}
+pre {
+  background-color: "#282C34";
+  color: whitesmoke;
+}
