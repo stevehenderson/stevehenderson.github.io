@@ -34,7 +34,7 @@ permalink: /links/
 
 ## Data
 
-   * [Data Links](http://stevehenderson.github.io/data/) : Dedicated page to data links
+   * [Data Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
 
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fabtastic UI
@@ -48,7 +48,7 @@ permalink: /links/
 
 ## Tools
 
-  * [Tools](http://stevehenderson.github.io/tools/) : Dedicated page to tool links
+  * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
 
 
 
