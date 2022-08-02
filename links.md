@@ -5,6 +5,7 @@ permalink: /links/
 ---
 
 ## Code
+
    * [Binder](https://mybinder.org/) : Git to Jupyter Notebooks
    * [github](https://github.com/stevehenderson) : My github profile
    * [go playground](https://go.dev/play/)  : Online go playground
@@ -13,6 +14,7 @@ permalink: /links/
    * [PySpark](https://spark.apache.org/docs/latest/api/python/getting_started/index.html):  PySpark Documentation
 
 ## Crypto
+
    * [cyberchef](https://gchq.github.io/CyberChef/) : Crypto Swiss Army Knife
    * [cryptii](https://cryptii.com/)  : Crypto chaining
    * [decode.fr](https://www.dcode.fr/en)  : Fantastic crypto site
@@ -23,13 +25,20 @@ permalink: /links/
    * [Riot](https://about.riot.im/) : Open-source chat, video, filesharing
    * [Matrix](https://matrix.org/) : An open-source standard for communications
 
+## Cyber Intel
+
+   * [AlienVault](https://otx.alienvault.com/) : Open Threat Intel
+   * [greynoise](https://greynoise.io/) : Identify internet noise and attacks
+   * [Talos Intelligence](https://www.talosintelligence.com/) : IP Info and threats by Cisco
+   * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
+
 ## Data
 
    * [Data Links](http://stevehenderson.github.io/data/) : Dedicated page to data links
-   
-## Tools
 
-  * [Tools](http://stevehenderson.github.io/tools/) : Dedicated page to tool links
+## Malware
+   * [AnyRun](https://any.run/) : Malware Detonation with a fabtastic UI
+   * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
 
 ## Publications
 
@@ -37,6 +46,9 @@ permalink: /links/
    * [Google Scholar](https://scholar.google.com/citations?user=4UaV290AAAAJ&hl=en&oi=sra) : My Google Scholar Profile
    * [Zotero](https://www.zotero.org/henderso/library) : My Zotero repo
 
+## Tools
+
+  * [Tools](http://stevehenderson.github.io/tools/) : Dedicated page to tool links
 
 
 
