@@ -33,8 +33,7 @@
 ## SEIM / Monitoring
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
-   * [Grafana _with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing
-   * 
+   * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing
    * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
    * [Splunk](https://www.splunk.com/) : Best in class SEIM
 
