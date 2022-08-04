@@ -26,7 +26,8 @@
 
 ## OSINT / Enrichment   
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
-   * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
+   * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive   
+   * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
    * [openCTI](https://www.opencti.io/en/)
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/)
@@ -36,11 +37,12 @@
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
    * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing
    * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
+   * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
    * [Splunk](https://www.splunk.com/) : Best in class SEIM
 
 ## Testing
 
-   * [artillery.io](https://www.artillery.io/) : Cloud-sclae performance testing
+   * [artillery.io](https://www.artillery.io/) : Cloud-scale performance testing
    * [k6.io](https://k6.io/) : Exceptional load testing framework.
 
 ## Virtualization
