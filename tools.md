@@ -3,9 +3,10 @@
 ## API Tools
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
 
-## Database / Data Munge
+## Data Engineering
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
+   * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view.
 
 ## GraphQL
    * [graphqlEditor](https://graphqleditor.com) : Nice graphql editor SaaS platform;  good for collaboration
