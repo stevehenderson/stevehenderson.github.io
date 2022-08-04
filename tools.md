@@ -28,6 +28,7 @@
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
    * [openCTI](https://www.opencti.io/en/)
+   * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/)
 
 ## SEIM / Monitoring
