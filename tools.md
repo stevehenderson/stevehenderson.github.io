@@ -1,5 +1,3 @@
-# Tools
-
 ## API Tools
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
 
