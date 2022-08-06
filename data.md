@@ -22,7 +22,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ### Low-Level Data (PCAP, etc)
 
-   * [Army Cyber Institute CDX Data]([http://www.usma.edu/acc/SitePages/CDX.aspx](https://digitalcommons.usmalibrary.org/aci_datasets/1/)
+   * [Army Cyber Institute CDX Data](https://digitalcommons.usmalibrary.org/aci_datasets/1/)
 
    * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
 
