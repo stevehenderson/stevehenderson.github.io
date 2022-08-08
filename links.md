@@ -39,7 +39,7 @@ permalink: /links/
 ## Kubernetes
 
    * [k3s](https://k3s.io/) : Lightweight Kubernetes
-   * [kubefwd](https://github.com/txn2/kubefwd) : Access kunedns locally for development
+   * [kubefwd](https://github.com/txn2/kubefwd) : Access kubedns locally for development
    
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fabtastic UI
