@@ -36,6 +36,11 @@ permalink: /links/
 
    * [Data Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
 
+## Kubernetes
+
+   * [k3s](https://k3s.io/) : Lightweight Kubernetes
+   * [kubefwd](https://github.com/txn2/kubefwd) : Access kunedns locally for development
+   
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fabtastic UI
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
