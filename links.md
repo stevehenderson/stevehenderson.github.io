@@ -44,7 +44,7 @@ permalink: /links/
    * [Setting up Multiple Ingress](https://spltech.co.uk/how-to-setup-multiple-ingress-controller-with-nginx-ingress-on-gke/)
    
 ## Malware
-   * [AnyRun](https://any.run/) : Malware Detonation with a fabtastic UI
+   * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
 
 ## Publications
