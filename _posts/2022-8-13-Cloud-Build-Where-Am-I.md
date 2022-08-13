@@ -1,3 +1,11 @@
+---
+layout: post
+title: Cloud Build Where am I??
+categories: ['blog']
+tags: ['cloudbuild', 'cicd']
+---
+
+
 [Goolge Cloud Build](https://cloud.google.com/build/docs) is an amazing and powerful capability and my favorite GCP service.
 
 However, it can be hard to conceptualize what's happening inside the builder during its run.
