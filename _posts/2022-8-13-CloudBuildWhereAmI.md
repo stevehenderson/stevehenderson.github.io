@@ -1,4 +1,4 @@
-[Goolge Cloud Build](https://cloud.google.com/build/docs) is an amazing and powerful capavility and my favorite GCP service.
+[Goolge Cloud Build](https://cloud.google.com/build/docs) is an amazing and powerful capability and my favorite GCP service.
 
 However, it can be hard to conceptualize what's happening inside the builder during its run.
 
