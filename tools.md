@@ -24,6 +24,10 @@
    * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A cloudshark clone (github)
    * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   * 
 
+## Network Security
+   * [pfSense](https://www.pfsense.org/download/) : Leading opensource firewall
+   * [RockNSM](https://rocknsm.io/) : opensource security stack
+
 ## OSINT / Enrichment   
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive   
