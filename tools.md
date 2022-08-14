@@ -46,6 +46,10 @@
    * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
    * [Splunk](https://www.splunk.com/) : Best in class SEIM
 
+## Simulation
+   * [AirSim](https://github.com/microsoft/airsim) : Microsoft Drone Simulator.  May soon be [archived](https://www.microsoft.com/en-us/ai/autonomous-systems-project-airsim?activetab=pivot1%3aprimaryr3) to make way for a commercial verions
+   * [Gamma Platform](https://gama-platform.org/) : GiS Aware Agent-based Simulation
+   
 ## Testing
 
    * [artillery.io](https://www.artillery.io/) : Cloud-scale performance testing
