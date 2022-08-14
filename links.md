@@ -54,6 +54,10 @@ permalink: /links/
    * [Google Scholar](https://scholar.google.com/citations?user=4UaV290AAAAJ&hl=en&oi=sra) : My Google Scholar Profile
    * [Zotero](https://www.zotero.org/henderso/library) : My Zotero repo
 
+## Robotics
+   * [https://github.com/osrf/subt/wiki](DARPA Subterranean Challenge Virtual Competition) : Very interesting DARPA challenge
+
+
 ## Tools
 
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
