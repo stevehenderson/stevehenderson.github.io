@@ -26,6 +26,7 @@
 
 ## Network Security
    * [CloudFlare](https://www.cloudflare.com/) : Fantastic batteries-included network as-a-service.  DNS, WAF, Bot Detection, Firewall and more.  Massive free capabiliies.
+   * [OpenSnitch](https://github.com/evilsocket/opensnitch) : Free opensource selfhosted outbound application firewall made for Linux 
    * [pfSense](https://www.pfsense.org/download/) : Leading opensource firewall
    * [RockNSM](https://rocknsm.io/) : opensource security stack
 
