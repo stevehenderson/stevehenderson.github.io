@@ -55,7 +55,7 @@ permalink: /links/
    * [Zotero](https://www.zotero.org/henderso/library) : My Zotero repo
 
 ## Robotics
-   * [https://github.com/osrf/subt/wiki](DARPA Subterranean Challenge Virtual Competition) : Very interesting DARPA challenge
+   * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
 
 
 ## Tools
