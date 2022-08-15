@@ -3,6 +3,7 @@
 
 ## Data Engineering
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
+   * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view.
 
