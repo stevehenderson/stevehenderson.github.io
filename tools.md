@@ -30,6 +30,7 @@
       * [more](https://packetlife.net/captures/)
    * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A cloudshark clone (github)
    * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   * 
+   * [Shodan](https://www.shodan.io/) : Powerful IoC, IoT, crawler, search engine
 
 ## Network Security
    * [CloudFlare](https://www.cloudflare.com/) : Fantastic batteries-included network as-a-service.  DNS, WAF, Bot Detection, Firewall and more.  Massive free capabiliies.
