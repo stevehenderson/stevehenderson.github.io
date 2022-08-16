@@ -1,7 +1,9 @@
 ## API Tools
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
+   * [Paw](https://paw.cloud/) : Mac only API tools
 
 ## Data Engineering
+   * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
