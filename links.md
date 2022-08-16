@@ -20,7 +20,7 @@ permalink: /links/
    * [decode.fr](https://www.dcode.fr/en)  : Fantastic crypto site
    * [hascat](https://hashcat.net/hashcat/): Hashcat
 
-### Communications
+## Communications
 
    * [Riot](https://about.riot.im/) : Open-source chat, video, filesharing
    * [Matrix](https://matrix.org/) : An open-source standard for communications
@@ -48,6 +48,9 @@ permalink: /links/
    * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
 
+## Pentest
+   * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
+   
 ## Publications
 
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
