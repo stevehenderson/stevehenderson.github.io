@@ -10,6 +10,7 @@ permalink: /datascience/
    
 # Tools
 
+
 ## Notebooks in the Cloud
 
    * [Amazon Cloud9](https://aws.amazon.com/cloud9/)
@@ -18,7 +19,7 @@ permalink: /datascience/
 
    * [Amazon Sage Maker](https://aws.amazon.com/blogs/aws/amazon-sagemaker-studio-the-first-fully-integrated-development-environment-for-machine-learning/)
 
-   * [Datalore](https://datalore.io/)
+   * [Datalore](https://datalore.io/) - Datalore
 
    * [Google Collab](https://colab.research.google.com/?utm_source=scs-index)
 
