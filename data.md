@@ -8,11 +8,11 @@
 
    * [Targeted Cyberattacks logbook](https://apt.securelist.com/#firstPage)
 
-   * [OWASP/WASC Web Hacking Incident Database (WHD)](​https://www.google.com/fusiontables/DataSource?snapid=S283929Jw2s)
+   * [OWASP/WASC Web Hacking Incident Database (WHD)](https://www.google.com/fusiontables/DataSource?snapid=S283929Jw2s)
 
    * [Dataloss DB (Includes a breakdown of the sony hack)](https://blog.datalossdb.org)
 
-   * [Verizon RISK Team](​http://www.verizonenterprise.com/DBIR/)
+   * [Verizon RISK Team](http://www.verizonenterprise.com/DBIR/)
 
    * [Hackmageddon](http://www.hackmageddon.com/2015-cyber-attacks-timeline-master-index/)
 Cyber attack timelines by month.  Burrow down.  The 2016 summaries link to google sheets where you can get the raw data.  The older timelines seem to only show png's.
