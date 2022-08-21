@@ -48,6 +48,10 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [Enron Emails](https://www.cs.cmu.edu/~enron/) : Massive trove of emails from early 2000s
 
+## General
+
+   * [AWS Open Data](https://registry.opendata.aws/) : Large scale AWS-ready datasets
+
 ## Images
 
    * [80 Million Tiny Images](https://www.kaggle.com/datasets/aryashah2k/mit-80-million-tiny-images-dataset?resource=download)  : 80 Million 32 x 32 labeled images
