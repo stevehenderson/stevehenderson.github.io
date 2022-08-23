@@ -41,6 +41,7 @@ permalink: /links/
 
 ### Google Issue Trackers 
    
+   * [search](https://issuetracker.google.com/components?componentId=190802) : Type "cloud"
    * [Cloud Build](https://issuetracker.google.com/savedsearches/6305393) : Google Cloud Build public issue tracker
    * [Load Balancer](https://issuetracker.google.com/issues?q=status:open%20componentid:187245&s=created_time:desc):  Google Load Balancer issue tracker
 
