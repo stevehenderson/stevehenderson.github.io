@@ -36,6 +36,11 @@ permalink: /links/
 
    * [Data Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
 
+
+## Google Cloud Platform
+
+   * [Cloud Build Issue Tracker](https://issuetracker.google.com/savedsearches/6305393) : Google Cloud Build public issue tracker
+
 ## Kubernetes
 
    * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent google community tutorial on ingress
