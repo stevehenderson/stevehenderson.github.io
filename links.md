@@ -56,6 +56,7 @@ permalink: /links/
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
+   * [Intezer](https://www.intezer.com/) : Intezer
 
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
