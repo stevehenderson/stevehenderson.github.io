@@ -19,9 +19,12 @@
    * [Hasura](https://hasura.io/) : Phenom GraphQL GW tool with many features
 
 ## Infrastructure as Code
-
    * [BrainBoard](https://www.brainboard.co/) : Create Terraform from CloudAPI
    * [LimaCharlie](https://limacharlie.io/) : Security Infra as a Service.  Handles collection, streaming analytics, and moving data
+
+## Linux Essential
+   * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
+   * [NoMachine](https://www.nomachine.com/) : Remote Desktop
 
 ## Network Analysis
    * [APackets](https://apackets.com/) : Online pcap file analyzer
