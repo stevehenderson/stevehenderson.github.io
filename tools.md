@@ -6,6 +6,7 @@
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
+   * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
    * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
    * [Apache Nifi](https://nifi.apache.org/) : Powerful and scalable directed graphs of data routing, transformation, and system mediation logic
