@@ -2,6 +2,12 @@
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
    * [Paw](https://paw.cloud/) : Mac only API tools
 
+## Coding
+
+### VSCode& Extensions
+   * [VSCode](https://code.visualstudio.com/) : Fantastic, portable, and fast IDE -- supports most languages. 
+   * [Tab Groups](https://marketplace.visualstudio.com/items?itemName=usama8800.tab-groups&ssr=false#review-details) : Save open tabs as a group
+   
 ## Data Engineering
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
