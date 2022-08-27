@@ -5,6 +5,7 @@ permalink: /datascience/
 ---
 
 # Books
+  * [Pandas Cookbook](https://github.com/jvns/pandas-cookbook) : Pandas gitBook
   * [Python Datascience Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) 
 
 # Cyber Analytics
