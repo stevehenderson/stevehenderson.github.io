@@ -37,6 +37,8 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [Kitsune PCAPs](https://drive.google.com/drive/folders/1kmoWY4poGWfmmVSdSu-r_3Vo84Tu4PyE) : PCAPs for the [Kitsune ANN paper](https://archive.ics.uci.edu/ml/datasets/Kitsune+Network+Attack+Dataset)
 
+   * [Malware Analysis PCAPs](https://www.malware-traffic-analysis.net/training-exercises.html) : Good repo for PCAPs with challenges
+   
    * [NETRESEC Data](http://www.netresec.com/?page=PcapFiles) : Lots of CDX and CTF data!
 
    * [NSL-KDD](https://web.archive.org/web/20150205070216/http://nsl.cs.unb.ca/NSL-KDD/) : Augments issues with earlier version KDD CUP 99 (see above).  Also available from [here](http://www.unb.ca/research/iscx/dataset/iscx-NSL-KDD-dataset.html)
