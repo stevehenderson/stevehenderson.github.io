@@ -5,7 +5,7 @@ permalink: /datascience/
 ---
 
 # Books
-  * [Alex Hayes - Conditional Process Analysis](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html) : Alex Hayes - Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach
+  * [Alex Hayes - Conditional Process Analysis](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html) : Introduction to Mediation, Moderation, and CPA
 Third Edition
   * [Pandas Cookbook](https://github.com/jvns/pandas-cookbook) : Pandas gitBook
   * [Python Datascience Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) 
