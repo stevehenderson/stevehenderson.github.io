@@ -6,7 +6,7 @@ permalink: /cyber/
 
 ### Data
 
-  * See [Cyber Data](https://github.com/stevehenderson/stevehenderson.github.io/blob/master/datascience.md#Cyber%20Data)
+  * See [Cyber Data](https://stevehenderson.github.io/data/)
 
 ### Tools
 
@@ -14,8 +14,6 @@ permalink: /cyber/
   * [BinaryEdge](https://www.binaryedge.io/) : Internet scanner
   * [CloudShark Personal](https://www.cloudshark.org/login) : Wireshark in the cloud
   * [Censys](https://censys.io/) : Attack surface management
-  * 
-  
 
 ### Links
 
