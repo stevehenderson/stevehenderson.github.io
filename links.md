@@ -61,6 +61,10 @@ permalink: /links/
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
    
+## Productivity
+   * [https://joplinapp.org/] : Jpolin Notetaking SaaS.  markdown / opensource / Latex
+
+
 ## Publications
 
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
