@@ -39,14 +39,12 @@ permalink: /links/
 
 ## Google Cloud Platform
 
-### Google Issue Trackers 
-   
+### Google Issue Trackers    
    * [search](https://issuetracker.google.com/components?componentId=190802) : Type "cloud"
    * [Cloud Build](https://issuetracker.google.com/savedsearches/6305393) : Google Cloud Build public issue tracker
    * [Load Balancer](https://issuetracker.google.com/issues?q=status:open%20componentid:187245&s=created_time:desc):  Google Load Balancer issue tracker
 
 ## Kubernetes
-
    * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent google community tutorial on ingress
    * [k3s](https://k3s.io/) : Lightweight Kubernetes
    * [kubefwd](https://github.com/txn2/kubefwd) : Access kubedns locally for development
@@ -62,11 +60,9 @@ permalink: /links/
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
    
 ## Productivity
-   * [https://joplinapp.org/] : Jpolin Notetaking SaaS.  markdown / opensource / Latex
-
+   * [Joplin](https://joplinapp.org/) : Joplin Notetaking SaaS.  Markdown / opensource / Latex
 
 ## Publications
-
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
    * [Google Scholar](https://scholar.google.com/citations?user=4UaV290AAAAJ&hl=en&oi=sra) : My Google Scholar Profile
    * [Zotero](https://www.zotero.org/henderso/library) : My Zotero repo
@@ -74,13 +70,10 @@ permalink: /links/
 ## Robotics
    * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
 
-
 ## Tools
-
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
 
 ## Video/Audio Tools
-
    * [Descript](https://www.descript.com) : All-in-one audio & video editing, as easy as a doc.
 
 
