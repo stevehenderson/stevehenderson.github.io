@@ -4,7 +4,7 @@
 
 ## Coding
 
-### VSCode& Extensions
+### VSCode & Extensions
    * [VSCode](https://code.visualstudio.com/) : Fantastic, portable, and fast IDE -- supports most languages. 
    * [Tab Groups](https://marketplace.visualstudio.com/items?itemName=usama8800.tab-groups&ssr=false#review-details) : Save open tabs as a group
    
@@ -21,7 +21,7 @@
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
 
 ## GPU
-   * [https://benchmark.unigine.com/] : uingine unity-based stresstest
+   * [Uingine beinchmark](https://benchmark.unigine.com/) : uingine unity-based stresstest
 
 ## GraphQL
    * [graphqlEditor](https://graphqleditor.com) : Nice graphql editor SaaS platform;  good for collaboration
