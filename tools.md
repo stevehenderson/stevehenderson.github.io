@@ -65,6 +65,7 @@
    * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing
    * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
    * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
+   * [JupiterOne](https://www.jupiterone.com/) : Identify, map, analyze
    * [Splunk](https://www.splunk.com/) : Best in class SEIM
 
 ## Simulation
