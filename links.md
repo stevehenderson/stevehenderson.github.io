@@ -39,6 +39,9 @@ permalink: /links/
 
 ## Google Cloud Platform
 
+### Google Cloud Forum
+   * [Google Cloud Forum](https://www.googlecloudcommunity.com/gc/Developer-Tools/bd-p/cloud-developer-tools)
+
 ### Google Issue Trackers    
    * [search](https://issuetracker.google.com/components?componentId=190802) : Type "cloud"
    * [Cloud Build](https://issuetracker.google.com/savedsearches/6305393) : Google Cloud Build public issue tracker
