@@ -90,6 +90,7 @@
 ## Workflow Automation / Management 
    * [Airflow](https://airflow.apache.org/) :  Fantastic workflow/service automation orchestrator
    * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
-   * [Node-Red](https://nodered.org/)
-   * [WalkOFF](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
+   * [Node-Red](https://nodered.org/) :  A browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette
+   * [ReactFlow](https://reactflow.dev/) : A highly customizable React component for building node-based editors and interactive diagrams
+   * [WalkOff](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
 
