@@ -73,6 +73,9 @@ permalink: /links/
 ## Robotics
    * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
 
+## Simulation
+   * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
+
 ## Tools
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
 
