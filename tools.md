@@ -1,3 +1,10 @@
+---
+layout: page
+title: Tools
+permalink: /tools/
+---
+
+
 ## API Tools
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
    * [Paw](https://paw.cloud/) : Mac only API tools
