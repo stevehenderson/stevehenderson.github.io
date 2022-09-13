@@ -29,7 +29,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Majestic Million - Data](http://downloads.majestic.com/majestic_million.csv) : Majestic Million Daily snapshot
    
    
-### Low-Level Data (PCAP, etc)
+### Low-Level Data (PCAP, Zeek, etc)
 
    * [Army Cyber Institute CDX Data](https://digitalcommons.usmalibrary.org/aci_datasets/1/)
    
@@ -52,6 +52,8 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Security Datasets](https://securitydatasets.com/introduction.html) :  open-source initiatve that contributes malicious and benign datasets, from different platforms, to the infosec community to expedite data analysis and threat research
 
    * [SimpleWeb](http://www.simpleweb.org/wiki/Traces) : PCAP traces for various network events/attacks
+
+   * [StratosphereLabs](https://www.stratosphereips.org/datasets-overview) : Fantastic site of various captures and analysis
 
    * [TMInfosec Datasets](https://github.com/neu5ron/TMInfosec/blob/master/Datasets/PCAPs.md) : Currated list of PCAps @TMInfosec
 
