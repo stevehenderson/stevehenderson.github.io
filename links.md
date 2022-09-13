@@ -18,7 +18,7 @@ permalink: /links/
    * [cyberchef](https://gchq.github.io/CyberChef/) : Crypto Swiss Army Knife
    * [cryptii](https://cryptii.com/)  : Crypto chaining
    * [decode.fr](https://www.dcode.fr/en)  : Fantastic crypto site
-   * [hascat](https://hashcat.net/hashcat/): Hashcat
+   * [hashcat](https://hashcat.net/hashcat/): Hashcat
 
 ## Communications
 
