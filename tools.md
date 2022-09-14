@@ -11,6 +11,9 @@ permalink: /tools/
 
 ## Coding
 
+### Diff Tools
+   * [Meld](https://meldmerge.org/) : Meld Diff Tool
+
 ### VSCode & Extensions
    * [VSCode](https://code.visualstudio.com/) : Fantastic, portable, and fast IDE -- supports most languages. 
    * [Tab Groups](https://marketplace.visualstudio.com/items?itemName=usama8800.tab-groups&ssr=false#review-details) : Save open tabs as a group
