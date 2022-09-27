@@ -82,6 +82,10 @@ permalink: /links/
 ## Tools
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
 
+## Training
+   * [ACloudGuru](https://acloudguru.com/) : 
+   * [PluralSight](https://www.pluralsight.com/) : Excellent skills training 
+
 ## Video/Audio Tools
   * [Ant Media Server](https://antmedia.io/)
   * [Descript](https://www.descript.com) : All-in-one audio & video editing, as easy as a doc.
