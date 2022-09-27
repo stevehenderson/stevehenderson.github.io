@@ -45,6 +45,10 @@ permalink: /links/
 
 ## Interplanetary File System (IPFS)
    * [Kubo](https://github.com/ipfs/kubo):  the first and most widely used IPFS implementation today
+   * [IPFS System Requirements](https://github.com/ipfs/kubo#system-requirements)   
+   * [Great intro to IPFS](https://www.youtube.com/watch?v=KIEq2FyMczs)
+   * [Hands-on IPFS](https://www.youtube.com/watch?v=GJ2980DWdyc)
+   * [Using IPFS with replication](https://cestoliv.com/blog/using-ipfs-for-data-replication/)
 
 ## Kubernetes
    * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent google community tutorial on ingress
