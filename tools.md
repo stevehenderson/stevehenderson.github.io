@@ -30,6 +30,11 @@ permalink: /tools/
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
 
+
+## Email Tools
+   * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
+   * [Google Admin Toolbox](https://toolbox.googleapps.com/apps/checkmx/):  Google's EMail Admin Toolbox
+
 ## GPU
    * [Uingine beinchmark](https://benchmark.unigine.com/) : uingine unity-based stresstest
 
