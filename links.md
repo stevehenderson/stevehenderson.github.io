@@ -75,6 +75,7 @@ permalink: /links/
 
 ## Robotics
    * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
+   * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
