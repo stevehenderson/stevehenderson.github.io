@@ -11,7 +11,7 @@ permalink: /links/
    * [go playground](https://go.dev/play/)  : Online go playground
    * [Google code search](https://cs.opensource.google/)  : Google Code Search
    * [Jupyter Free](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb): Demo jupyter notebooks
-   * [PySpark](https://spark.apache.org/docs/latest/api/python/getting_started/index.html):  PySpark Documentation
+   * [PySpark](https://spark.apache.org/docs/latest/api/python/getting_started/index.html):  PySpark Documentation -- good
 
 ## Crypto
    * [cyberchef](https://gchq.github.io/CyberChef/) : Crypto Swiss Army Knife
