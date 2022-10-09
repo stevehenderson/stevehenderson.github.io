@@ -38,7 +38,8 @@ permalink: /links/
 ### Google Cloud Public Certs
   
    * [Oath2 Certs](https://www.googleapis.com/oauth2/v3/certs?9962f04feed9545ce2134ab54ceef581af24baff)
-   * [Service Accounts](https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com)
+   * [Firebase Public Cert](https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com)
+   * [Firebase Public Cert RFC7517](https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com)
 
 ### Google Cloud Forum
    * [Google Cloud Forum](https://www.googlecloudcommunity.com/gc/Developer-Tools/bd-p/cloud-developer-tools)
