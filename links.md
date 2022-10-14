@@ -56,6 +56,10 @@ permalink: /links/
    * [Hands-on IPFS](https://www.youtube.com/watch?v=GJ2980DWdyc)
    * [Using IPFS with replication](https://cestoliv.com/blog/using-ipfs-for-data-replication/)
 
+## Knowledge Base
+   * [Notion](https://www.notion.so) : Notion team collaboration and documentation
+   * [Obsidian](https://obsidian.md/) : Powerful markdown based second brain.
+
 ## Kubernetes
    * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent google community tutorial on ingress
    * [k3s](https://k3s.io/) : Lightweight Kubernetes
