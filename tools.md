@@ -12,6 +12,7 @@ permalink: /tools/
 ## Authentication
    * [Auth0](https://auth0.com/)  : Best in class Authentication as a service.  Great value
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
+   * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT
 
 ## Coding
 
