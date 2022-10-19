@@ -10,7 +10,7 @@ permalink: /tools/
    * [Paw](https://paw.cloud/) : Mac only API tools
 
 ## Authentication
-   * [Auth0](https://auth0.com/_  : Best in class Authentication as a service.  Great value
+   * [Auth0](https://auth0.com/)  : Best in class Authentication as a service.  Great value
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
 
 ## Coding
