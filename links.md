@@ -41,6 +41,9 @@ permalink: /links/
    * [Firebase Public Cert](https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com)
    * [Firebase Public Cert RFC7517](https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com)
 
+### Console Tools
+   * [Cloud Console Colorizer](https://chrome.google.com/webstore/detail/gcp-console-colorize/higjahjicmccalicmgfpokdmooopdhej/related?hl=en)
+
 ### Google Cloud Forum
    * [Google Cloud Forum](https://www.googlecloudcommunity.com/gc/Developer-Tools/bd-p/cloud-developer-tools)
 
