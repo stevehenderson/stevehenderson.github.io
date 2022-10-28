@@ -14,6 +14,9 @@ permalink: /tools/
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
    * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT
 
+## Cloud
+   * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
+
 ## Coding
 
 ### Diff Tools
