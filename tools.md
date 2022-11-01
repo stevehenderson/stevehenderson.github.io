@@ -67,6 +67,11 @@ permalink: /tools/
    * [iodine](https://github.com/yarrick/iodine) : ip4 tunneling over DNS
    * [netcat](https://netcat.sourceforge.net/) : Networking Swiss army knife  
 
+### DNS IP Resolvers:
+   * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
+   * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address
+   * [xip.io](xip.io):  The original
+
 ## Network Analysis
    * [APackets](https://apackets.com/) : Online pcap file analyzer
    * [CloudShark](https://www.cloudshark.org/captures) : Cloud-based Wireshark 
