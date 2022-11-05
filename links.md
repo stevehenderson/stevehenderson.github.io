@@ -75,6 +75,9 @@ permalink: /links/
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
    * [Intezer](https://www.intezer.com/) : Intezer
 
+## Packer
+   * [Packer Documentation](https://developer.hashicorp.com/packer/docs) : Packer lets you create identical machine images for multiple platforms from a single source configuration
+
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
    
