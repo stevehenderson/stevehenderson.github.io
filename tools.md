@@ -14,6 +14,10 @@ permalink: /tools/
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
    * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT
 
+## Collaboration
+   * [Miro](https://miro.com/):  Amazing whiteboarding and collaboration tool
+   * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool, rivals visio, insanely collaborative
+
 ## Cloud
    * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
 
@@ -111,13 +115,13 @@ permalink: /tools/
    * [artillery.io](https://www.artillery.io/) : Cloud-scale performance testing
    * [k6.io](https://k6.io/) : Exceptional load testing framework.
 
-## Virtualization
-
+## Virtualization   
    * [VMWare User Group (VMUG) Advantage Products](https://vmugadvantage.onthehub.com/)
 
 ## Visualization
-
-   * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool
+   * [d3js](https://d3js.org/) : Phenom js graphic and diagraming library
+   * [gephi](https://gephi.org/): Network graph visualization application
+   * [GraphViz](https://graphviz.org/) : Open source visualization framework in code
    * [yEd Live](https://www.yworks.com/yed-live/) : Another fantastic diagramming tool.  Online and desktop versions.
 
 
