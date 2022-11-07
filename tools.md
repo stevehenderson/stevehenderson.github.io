@@ -38,7 +38,6 @@ permalink: /tools/
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
 
-
 ## Email Tools
    * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
    * [Google Admin Toolbox](https://toolbox.googleapps.com/apps/checkmx/):  Google's EMail Admin Toolbox
@@ -61,7 +60,6 @@ permalink: /tools/
 ## Linux Essential
    * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
    * [NoMachine](https://www.nomachine.com/) : Remote Desktop
-
 
 ## Networking
    * [iodine](https://github.com/yarrick/iodine) : ip4 tunneling over DNS
