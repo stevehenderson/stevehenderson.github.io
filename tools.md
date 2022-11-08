@@ -33,6 +33,7 @@ permalink: /tools/
 ## Data Engineering
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
+   * [DB Fiddle](https://www.db-fiddle.com/) : Database Fiddle and prototyping
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
