@@ -64,6 +64,13 @@ permalink: /links/
    * [Obsidian](https://obsidian.md/) : Powerful markdown based second brain.
 
 ## Kubernetes
+
+### Autoscaling
+
+   * [Calming the Autoscaler - Fedor Korotkov](https://medium.com/google-cloud/calming-down-kubernetes-autoscaler-fbdba52adba6)
+   * [Adding spare cpacity to GKE Autopilot w/ Baloon Pods - William Denniss](https://wdenniss.com/gke-autopilot-spare-capacity)
+
+### General 
    * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent google community tutorial on ingress
    * [k3s](https://k3s.io/) : Lightweight Kubernetes
    * [kubefwd](https://github.com/txn2/kubefwd) : Access kubedns locally for development
