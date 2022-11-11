@@ -20,6 +20,7 @@ permalink: /tools/
 
 ## Cloud
    * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
+   * [minio](https://github.com/minio/minio) : A High Performance Object Storage for Cloud Storage and Kubernetes
 
 ## Coding
 
