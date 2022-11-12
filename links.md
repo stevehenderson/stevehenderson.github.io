@@ -98,7 +98,8 @@ permalink: /links/
    * [Zotero](https://www.zotero.org/henderso/library) : My Zotero repo
 
 ## Robotics
-   * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
+   * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challengeb
+   * [goroslib](https://github.com/aler9/goroslib) : Pure batteries-included go ROS2 library
    * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
    * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
 
