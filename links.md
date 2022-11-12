@@ -100,6 +100,7 @@ permalink: /links/
 ## Robotics
    * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
    * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
+   * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
