@@ -70,6 +70,8 @@ permalink: /tools/
 ## Networking
    * [iodine](https://github.com/yarrick/iodine) : ip4 tunneling over DNS
    * [netcat](https://netcat.sourceforge.net/) : Networking Swiss army knife  
+   * [tailscale](https://tailscale.com/) : Mesh netowkr VPN SaaS
+   * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
 
 ### DNS IP Resolvers:
    * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
