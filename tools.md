@@ -12,7 +12,7 @@ permalink: /tools/
 ## Authentication
    * [Auth0](https://auth0.com/)  : Best in class Authentication as a service.  Great value
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
-   * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT
+   * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT   
 
 ## Collaboration
    * [Miro](https://miro.com/):  Amazing whiteboarding and collaboration tool
@@ -30,7 +30,10 @@ permalink: /tools/
 ### VSCode & Extensions
    * [VSCode](https://code.visualstudio.com/) : Fantastic, portable, and fast IDE -- supports most languages. 
    * [Tab Groups](https://marketplace.visualstudio.com/items?itemName=usama8800.tab-groups&ssr=false#review-details) : Save open tabs as a group
-   
+
+### Coding Support
+  * [random.org](https://www.random.org/strings/) : Radom strings and such.
+
 ## Data Engineering
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
