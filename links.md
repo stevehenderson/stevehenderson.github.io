@@ -83,6 +83,9 @@ permalink: /links/
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
    * [Intezer](https://www.intezer.com/) : Intezer
 
+## Networking
+   * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
+   
 ## Packer
    * [Packer Documentation](https://developer.hashicorp.com/packer/docs) : Packer lets you create identical machine images for multiple platforms from a single source configuration
 
