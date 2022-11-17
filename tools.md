@@ -98,6 +98,7 @@ permalink: /tools/
    * [OpenSnitch](https://github.com/evilsocket/opensnitch) : Free opensource selfhosted outbound application firewall made for Linux 
    * [pfSense](https://www.pfsense.org/download/) : Leading opensource firewall
    * [RockNSM](https://rocknsm.io/) : opensource security stack
+   * [Selks](https://www.stamus-networks.com/selks) : Turn-key Suricata-based IDS/NSM and Threat Hunting System
 
 ## OSINT / Enrichment   
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
