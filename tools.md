@@ -34,6 +34,7 @@ permalink: /tools/
 
 ### Coding Support
   * [random.org](https://www.random.org/strings/) : Radom strings and such.
+  * [transform tools](https://transform.tools/json-to-go) : Online tool to convert JSON to lots of code formats
 
 ## Data Engineering
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
