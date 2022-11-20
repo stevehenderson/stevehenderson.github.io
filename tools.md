@@ -137,6 +137,8 @@ permalink: /tools/
    * [GraphViz](https://graphviz.org/) : Open source visualization framework in code
    * [yEd Live](https://www.yworks.com/yed-live/) : Another fantastic diagramming tool.  Online and desktop versions.
 
+## Web Applications and Web Application Development
+   * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerfied and ready to roll.
 
 ## Workflow Automation / Management 
    * [Airflow](https://airflow.apache.org/) :  Fantastic workflow/service automation orchestrator
