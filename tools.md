@@ -22,6 +22,7 @@ permalink: /tools/
 ## Cloud
    * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
    * [minio](https://github.com/minio/minio) : A High Performance Object Storage for Cloud Storage and Kubernetes
+   * [rclone](https://rclone.org/) : Clone data from Cloud Storage X to Cloud Storage Y.  Supports Google GCS, AWS S3, Azure, and more!
 
 ## Coding
 
