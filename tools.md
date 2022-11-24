@@ -20,6 +20,7 @@ permalink: /tools/
    * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool, rivals visio, insanely collaborative
 
 ## Cloud
+   * [Cascade](https://github.com/Derecho-Project/cascade): Key/Value API for data manipulation in distributed memory and persistent storage.  Very fast. C++
    * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
    * [minio](https://github.com/minio/minio) : A High Performance Object Storage for Cloud Storage and Kubernetes
    * [rclone](https://rclone.org/) : Clone data from Cloud Storage X to Cloud Storage Y.  Supports Google GCS, AWS S3, Azure, and more!
@@ -34,7 +35,7 @@ permalink: /tools/
    * [Tab Groups](https://marketplace.visualstudio.com/items?itemName=usama8800.tab-groups&ssr=false#review-details) : Save open tabs as a group
 
 ### Coding Support
-  * [random.org](https://www.random.org/strings/) : Radom strings and such.
+  * [random.org](https://www.random.org/strings/) : Random strings and such.
   * [transform tools](https://transform.tools/json-to-go) : Online tool to convert JSON to lots of code formats
 
 ## Data Engineering
