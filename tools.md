@@ -53,7 +53,9 @@ permalink: /tools/
 
 ## Email Tools
    * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
+   * [Gmail Alias Trick](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) : Create on the fly aliases for your gmail
    * [Google Admin Toolbox](https://toolbox.googleapps.com/apps/checkmx/):  Google's EMail Admin Toolbox
+   * [SimpleLogin](https://simplelogin.io/): Anonymous email SaaS tool
 
 ## GO Tools
    * [Curl to Go](https://mholt.github.io/curl-to-go/) : Convert any curl command to GO code
