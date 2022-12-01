@@ -84,8 +84,7 @@ permalink: /tools/
 
 ### DNS IP Resolvers:
    * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
-   * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address
-   * [kismet](https://www.kismetwireless.net/) : Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
+   * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address   
    * [xip.io](xip.io):  The original
 
 ### Proxies
@@ -97,7 +96,8 @@ permalink: /tools/
       * [example](https://www.cloudshark.org/captures/abdc8742488f) 
       * [more](https://packetlife.net/captures/)
    * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A cloudshark clone (github)
-   * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   * 
+   * [kismet](https://www.kismetwireless.net/) : Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
+   * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   
    * [Shodan](https://www.shodan.io/) : Powerful IoC, IoT, crawler, search engine
    * [Teleseer](https://teleseer.com/) : Best-in-class network visualization and analysis
 
