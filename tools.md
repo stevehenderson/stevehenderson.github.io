@@ -85,6 +85,7 @@ permalink: /tools/
 ### DNS IP Resolvers:
    * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
    * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address
+   * [kismet](https://www.kismetwireless.net/) : Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
    * [xip.io](xip.io):  The original
 
 ### Proxies
