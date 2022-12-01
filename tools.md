@@ -88,7 +88,7 @@ permalink: /tools/
    * [xip.io](xip.io):  The original
 
 ### Proxies
-   * [https://github.com/ginuerzh/gost](gost) : Simple proxy written in go
+   * [gost](https://github.com/ginuerzh/gost) : Simple proxy written in go.  Essential
 
 ## Network Analysis
    * [APackets](https://apackets.com/) : Online pcap file analyzer
