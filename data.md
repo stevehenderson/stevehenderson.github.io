@@ -29,6 +29,9 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Majestic Million - Data](http://downloads.majestic.com/majestic_million.csv) : Majestic Million Daily snapshot
    * [DomainIQ](https://www.domainiq.com/) : Great site for domain intel
    
+### Indicators of Compromise
+
+  * [EST IOCs](https://github.com/eset/malware-ioc) : Well-organized and broad list of IOCs from various investigations donated by [WeLiveSecurity](https://www.welivesecurity.com/)
    
 ### Low-Level Data (PCAP, Zeek, etc)
 
