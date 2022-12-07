@@ -53,9 +53,9 @@ permalink: /links/
 
 ## Hosting
 
-    * [CoLoco](https://coloco.net/) : Coloco colacation services (USA)
-    * [Equinix)(https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in  Class
-    * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
+   * [CoLoco](https://coloco.net/) : Coloco colacation services (USA)
+   * [Equinix)(https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in  Class
+   * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
     
     
 ## Interplanetary File System (IPFS)
