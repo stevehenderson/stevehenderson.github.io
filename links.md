@@ -32,7 +32,6 @@ permalink: /links/
 ## Data
    * [Data Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
 
-
 ## Google Cloud Platform
 
 ### Google Cloud Public Certs
@@ -52,6 +51,13 @@ permalink: /links/
    * [Cloud Build](https://issuetracker.google.com/savedsearches/6305393) : Google Cloud Build public issue tracker
    * [Load Balancer](https://issuetracker.google.com/issues?q=status:open%20componentid:187245&s=created_time:desc):  Google Load Balancer issue tracker
 
+## Hosting
+
+    * [CoLoco](https://coloco.net/) : Coloco colacation services (USA)
+    * [Equinix)(https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in  Class
+    * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
+    
+    
 ## Interplanetary File System (IPFS)
    * [Kubo](https://github.com/ipfs/kubo):  the first and most widely used IPFS implementation today
    * [IPFS System Requirements](https://github.com/ipfs/kubo#system-requirements)   
