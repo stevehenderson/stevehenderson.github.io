@@ -44,6 +44,7 @@ permalink: /tools/
    * [DB Fiddle](https://www.db-fiddle.com/) : Database Fiddle and prototyping
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [dsg](https://github.com/multiprocessio/dsq) : Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
+   * [octosq](https://github.com/cube2222/octosql) :  CLI tool which lets you query a plethora of databases and file formats using SQL through a unified interface, even do JOINs between them
    * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
    * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
