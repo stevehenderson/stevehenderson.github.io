@@ -29,10 +29,6 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Majestic Million - Data](http://downloads.majestic.com/majestic_million.csv) : Majestic Million Daily snapshot
    * [DomainIQ](https://www.domainiq.com/) : Great site for domain intel
    
-### Indicators of Compromise
-
-  * [EST IOCs](https://github.com/eset/malware-ioc) : Well-organized and broad list of IOCs from various investigations donated by [WeLiveSecurity](https://www.welivesecurity.com/)
-   
 ### Low-Level Data (PCAP, Zeek, etc)
 
    * [AndersonPaschoalon PCAPs](https://github.com/AndersonPaschoalon/Pcaps/) : Great set of PCAPs
@@ -74,12 +70,17 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    
 ## Threat Data / Intel
 
+### Indicators of Compromise (IOCs)
+
    * [APT Digital Weapon](https://github.com/RedDrip7/APT_Digital_Weapon) : Large and updated IOC set from Qi-AnXin
    * [APT & Cybercriminal Campaign Collection](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections) : Great source of APT & Cybercriminals Campaign Collection.  
-   * [FireHol](http://iplists.firehol.org/) - firehol uber list of IPs 
+   * [EST IOCs](https://github.com/eset/malware-ioc) : Well-organized and broad list of IOCs from various investigations donated by [WeLiveSecurity](https://www.welivesecurity.com/)
    * [UNC2452](https://github.com/center-for-threat-informed-defense/public-resources/tree/master/solorigate) : An active campaign
    * [401trg](https://github.com/401trg/detections)
-   
+
+### Threat Feeds
+
+   * [FireHol](http://iplists.firehol.org/) - firehol uber list of IPs 
 
 ## Email
 
