@@ -59,8 +59,9 @@ permalink: /tools/
    * [Google Admin Toolbox](https://toolbox.googleapps.com/apps/checkmx/):  Google's EMail Admin Toolbox
    * [SimpleLogin](https://simplelogin.io/): Anonymous email SaaS tool
 
-## GO Tools
+## Go Tools
    * [Curl to Go](https://mholt.github.io/curl-to-go/) : Convert any curl command to GO code
+   * [JSON to Go Struct](https://mholt.github.io/json-to-go/) : Convert a json blob into a go struct
 
 ## GPU
    * [Uingine beinchmark](https://benchmark.unigine.com/) : uingine unity-based stresstest
