@@ -131,7 +131,7 @@ permalink: /tools/
    * [Splunk](https://www.splunk.com/) : Best in class SEIM
 
 ## General
-   * [DFIR Tool List](https://awesomedfir.com/dfir-tooling_ : Extensive list of stuff
+   * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
 
 ## Simulation
    * [AirSim](https://github.com/microsoft/airsim) : Microsoft Drone Simulator.  May soon be [archived](https://www.microsoft.com/en-us/ai/autonomous-systems-project-airsim?activetab=pivot1%3aprimaryr3) to make way for a commercial verions
