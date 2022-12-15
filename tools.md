@@ -85,6 +85,9 @@ permalink: /tools/
    * [tailscale](https://tailscale.com/) : Mesh netowkr VPN SaaS
    * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
 
+### DNS Firewall
+   * [nextDNS](https://nextdns.io/) : DNS proxy / firewall
+
 ### DNS IP Resolvers:
    * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
    * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address   
