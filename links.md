@@ -126,4 +126,6 @@ permalink: /links/
   * [Ant Media Server](https://antmedia.io/)
   * [Descript](https://www.descript.com) : All-in-one audio & video editing, as easy as a doc.
 
+## Web Assembly
+  * [Go WASM Hello World](https://wasmbyexample.dev/examples/hello-world/hello-world.go.en-us.html) : Nice wasm demo with go
 
