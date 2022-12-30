@@ -41,6 +41,7 @@ permalink: /tools/
 ## Data Engineering
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
+   * [dagster](https://github.com/dagster-io/dagster): Orchestrator that's designed for developing and maintaining data assets, such as tables, data sets, machine learning models, and reports
    * [DB Fiddle](https://www.db-fiddle.com/) : Database Fiddle and prototyping
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [dsg](https://github.com/multiprocessio/dsq) : Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
