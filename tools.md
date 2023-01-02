@@ -134,6 +134,7 @@ permalink: /tools/
    * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
    * [JupiterOne](https://www.jupiterone.com/) : Identify, map, analyze
    * [Splunk](https://www.splunk.com/) : Best in class SEIM
+   * [Net Witness](https://www.netwitness.com/solutions/xdr/) : Netwitness XDR ans SEIM
 
 ## General
    * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
