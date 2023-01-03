@@ -16,7 +16,7 @@ permalink: /tools/
    * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT   
 
 ## Continuous Attack Surface Management (CASM)
-   * [Axionius](https://www.axonius.com/)
+   * [Axionius](https://www.axonius.com/): Connects to hundreds of data sources; comprehensive inventory, uncovers gaps, and triggers automated response actions whenever devices, users, and SaaS apps deviate from policies, controls, and expectations.
    * [JupyterOne](https://www.jupiterone.com/) : A centralized view of your cyber assets; Cyber Asset Attack Surface Management, Cloud Security Posture, Security Operations, and Compliance.
 
 ## Collaboration
