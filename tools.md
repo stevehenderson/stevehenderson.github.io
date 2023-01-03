@@ -15,6 +15,10 @@ permalink: /tools/
    * [jwt builder](http://jwtbuilder.jamiekurtz.com/) : Webbased tool for constucting custom JWTs.  Great for learning.
    * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT   
 
+## Continuous Attack Surface Management (CASM)
+   * [Axionius](https://www.axonius.com/)
+   * [JupyterOne](https://www.jupiterone.com/) : A centralized view of your cyber assets; Cyber Asset Attack Surface Management, Cloud Security Posture, Security Operations, and Compliance.
+
 ## Collaboration
    * [Miro](https://miro.com/):  Amazing whiteboarding and collaboration tool
    * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool, rivals visio, insanely collaborative
