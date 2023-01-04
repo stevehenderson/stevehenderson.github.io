@@ -91,6 +91,9 @@ permalink: /tools/
    * [tailscale](https://tailscale.com/) : Mesh netowkr VPN SaaS
    * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
 
+### DNS Discovery
+   * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
+
 ### DNS Firewall
    * [nextDNS](https://nextdns.io/) : DNS proxy / firewall
 
