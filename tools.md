@@ -9,6 +9,9 @@ permalink: /tools/
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
    * [Paw](https://paw.cloud/) : Mac only API tools
 
+## Asset Management
+   * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
+
 ## Authentication
    * [Auth0](https://auth0.com/)  : Best in class Authentication as a service.  Great value
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
