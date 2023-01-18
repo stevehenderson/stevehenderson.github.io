@@ -85,6 +85,11 @@ permalink: /links/
    * [Rancher](https://github.com/rancher/rancher)  : Fantastic WebUI for Kubernetes.  Open sourced
    * [Setting up Multiple Ingress](https://spltech.co.uk/how-to-setup-multiple-ingress-controller-with-nginx-ingress-on-gke/)
    * [Spare Capacity to GKE AutoPilot](https://wdenniss.com/gke-autopilot-spare-capacity) : Spoofing Autopilot with Baloon Pods
+
+
+### Rancher Kubernetes Engine
+
+   * [Deploying k8s on Bare Metal (equinix) with RKE](https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides/deploy-rancher-manager/equinix-metal)
    
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
