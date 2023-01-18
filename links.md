@@ -97,6 +97,7 @@ permalink: /links/
    * [Intezer](https://www.intezer.com/) : Intezer
 
 ## Networking
+   * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across Internet
    * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
    
 ## Packer
