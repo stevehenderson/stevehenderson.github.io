@@ -29,5 +29,10 @@ Third Edition
    * [Google Collab](https://colab.research.google.com/?utm_source=scs-index)
    * [Observable](https://observablehq.com/) : NextGen notebook collaboration tech from CMU
 
+## Visualization Platforms
 
+   * [grafana](https://grafana.com/) : Operational dashboards for your data here, there, or anywhere
+   * [metabase](https://github.com/metabase/metabase) : The simplest, fastest way to get business intelligence and analytics to everyone in your compan
+   * [redash](https://github.com/getredash/redash) : Connect to any data source, easily visualize, dashboard and share your data.
+   * [superset](https://superset.apache.org/) : Apache Superset is a modern data exploration and visualization platform
 
