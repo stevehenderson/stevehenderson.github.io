@@ -62,7 +62,7 @@ permalink: /tools/
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
    * [DeltaLake](https://delta.io/) : Provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes, such as S3, ADLS, GCS, and HDFS.
-   * [delight](https://github.com/datamechanics/delight) : A free, amazing Spark UI from [DataMechanics](datamechanics.io/delight)
+   * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](datamechanics.io)
 
 ## Email Tools
    * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
