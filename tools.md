@@ -138,6 +138,9 @@ permalink: /tools/
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/)
 
+## Operating Systems
+   * [ReactOS](https://github.com/reactos/reactos) : open source windowsNT operating system
+   
 ## SEIM / Monitoring
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
