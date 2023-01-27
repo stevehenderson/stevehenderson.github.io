@@ -40,6 +40,8 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
 
+   * [Global Collegiate Penetration Testing Competition ](http://cptc.rit.edu/) : Global Collegiate Penetration Testing Competition data
+
   * [DAPT2020 Dataset for Advanced Persistent Threats](https://www.kaggle.com/datasets/sowmyamyneni/dapt2020) :  This dataset, DAPT 2020, was created with network traffic collected over 5 days, where each day can be considered analogous to 3 months in a real-world scenario..
 
    * [KDD CUP 99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) : A baseline dataset for IDS.  See: Stolfo, J., et al. "Cost-based modeling and evaluation for data mining with application to fraud and intrusion detection." Results from the JAM Project by Salvatore (2000).
