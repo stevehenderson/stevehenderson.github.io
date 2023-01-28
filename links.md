@@ -86,9 +86,10 @@ permalink: /links/
    * [Setting up Multiple Ingress](https://spltech.co.uk/how-to-setup-multiple-ingress-controller-with-nginx-ingress-on-gke/)
    * [Spare Capacity to GKE AutoPilot](https://wdenniss.com/gke-autopilot-spare-capacity) : Spoofing Autopilot with Baloon Pods
 
+### K8s Management as a Service
+   * [plural.sh](http://plural.sh) : Deploy, secure, and scale open-source applications on your cloud in minutes. Slick interface
 
 ### Rancher Kubernetes Engine
-
    * [Deploying k8s on Bare Metal (equinix) with RKE](https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides/deploy-rancher-manager/equinix-metal)
    
 ## Malware
