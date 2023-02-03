@@ -46,6 +46,7 @@ permalink: /tools/
   * [transform tools](https://transform.tools/json-to-go) : Online tool to convert JSON to lots of code formats
 
 ## Data Engineering
+   * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
