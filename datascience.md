@@ -28,6 +28,8 @@ Third Edition
    * [Datalore](https://datalore.io/) - Datalore
    * [Google Collab](https://colab.research.google.com/?utm_source=scs-index)
    * [Observable](https://observablehq.com/) : NextGen notebook collaboration tech from CMU
+   * [deepnote](https://deepnote.com/home) : Next gen Notebook SaaS
+   * [hex](https://hex.tech/) : Next geb Notebook SaaS
 
 ## Visualization Platforms
 
