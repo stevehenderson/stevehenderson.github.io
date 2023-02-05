@@ -60,8 +60,7 @@ permalink: /tools/
    * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
    * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
-   * [Apache Nifi](https://nifi.apache.org/) : Powerful and scalable directed graphs of data routing, transformation, and system mediation logic
-   * [cube
+   * [Apache Nifi](https://nifi.apache.org/) : Powerful and scalable directed graphs of data routing, transformation, and system mediation logic   
    * [orchest](https://github.com/orchest/orchest) : Sweet data pipeline and jupyter notebook tool
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
