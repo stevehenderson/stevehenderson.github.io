@@ -50,6 +50,7 @@ permalink: /tools/
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
+   * [cube)(https://cube.dev/) : A powerful middleware between your data source and your data application.  Handles modeling, security, cache, API
    * [dagster](https://github.com/dagster-io/dagster): Orchestrator that's designed for developing and maintaining data assets, such as tables, data sets, machine learning models, and reports
    * [DB Fiddle](https://www.db-fiddle.com/) : Database Fiddle and prototyping
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
@@ -60,7 +61,7 @@ permalink: /tools/
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
    * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
    * [Apache Nifi](https://nifi.apache.org/) : Powerful and scalable directed graphs of data routing, transformation, and system mediation logic
-   * 
+   * [cube
    * [orchest](https://github.com/orchest/orchest) : Sweet data pipeline and jupyter notebook tool
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
