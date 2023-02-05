@@ -50,7 +50,7 @@ permalink: /tools/
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
-   * [cube)(https://cube.dev/) : A powerful middleware between your data source and your data application.  Handles modeling, security, cache, API
+   * [cube](https://cube.dev/) : A powerful middleware between your data source and your data application.  Handles modeling, security, cache, API
    * [dagster](https://github.com/dagster-io/dagster): Orchestrator that's designed for developing and maintaining data assets, such as tables, data sets, machine learning models, and reports
    * [DB Fiddle](https://www.db-fiddle.com/) : Database Fiddle and prototyping
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
