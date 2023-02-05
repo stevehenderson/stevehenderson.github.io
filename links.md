@@ -54,10 +54,10 @@ permalink: /links/
    * [Load Balancer](https://issuetracker.google.com/issues?q=status:open%20componentid:187245&s=created_time:desc):  Google Load Balancer issue tracker
 
 ## Hosting
-
    * [CoLoco](https://coloco.net/) : Coloco colacation services (USA)
    * [Equinix](https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in  Class
    * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
+   * [Vultr](https://www.vultr.com/) : Instantly deploy High Performance Cloud Servers, Cloud GPUs, Bare Metal, and Cloud Storage worldwide.
     
     
 ## Interplanetary File System (IPFS)
