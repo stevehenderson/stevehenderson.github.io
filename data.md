@@ -54,7 +54,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [NSL-KDD](https://web.archive.org/web/20150205070216/http://nsl.cs.unb.ca/NSL-KDD/) : Augments issues with earlier version KDD CUP 99 (see above).  Also available from [here](http://www.unb.ca/research/iscx/dataset/iscx-NSL-KDD-dataset.html)
 
-   * [PandaCAP](https://zenodo.org/record/3759652#.Y5juvtLMJhE) : PandaCap PCAP, a dataset of 63 PANDA traces, collected using the PANDAcap framework
+   * [PandaCAP](https://zenodo.org/record/3759652#.Y5juvtLMJhE) : PandaCap PCAP, a dataset of 63 PANDA traces from honeynet, collected using the PANDAcap framework
 
    * [Predict](https://www.predict.org/) : Protected Repository for the Defense of Infrastructure Against Cyber Threats.
 
