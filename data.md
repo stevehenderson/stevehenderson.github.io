@@ -98,6 +98,9 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [AWS Open Data](https://registry.opendata.aws/) : Large scale AWS-ready datasets
 
+## GIS
+   * [Equator Studios LiDAR](https://equatorstudios.com/) : Great source for LiDAR
+
 ## Images
 
    * [80 Million Tiny Images](https://www.kaggle.com/datasets/aryashah2k/mit-80-million-tiny-images-dataset?resource=download)  : 80 Million 32 x 32 labeled images
