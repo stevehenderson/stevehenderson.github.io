@@ -154,6 +154,7 @@ permalink: /tools/
    
 ## SEIM / Monitoring
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
+   * [Devo](https://www.devo.com/platform/how-devo-works/) : Cyber Platform
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
    * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing
    * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
