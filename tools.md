@@ -72,6 +72,9 @@ permalink: /tools/
 ## Development
    * [Retool](https://retool.com/) : Interesting tool builder for fast custom UIs on data lakes
 
+## Documentation / Doc Management
+   * [Pandoc](https://pandoc.org/) : Very capable document translator
+
 ## Email Tools
    * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
    * [Gmail Alias Trick](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) : Create on the fly aliases for your gmail
