@@ -44,3 +44,4 @@ Third Edition
    * [Kedro](https://github.com/kedro-org/kedro) : Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code
    * [MetaFlow](https://metaflow.org/):  A human-friendly Python library that makes it straightforward to develop, deploy, and operate various kinds of data-intensive applications, in particular those involving data science and ML
    * [Ploomber](https://github.com/ploomber/ploomber) : Framework to build collaborative and modular pipelines; it integrates with Jupyter but you can use it with any other editor
+   * [Seldon](https://github.com/SeldonIO/seldon-core) : An open source platform to deploy your machine learning models on Kubernetes at massive scale.
