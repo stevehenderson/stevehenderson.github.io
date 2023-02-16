@@ -38,3 +38,8 @@ Third Edition
    * [redash](https://github.com/getredash/redash) : Connect to any data source, easily visualize, dashboard and share your data.
    * [superset](https://superset.apache.org/) : Apache Superset is a modern data exploration and visualization platform
 
+## Datascience Worflow Tools
+
+   * [Katib](https://github.com/kubeflow/katib) : Katib is a Kubernetes-native project for automated machine learning (AutoML). Katib supports Hyperparameter Tuning, Early Stopping and Neural Architecture Search
+   * [Kedro](https://github.com/kedro-org/kedro) : Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code
+   * [MetaFlow](https://metaflow.org/):  A human-friendly Python library that makes it straightforward to develop, deploy, and operate various kinds of data-intensive applications, in particular those involving data science and ML
