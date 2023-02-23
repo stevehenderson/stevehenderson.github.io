@@ -67,6 +67,7 @@ permalink: /tools/
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
    * [DeltaLake](https://delta.io/) : Provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes, such as S3, ADLS, GCS, and HDFS.
    * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](datamechanics.io)
+   * [Querybuilder](https://querybuilder.js.org/) : Query Builder is a javascript library for building SQL
 
 
 ## Development
