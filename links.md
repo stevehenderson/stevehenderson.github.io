@@ -129,7 +129,8 @@ permalink: /links/
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
 
 ## Training
-   * [ACloudGuru](https://acloudguru.com/) : 
+   * [ACloudGuru](https://acloudguru.com/) : Exceptional training -- formerly Linux academy
+   * [Codility](https://www.codility.com/) : Challenge platform
    * [PluralSight](https://www.pluralsight.com/) : Excellent skills training 
 
 ## Video/Audio Tools
