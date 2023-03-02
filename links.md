@@ -121,6 +121,7 @@ permalink: /links/
    * [mavros + ros2](https://docs.px4.io/main/en/ros/ros2_comm.html) : ROS2 MAVRos setup
    * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
    * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
+   * [CivTAK](https://www.civtak.org/) : Android Team Awareness Kit (ATAK)
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
