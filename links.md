@@ -4,6 +4,9 @@ title: Links
 permalink: /links/
 ---
 
+## Artificial Intelligence / Machine Learning
+   * [Haystack](https://github.com/deepset-ai/haystack) : End-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases
+   
 ## Code
 
    * [Binder](https://mybinder.org/) : Git to Jupyter Notebooks
