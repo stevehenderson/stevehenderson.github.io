@@ -151,7 +151,7 @@ permalink: /tools/
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive   
    * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
    * [openCTI](https://www.opencti.io/en/)
-   * [Fing])(https://app.fing.com/business/devrecog/demo) : Device fingerprinting
+   * [Fing](https://app.fing.com/business/devrecog/demo) : Device fingerprinting
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/)
 
