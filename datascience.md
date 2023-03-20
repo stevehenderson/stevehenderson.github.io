@@ -6,6 +6,7 @@ permalink: /datascience/
 
 # AI/ML
 
+  * [OpenChatKit](https://github.com/togethercomputer/OpenChatKit) : OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications
   * [UniLM](https://github.com/microsoft/unilm) : Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
 
 # Books
