@@ -7,6 +7,7 @@ permalink: /datascience/
 # AI/ML
 
   * [OpenChatKit](https://github.com/togethercomputer/OpenChatKit) : OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications
+  * [SkyPilot](https://skypilot.readthedocs.io/en/latest/) : SkyPilot is a framework for easily and cost effectively running ML workloads on any cloud
   * [UniLM](https://github.com/microsoft/unilm) : Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
 
 # Books
