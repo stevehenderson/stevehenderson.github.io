@@ -100,6 +100,10 @@ permalink: /links/
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
    * [Intezer](https://www.intezer.com/) : Intezer
 
+## Mortgage Lending Process
+
+   * [An operational framework for mortgage supply chains](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cfcfb73fbf47905c27bc22adb20fd472053a8aaa) : 
+
 ## Networking
    * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across Internet
    * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
