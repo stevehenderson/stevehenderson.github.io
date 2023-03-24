@@ -69,7 +69,8 @@ permalink: /tools/
    * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](datamechanics.io)
    * [Querybuilder](https://querybuilder.js.org/) : Query Builder is a javascript library for building SQL
    * [rql](https://github.com/a8m/rql):  RQL is a resource query language for REST (written in go). It provides a simple and light-weight API for adding dynamic querying capabilities to web-applications that use SQL-based database
-
+   * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
+   * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
 
 ## Development
    * [Retool](https://retool.com/) : Interesting tool builder for fast custom UIs on data lakes
