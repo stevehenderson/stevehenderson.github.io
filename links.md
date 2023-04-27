@@ -30,7 +30,7 @@ permalink: /links/
 
 ## Cyber Intel
    * [AlienVault](https://otx.alienvault.com/) : Open Threat Intel
-   * [Cyber Threat Cognitivr Intelligence](https://www.ctci.ai/) : Best in class CVE prioritization and lookups
+   * [Cyber Threat Cognitive Intelligence](https://www.ctci.ai/) : Best in class CVE prioritization and lookups
    * [greynoise](https://greynoise.io/) : Identify internet noise and attacks
    * [Talos Intelligence](https://www.talosintelligence.com/) : IP Info and threats by Cisco
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
