@@ -194,9 +194,9 @@ permalink: /tools/
    * [yEd Live](https://www.yworks.com/yed-live/) : Another fantastic diagramming tool.  Online and desktop versions.
 
 ### PlantUML
-   * [goplantyml](https://github.com/jfeliu007/goplantuml) : Utility written in go for creating plantuml from go code
+   * [goplantuml](https://github.com/jfeliu007/goplantuml) : Utility written in go for creating [plantuml](https://github.com/plantuml/plantuml) from go code
    * [PlantText](https://www.planttext.com/) : Service that renders plantuml in browser
-   * [PlantUML VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml):  PlantUML extension for VSCode from jebbs
+   * [PlantUML VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml):  Excellent PlantUML extension for VSCode from jebbs
 
 ## Web Applications and Web Application Development
    * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerfied and ready to roll.
