@@ -8,6 +8,7 @@ permalink: /links/
    * [Haystack](https://github.com/deepset-ai/haystack) : End-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases
    * [MidJourney](https://www.midjourney.com/) : Incredible AI generated art
    * [Poe](https://poe.com/login) : multi ChatBot interface
+   * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    
 ## Code
 
