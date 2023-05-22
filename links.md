@@ -139,6 +139,7 @@ permalink: /links/
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
+   * [SimSpace](https://www.simspace.com/):  High0fidelity cyber simulations and ranges 
 
 ## Tools
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
