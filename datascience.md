@@ -26,7 +26,9 @@ Third Edition
 # Tools
 
 ## Platforms/Suites
-   * [Brim](https://www.brimdata.io) : Novel data munging and analysis platform,  Built on [zed[(https://github.com/brimdata/zed), a super-structured data model.   * 
+   * [Brim](https://www.brimdata.io) : Novel data munging and analysis platform,  Built on [zed[(https://github.com/brimdata/zed), a super-structured data model.   *
+   * [RapidMiner](https://rapidminer.com/) : Best in class data analytics tool suite
+   * [Stroom](https://github.com/gchq/stroom) :  Stroom is a highly scalable data storage, processing and analysis platform.
 
 ## Notebooks in the Cloud
 
