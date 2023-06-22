@@ -25,6 +25,9 @@ Third Edition
    
 # Tools
 
+## Platforms/Suites
+   * [Brim](https://www.brimdata.io) : Novel data munging and analysis platform,  Built on [zed[(https://github.com/brimdata/zed), a super-structured data model.   * 
+
 ## Notebooks in the Cloud
 
    * [Amazon Cloud9](https://aws.amazon.com/cloud9/)
