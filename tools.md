@@ -71,6 +71,8 @@ permalink: /tools/
    * [rql](https://github.com/a8m/rql):  RQL is a resource query language for REST (written in go). It provides a simple and light-weight API for adding dynamic querying capabilities to web-applications that use SQL-based database
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
    * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
+   * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
+   * [Gaffer](Gaffer is a graph database framework) : Gaffer is a graph database framework   * 
 
 ## Development
    * [Retool](https://retool.com/) : Interesting tool builder for fast custom UIs on data lakes
