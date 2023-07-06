@@ -113,7 +113,7 @@ permalink: /tools/
 ## Networking
    * [iodine](https://github.com/yarrick/iodine) : ip4 tunneling over DNS
    * [netcat](https://netcat.sourceforge.net/) : Networking Swiss army knife  
-   * [tailscale](https://tailscale.com/) : Mesh netowkr VPN SaaS
+   * [tailscale](https://tailscale.com/) : Mesh netowork VPN SaaS
    * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
 
 ### DNS Discovery
