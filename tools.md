@@ -72,7 +72,7 @@ permalink: /tools/
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
    * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
    * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
-   * [Gaffer](Gaffer is a graph database framework) : Gaffer is a graph database framework
+   * [Gaffer](https://github.com/gchq/Gaffer) : Gaffer is a graph database framework
    * [Cribl](https://docs.cribl.io/stream/about/): Cribl Stream is an observability and data streaming platform for real-time processing of logs, metrics, traces, and data
 
 ## Development
