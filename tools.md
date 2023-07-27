@@ -111,6 +111,11 @@ permalink: /tools/
    * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
    * [NoMachine](https://www.nomachine.com/) : Remote Desktop
 
+## Window Essential
+   * [CygWin](https://www.cygwin.com/): Linux like environment on Windows
+   * [MobaXterm](https://mobaxterm.mobatek.net/) : Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
+   * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) : Windows Subsystem for Linux
+   
 ## Networking
    * [iodine](https://github.com/yarrick/iodine) : ip4 tunneling over DNS
    * [netcat](https://netcat.sourceforge.net/) : Networking Swiss army knife  
