@@ -218,5 +218,6 @@ permalink: /tools/
    * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
    * [Node-Red](https://nodered.org/) :  A browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette
    * [ReactFlow](https://reactflow.dev/) : A highly customizable React component for building node-based editors and interactive diagrams
-   * [WalkOff](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
+   * [WalkOff](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements.
+   * [Snakemake](https://snakemake.github.io/) : Python workflow management system to create reproducible and scalable data analyses. 
 
