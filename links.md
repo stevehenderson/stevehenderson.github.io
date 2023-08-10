@@ -11,6 +11,9 @@ permalink: /links/
    * [Poe](https://poe.com/login) : multi ChatBot interface
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    
+## Cloud Filesystems
+   * [SeaweedFS](https://github.com/seaweedfs) : SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files!
+     
 ## Code
 
    * [Binder](https://mybinder.org/) : Git to Jupyter Notebooks
