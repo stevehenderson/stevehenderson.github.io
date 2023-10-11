@@ -162,3 +162,9 @@ permalink: /links/
 ## Web Assembly
   * [Go WASM Hello World](https://wasmbyexample.dev/examples/hello-world/hello-world.go.en-us.html) : Nice wasm demo with go
 
+## Web3
+
+  * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
+  * [Meson Network](https://www.meson.network/): the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem
+  * 
+
