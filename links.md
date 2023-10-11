@@ -164,6 +164,7 @@ permalink: /links/
 
 ## Web3
 
+  * [ARWeave](https://arwiki.wiki/#/en/main) : The first protocol that enables permanent data storage. Its design allows anyone to preserve data forever with just a single, one-time fee.
   * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
   * [Meson Network](https://www.meson.network/): the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem
   * 
