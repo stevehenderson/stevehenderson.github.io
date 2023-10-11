@@ -12,6 +12,7 @@ permalink: /links/
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    
 ## Cloud Filesystems
+   * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end to end encyption and may other features
    * [SeaweedFS](https://github.com/seaweedfs) : SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files!
      
 ## Code
