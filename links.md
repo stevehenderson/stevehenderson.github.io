@@ -14,7 +14,12 @@ permalink: /links/
 ## Cloud Filesystems
    * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end to end encyption and may other features
    * [SeaweedFS](https://github.com/seaweedfs) : SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files!
-     
+
+## CI/CD
+
+### Packer
+   * [Packer Documentation](https://developer.hashicorp.com/packer/docs) : Packer lets you create identical machine images for multiple platforms from a single source configuration
+
 ## Code
 
    * [Binder](https://mybinder.org/) : Git to Jupyter Notebooks
@@ -118,13 +123,22 @@ permalink: /links/
 ## Networking
    * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across Internet
    * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
+   * [sniffer](https://github.com/chenjiandongx/sniffer) : Analyze which processes are generating what traffic
+   * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
    
-## Packer
-   * [Packer Documentation](https://developer.hashicorp.com/packer/docs) : Packer lets you create identical machine images for multiple platforms from a single source configuration
-
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
-   
+   * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) " Command line tool to collect data from and pentest wifi networks
+
+## Packet Capture
+   * [cloud-probe](https://github.com/Netis/cloud-probe) : A Software Probe for network packet capturing and forwarding in Cloud/Kubernetes and Virtualized environment
+   * [etl2pcapng](https://github.com/microsoft/etl2pcapng) : Utility that converts an .etl file containing a Windows network packet capture into .pcapng format.
+   * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) " Command line tool to collect data from and pentest wifi networks
+   * [PcaketStreamer](https://github.com/deepfence/PacketStreamer) : Distributed tcpdump for cloud native environments
+   * [PCAPdriod](https://github.com/emanuele-f/PCAPdroid) : No-root network monitor, firewall and PCAP dumper for Android
+   * [rvi_capture](https://github.com/gh2o/rvi_capture) : Capture packets sents via ios devices
+   * [WirePenguin](https://github.com/pwdz/WirePenguin) : Packet Sniffer in golang
+
 ## Productivity
    * [Joplin](https://joplinapp.org/) : Joplin Notetaking SaaS.  Markdown / opensource / Latex
 
@@ -141,7 +155,6 @@ permalink: /links/
    * [mavros + ros2](https://docs.px4.io/main/en/ros/ros2_comm.html) : ROS2 MAVRos setup
    * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
    * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
-   
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
@@ -161,6 +174,7 @@ permalink: /links/
 
 ## Web Assembly
   * [Go WASM Hello World](https://wasmbyexample.dev/examples/hello-world/hello-world.go.en-us.html) : Nice wasm demo with go
+  * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
 
 ## Web3
 
