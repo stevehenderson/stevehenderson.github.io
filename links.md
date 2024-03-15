@@ -166,6 +166,7 @@ permalink: /links/
 ## Training
    * [ACloudGuru](https://acloudguru.com/) : Exceptional training -- formerly Linux academy
    * [Codility](https://www.codility.com/) : Challenge platform
+   * [CTFHAcker](http://ctfhacker.com/) : Exceptional cyber challenge walkthroughs by [Cory Duplantis](https://github.com/ctfhacker)
    * [PluralSight](https://www.pluralsight.com/) : Excellent skills training 
 
 ## Video/Audio Tools
