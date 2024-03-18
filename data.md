@@ -33,7 +33,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [AndersonPaschoalon PCAPs](https://github.com/AndersonPaschoalon/Pcaps/) : Great set of PCAPs
 
-   * [Army Cyber Institute CDX Data](https://digitalcommons.usmalibrary.org/aci_datasets/1/) : Great set
+   * [Military Academy CDX Data @ Flyn Computing) : Great set of pcaps from the 2017 US Military Academies CDX.  Currated (and heavily researched by) by Mike Petullo of Flyn Computing.
    
    * [Canadadian Institute of Cyebrsecurity Datasets](https://www.unb.ca/cic/datasets/index.html)
       *  [CSE-CIC-IDS2018 on AWS](https://www.unb.ca/cic/datasets/ids-2018.html)
