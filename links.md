@@ -50,8 +50,17 @@ permalink: /links/
    * [Talos Intelligence](https://www.talosintelligence.com/) : IP Info and threats by Cisco
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
 
-## Database Systems
+## Data Systems
    * [Database of databases](https://dbdb.io/) :  fantastic taxonomy of database management systems
+
+### Data Models
+   *  [brim](https://www.brimdata.io/) : A novel data lake based on super-structured data
+
+### Databases
+   * [Database of databases](https://dbdb.io/) :  fantastic taxonomy of database management systems
+
+### Data Lakes
+   * [zed](https://github.com/brimdata/zed) : Zed offers a new approach to data that makes it easier to manipulate and manage your data.
 
 ## Data Sources
    * [Data Source Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
