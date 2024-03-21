@@ -49,6 +49,7 @@ permalink: /tools/
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
+   * [chdb](https://doc.chdb.io/#/) : chDB is an embedded OLAP SQL Engine 🚀 powered by ClickHouse.  Supports many backend and file formats.
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
    * [cube](https://cube.dev/) : A powerful middleware between your data source and your data application.  Handles modeling, security, cache, API
    * [dagster](https://github.com/dagster-io/dagster): Orchestrator that's designed for developing and maintaining data assets, such as tables, data sets, machine learning models, and reports
@@ -56,6 +57,7 @@ permalink: /tools/
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [datastation](https://github.com/multiprocessio/datastation) : open-source data IDE for developers. Front end for dsq.
    * [dsq](https://github.com/multiprocessio/dsq) : Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
+   * [duckdb](https://duckdb.org/) : Exceptional in-process SQL OLAP database management system. SQL on many backends
    * [octosq](https://github.com/cube2222/octosql) :  CLI tool which lets you query a plethora of databases and file formats using SQL through a unified interface, even do JOINs between them
    * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
@@ -64,6 +66,7 @@ permalink: /tools/
    * [orchest](https://github.com/orchest/orchest) : Sweet data pipeline and jupyter notebook tool
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
    * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
+   * [Steampipe](https://steampipe.io/) : Dynamically query APIs, code and more with SQL.  Zero-ETL from 140 data sources.  Another SQL all the stuff.
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
    * [DeltaLake](https://delta.io/) : Provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes, such as S3, ADLS, GCS, and HDFS.
    * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](datamechanics.io)
