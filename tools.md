@@ -191,6 +191,7 @@ permalink: /tools/
 
 ## General
    * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
+   * [Invidious](https://docs.invidious.io/instances/) : an open source alternative front-end to YouTube.
 
 ## Simulation
    * [AirSim](https://github.com/microsoft/airsim) : Microsoft Drone Simulator.  May soon be [archived](https://www.microsoft.com/en-us/ai/autonomous-systems-project-airsim?activetab=pivot1%3aprimaryr3) to make way for a commercial verions
