@@ -50,6 +50,9 @@ permalink: /links/
    * [Talos Intelligence](https://www.talosintelligence.com/) : IP Info and threats by Cisco
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
 
+## Cyebr Operations
+   * [Honeypot +_ SOC](https://github.com/0xbythesecond/Azure-SOC-Honeynet-Project) : Great example Security Operations center defending a honey network!
+
 ## Data Systems
    * [Database of databases](https://dbdb.io/) :  fantastic taxonomy of database management systems
 
