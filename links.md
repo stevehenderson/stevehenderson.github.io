@@ -10,6 +10,7 @@ permalink: /links/
    * [MidJourney](https://www.midjourney.com/) : Incredible AI generated art
    * [Poe](https://poe.com/login) : multi ChatBot interface
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
+   * [fabric](https://github.com/danielmiessler/fabric) : open-source framework for augmenting humans using AI
    
 ## Block Chain
    * [Blockchain Golang Project by diop](https://github.com/diop/blockchain-programming-golang?tab=readme-ov-file)
