@@ -20,6 +20,9 @@ permalink: /links/
    * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end to end encyption and may other features
    * [SeaweedFS](https://github.com/seaweedfs) : SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files!
 
+## Code Signing
+   * [MacOS Code Signing Tutorial by Ken Cochrane](https://www.kencochrane.com/2020/08/01/build-and-sign-golang-binaries-for-macos-with-github-actions/) : Nice tutorial on code signing with MacOS
+
 ## CI/CD
 
 ### Packer
