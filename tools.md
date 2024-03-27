@@ -27,7 +27,9 @@ permalink: /tools/
    * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool, rivals visio, insanely collaborative
 
 ## Cloud
+   * [Cartofgrpahy](https://github.com/lyft/cartography) : Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
    * [Cascade](https://github.com/Derecho-Project/cascade): Key/Value API for data manipulation in distributed memory and persistent storage.  Very fast. C++
+   * [CloudCraft](https://www.cloudcraft.co/) : Visualize your cloud infra automatically via introspection.  AWS, GCP, Azure, more
    * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
    * [minio](https://github.com/minio/minio) : A High Performance Object Storage for Cloud Storage and Kubernetes
    * [rclone](https://rclone.org/) : Clone data from Cloud Storage X to Cloud Storage Y.  Supports Google GCS, AWS S3, Azure, and more!
