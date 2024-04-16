@@ -37,6 +37,8 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    
    * [Canadadian Institute of Cyebrsecurity Datasets](https://www.unb.ca/cic/datasets/index.html)
       *  [CSE-CIC-IDS2018 on AWS](https://www.unb.ca/cic/datasets/ids-2018.html)
+        
+   * [Collegiate Penetration Testing Competition Exercise Data](https://cptc.rit.edu/) : Data from the  Collegiate Penetration Testing Competition.  Splunklogs, winevents, pcaps, much more
 
    * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
 
