@@ -232,4 +232,5 @@ permalink: /tools/
    * [Snakemake](https://snakemake.github.io/) : Python workflow management system to create reproducible and scalable data analyses.
    * [Concorse](https://concourse-ci.org/) : an open-source continuous thing-doer.
    * [control-tower](https://github.com/EngineerBetter/control-tower) : Self-healing IaaS for Concorse
+   * [Navattic](https://www.navattic.com/) : Clone a website and build a stand alone demo.  DOM in a box
 
