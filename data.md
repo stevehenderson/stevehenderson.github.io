@@ -97,6 +97,10 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [FireHol](http://iplists.firehol.org/) - firehol uber list of IPs 
    * [GreyNoise](https://greynoise.io) - Great list of malicious IOC and benign/noise
 
+### Malware
+
+   * [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) : Excellent aggregation of malware and the trail it leaves
+
 ## Email
 
    * [Enron Emails](https://www.cs.cmu.edu/~enron/) : Massive trove of emails from early 2000s
