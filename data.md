@@ -100,6 +100,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 ### Malware
 
    * [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/) : Excellent aggregation of malware and the trail it leaves
+   * [InQuestLabs](https://labs.inquest.net/) : The InQuest platform provides high-throughput Deep File Inspection (DFI) for threat and data leakage prevention, detection, and hunting.
 
 ## Email
 
