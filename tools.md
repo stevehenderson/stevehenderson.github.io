@@ -128,6 +128,7 @@ permalink: /tools/
    * [netcat](https://netcat.sourceforge.net/) : Networking Swiss army knife  
    * [tailscale](https://tailscale.com/) : Mesh netowork VPN SaaS
    * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
+   * [Twingate ](https://www.twingate.com/) : Twingate secure remote network bridge.  Like a VPN.
 
 ### DNS Discovery
    * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
