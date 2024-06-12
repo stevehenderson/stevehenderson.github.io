@@ -178,7 +178,9 @@ permalink: /links/
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
-   * [SimSpace](https://www.simspace.com/):  High-fidelity cyber simulations and ranges 
+   * [SimSpace](https://www.simspace.com/):  High-fidelity cyber simulations and ranges
+   * [Scythe](https://scythe.io/) : Cyber Threat Emulation Platform.  Host-based; incorporates Atomic Red Team.
+  
 
 ## Tools
   * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
