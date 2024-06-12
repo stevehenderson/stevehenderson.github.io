@@ -142,6 +142,7 @@ permalink: /links/
 
 ## Networking
    * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across Internet
+   * [brightdata](https://brightdata.com/) : Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. The internet’s most trusted web data platform.
    * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
    * [sniffer](https://github.com/chenjiandongx/sniffer) : Analyze which processes are generating what traffic
    * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
