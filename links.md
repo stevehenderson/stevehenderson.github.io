@@ -11,6 +11,10 @@ permalink: /links/
    * [Poe](https://poe.com/login) : multi ChatBot interface
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    * [fabric](https://github.com/danielmiessler/fabric) : open-source framework for augmenting humans using AI
+
+### Large Language Model Links (LLM)
+   * [ollama](https://github.com/ollama/ollama) : A toolkit for working with LLMs.  Bindings for python on js.
+   * [axolotl](https://axolotl.ai/) :  LLM fine-uning
    
 ## Block Chain
    * [Blockchain Golang Project by diop](https://github.com/diop/blockchain-programming-golang?tab=readme-ov-file)
