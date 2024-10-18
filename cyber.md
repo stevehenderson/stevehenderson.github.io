@@ -19,6 +19,7 @@ permalink: /cyber/
   * [CloudShark Personal](https://www.cloudshark.org/login) : Wireshark in the cloud
   * [Censys](https://censys.io/) : Attack surface management
   * [KeyCaliber](https://www.keycaliber.com/) : Risk management platform
+  * [REx : Rule Explorer](https://rulexplorer.io/) : Sweet search engine for all types of rule based signatures and SEIMs
 
 ### Links
 
