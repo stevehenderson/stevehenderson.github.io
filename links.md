@@ -4,23 +4,28 @@ title: Links
 permalink: /links/
 ---
 
-Landing zone for all things..loosly categorized!
+Landing zone for all things..loosley categorized!
+
 ## API Tools
    * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
    * [Paw](https://paw.cloud/) : Mac only API tools
    * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerfied and ready to roll.
 
 ## Artificial Intelligence / Machine Learning
+
+### General
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
    * [Haystack](https://github.com/deepset-ai/haystack) : End-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases
+   * [HuggingFace](https://huggingface.co/stevehenderson) : My profile on HuggingFace
    * [MidJourney](https://www.midjourney.com/) : Incredible AI generated art
    * [Poe](https://poe.com/login) : multi ChatBot interface
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    * [fabric](https://github.com/danielmiessler/fabric) : open-source framework for augmenting humans using AI
 
 ### Large Language Model Links (LLM)
+   * [axolotl](https://axolotl.ai/) :  LLM fine-tuning
+   * [LM Studio](https://lmstudio.ai/) : Excellent LLM IDE/Workbench.  Integrates with HuggingFace.   Provides API
    * [ollama](https://github.com/ollama/ollama) : A toolkit for working with LLMs.  Bindings for python on js.
-   * [axolotl](https://axolotl.ai/) :  LLM fine-uning
 
 ## Asset Management
    * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
@@ -135,14 +140,31 @@ Landing zone for all things..loosly categorized!
 ### Cyber Operations
    * [Honeypot + SOC](https://github.com/0xbythesecond/Azure-SOC-Honeynet-Project) : Great example Security Operations center defending a honey network!
 
-## General
+### General
    * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
-  
+ 
+### Security Information Event Monitoring (SIEM)
+   * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
+   * [Armis](https://www.armis.com/) : Network and asset visibility and monitoring
+   * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
+   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
+   * [Devo](https://www.devo.com/platform/how-devo-works/) : Cyber Platform   
+   * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing   
+   * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
+   * [JupiterOne](https://www.jupiterone.com/) : Identify, map, analyze
+   * [Net Witness](https://www.netwitness.com/solutions/xdr/) : Netwitness XDR ans SIEM
+   * [Sagan](https://sagan.readthedocs.io/en/latest/what-is-sagan.html):  Log Analysis Engine
+   * [Scribl](https://github.com/criblio/scribl) : A Splunk historical index export tool
+   * [SIGMA](https://github.com/SigmaHQ/sigma) :  Generic Signature Format for SIEM Systems
+   * [Sigma Rule Converter](https://sigconverter.io/) : Convert Sigma Rules to various detection pipelines
+   * [Splunk](https://www.splunk.com/) : Best in class SIEM   
+
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
    * [chdb](https://doc.chdb.io/#/) : chDB is an embedded OLAP SQL Engine 🚀 powered by ClickHouse.  Supports many backend and file formats.
+   * [Cribl](https://docs.cribl.io/stream/about/): Cribl Stream is an observability and data streaming platform for real-time processing of logs, metrics, traces, and data
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
    * [cube](https://cube.dev/) : A powerful middleware between your data source and your data application.  Handles modeling, security, cache, API
    * [dagster](https://github.com/dagster-io/dagster): Orchestrator that's designed for developing and maintaining data assets, such as tables, data sets, machine learning models, and reports
@@ -154,6 +176,7 @@ Landing zone for all things..loosly categorized!
    * [octosq](https://github.com/cube2222/octosql) :  CLI tool which lets you query a plethora of databases and file formats using SQL through a unified interface, even do JOINs between them
    * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
+   * [Gaffer](https://github.com/gchq/Gaffer) : Gaffer is a graph database framework   
    * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
    * [Apache Nifi](https://nifi.apache.org/) : Powerful and scalable directed graphs of data routing, transformation, and system mediation logic   
    * [orchest](https://github.com/orchest/orchest) : Sweet data pipeline and jupyter notebook tool
@@ -168,8 +191,6 @@ Landing zone for all things..loosly categorized!
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
    * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
    * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
-   * [Gaffer](https://github.com/gchq/Gaffer) : Gaffer is a graph database framework
-   * [Cribl](https://docs.cribl.io/stream/about/): Cribl Stream is an observability and data streaming platform for real-time processing of logs, metrics, traces, and data
 
 ## Data Systems
    * [Database of databases](https://dbdb.io/) :  fantastic taxonomy of database management systems
@@ -186,9 +207,11 @@ Landing zone for all things..loosly categorized!
 ## Data Sources
    * [Data Source Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
 
-
 ## Documentation / Doc Management
-   * [Pandoc](https://pandoc.org/) : Very capable document translator
+   * [Pandoc](https://pandoc.org/) : Very capable document translator.  Markdown to pdf and more.    
+   * [Joplin](https://joplinapp.org/) : Joplin Notetaking SaaS.  Markdown / opensource / Latex.
+   * [Notion](https://www.notion.so) : Notion team collaboration and documentation
+   * [Obsidian](https://obsidian.md/) : Powerful markdown based second brain.
 
 ## Email Tools
    * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
@@ -205,7 +228,6 @@ Landing zone for all things..loosly categorized!
    * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
    * [Vultr](https://www.vultr.com/) : Instantly deploy High Performance Cloud Servers, Cloud GPUs, Bare Metal, and Cloud Storage worldwide.
 
-
 ## Infrastructure as Code
    * [BrainBoard](https://www.brainboard.co/) : Create Terraform from CloudAPI
    * [pulumi](https://www.pulumi.com/) : Build infrastructure intuitively on any cloud using familiar languages
@@ -221,10 +243,6 @@ Landing zone for all things..loosly categorized!
    * [Great intro to IPFS](https://www.youtube.com/watch?v=KIEq2FyMczs)
    * [Hands-on IPFS](https://www.youtube.com/watch?v=GJ2980DWdyc)
    * [Using IPFS with replication](https://cestoliv.com/blog/using-ipfs-for-data-replication/)
-
-## Knowledge Base
-   * [Notion](https://www.notion.so) : Notion team collaboration and documentation
-   * [Obsidian](https://obsidian.md/) : Powerful markdown based second brain.
 
 ## Kubernetes
 
@@ -258,10 +276,6 @@ Landing zone for all things..loosly categorized!
    * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
    * [Intezer](https://www.intezer.com/) : Intezer
 
-## Mortgage Lending Process
-
-   * [An operational framework for mortgage supply chains](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cfcfb73fbf47905c27bc22adb20fd472053a8aaa) : 
-
 ## Networking
    * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across Internet
    * [brightdata](https://brightdata.com/) : Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. The internet’s most trusted web data platform.
@@ -288,7 +302,6 @@ Landing zone for all things..loosly categorized!
 ### Proxies
    * [gost](https://github.com/ginuerzh/gost) : Simple proxy written in go.  Essential
 
-
 ## Network Analysis
    * [APackets](https://apackets.com/) : Online pcap file analyzer
    * [CloudShark](https://www.cloudshark.org/captures) : Cloud-based Wireshark 
@@ -311,8 +324,8 @@ Landing zone for all things..loosly categorized!
    * [Selks](https://www.stamus-networks.com/selks) : Turn-key Suricata-based IDS/NSM and Threat Hunting System
 
 ## Operating Systems
+   * [Parrot Security](https://parrotsec.org/) : Debian-based security focused OS
    * [ReactOS](https://github.com/reactos/reactos) : open source windowsNT operating system
-
 
 ## OSINT / Enrichment   
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
@@ -335,10 +348,12 @@ Landing zone for all things..loosly categorized!
 
 ## Privacy
    * [Invidious](https://docs.invidious.io/instances/) : an open source alternative front-end to YouTube.
-   * 
 
-## Productivity
-   * [Joplin](https://joplinapp.org/) : Joplin Notetaking SaaS.  Markdown / opensource / Latex
+## Office Productivity
+   * [EtherPad](https://github.com/ether/etherpad-lite) : An open source alternative to Google Docs
+   * [Grist](https://github.com/gristlabs/grist-core#readme) : An open source alternative to Google Sheets
+   * [LibreOffice](https://www.libreoffice.org/) : An open-source alternative to MS Orffice.  Has an unsupported [online](https://www.libreoffice.org/download/libreoffice-online/) version
+   * [OwnCloud](https://owncloud.com/) : an open source alternative for Google Drive
 
 ## Publications
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
@@ -353,21 +368,6 @@ Landing zone for all things..loosly categorized!
    * [mavros + ros2](https://docs.px4.io/main/en/ros/ros2_comm.html) : ROS2 MAVRos setup
    * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
    * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
-
-## SEIM / Network Monitoring
-   * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
-   * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
-   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
-   * [Armis](https://www.armis.com/) : Network and asset visibility and monitoring
-   * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
-   * [Devo](https://www.devo.com/platform/how-devo-works/) : Cyber Platform   
-   * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing   
-   * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
-   * [JupiterOne](https://www.jupiterone.com/) : Identify, map, analyze
-   * [Sagan](https://sagan.readthedocs.io/en/latest/what-is-sagan.html):  Log Analysis Engine
-   * [Scribl](https://github.com/criblio/scribl) : A Splunk historical index export tool
-   * [Splunk](https://www.splunk.com/) : Best in class SEIM   
-   * [Net Witness](https://www.netwitness.com/solutions/xdr/) : Netwitness XDR ans SEIM
 
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
@@ -393,7 +393,6 @@ Landing zone for all things..loosly categorized!
    * [PlantUML VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml):  Excellent PlantUML extension for VSCode from jebbs
 
 ## Testing
-
    * [artillery.io](https://www.artillery.io/) : Cloud-scale performance testing
    * [k6.io](https://k6.io/) : Exceptional load testing framework.
 
@@ -422,7 +421,6 @@ Landing zone for all things..loosly categorized!
   * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
 
 ## Web3
-
   * [ARWeave](https://arwiki.wiki/#/en/main) : The first protocol that enables permanent data storage. Its design allows anyone to preserve data forever with just a single, one-time fee.
   * [FluxCloud](https://runonflux.io/) : Decentralized, distributed compute and storage.  Affordable!
   * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
