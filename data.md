@@ -10,7 +10,7 @@ permalink: /data/
 
    * [Targeted Cyberattacks logbook](https://apt.securelist.com/#firstPage)
 
-   * [OWASP/WASC Web Hacking Incident Database (WHD)](https://www.google.com/fusiontables/DataSource?snapid=S283929Jw2s)
+   * [OWASP/WASC Web Hacking Incident Database (WHD)](https://owasp.org/www-project-web-hacking-incident-database/)
 
    * [Dataloss DB (Includes a breakdown of the sony hack)](https://blog.datalossdb.org)
 
