@@ -4,6 +4,60 @@ title: Links
 permalink: /links/
 ---
 
+Landing zone for all things..loosly categorized!
+
+- [Artificial Intelligence / Machine Learning](#artificial-intelligence--machine-learning)
+  - [Large Language Model Links (LLM)](#large-language-model-links-llm)
+- [Block Chain](#block-chain)
+- [Cloud Filesystems](#cloud-filesystems)
+- [Code Signing](#code-signing)
+- [CI/CD](#cicd)
+  - [Packer](#packer)
+- [Code](#code)
+- [Crypto](#crypto)
+- [Communications](#communications)
+- [Cyber Intel](#cyber-intel)
+- [Cyebr Operations](#cyebr-operations)
+- [Data Systems](#data-systems)
+  - [Data Models](#data-models)
+  - [Databases](#databases)
+  - [Data Lakes](#data-lakes)
+- [Data Sources](#data-sources)
+- [Google Cloud Platform](#google-cloud-platform)
+  - [Google Cloud Public Certs](#google-cloud-public-certs)
+  - [Console Tools](#console-tools)
+  - [Google Cloud Forum](#google-cloud-forum)
+  - [Google Issue Trackers](#google-issue-trackers)
+- [Hosting](#hosting)
+- [Infrastructure as Code](#infrastructure-as-code)
+- [Interplanetary File System (IPFS)](#interplanetary-file-system-ipfs)
+- [Knowledge Base](#knowledge-base)
+- [Kubernetes](#kubernetes)
+  - [Autoscaling](#autoscaling)
+  - [General](#general)
+  - [K8s Management as a Service](#k8s-management-as-a-service)
+  - [Rancher Kubernetes Engine](#rancher-kubernetes-engine)
+- [Malware](#malware)
+- [Mortgage Lending Process](#mortgage-lending-process)
+- [Networking](#networking)
+- [Network Analysis](#network-analysis)
+- [OSINT / Enrichment](#osint--enrichment)
+- [Pentest](#pentest)
+- [Packet Capture](#packet-capture)
+- [Productivity](#productivity)
+- [Publications](#publications)
+- [Robotics](#robotics)
+- [SEIM](#seim)
+- [Simulation](#simulation)
+- [Testing](#testing)
+- [Training](#training)
+- [Video/Audio Tools](#videoaudio-tools)
+- [Virtualization](#virtualization)
+- [Web Assembly](#web-assembly)
+- [Web3](#web3)
+- [Workflow Automation / Management](#workflow-automation--management)
+
+
 ## Artificial Intelligence / Machine Learning
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
    * [Haystack](https://github.com/deepset-ai/haystack) : End-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases
@@ -99,8 +153,12 @@ permalink: /links/
    * [Equinix](https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in  Class
    * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
    * [Vultr](https://www.vultr.com/) : Instantly deploy High Performance Cloud Servers, Cloud GPUs, Bare Metal, and Cloud Storage worldwide.
-    
-    
+
+
+## Infrastructure as Code
+
+   * [BrainBoard](https://www.brainboard.co/) : Create Terraform from CloudAPI
+
 ## Interplanetary File System (IPFS)
    * [Kubo](https://github.com/ipfs/kubo):  the first and most widely used IPFS implementation today
    * [IPFS System Requirements](https://github.com/ipfs/kubo#system-requirements)   
@@ -150,7 +208,21 @@ permalink: /links/
    * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
    * [sniffer](https://github.com/chenjiandongx/sniffer) : Analyze which processes are generating what traffic
    * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
-   
+
+## Network Analysis
+   * [APackets](https://apackets.com/) : Online pcap file analyzer
+   * [CloudShark](https://www.cloudshark.org/captures) : Cloud-based Wireshark 
+      * [example](https://www.cloudshark.org/captures/abdc8742488f) 
+      * [more](https://packetlife.net/captures/)
+   * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A cloudshark clone (github)
+   * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   * 
+
+## OSINT / Enrichment   
+   * [cyberIntelMatrix](https://cyberintelmatrix.com/)
+   * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
+   * [openCTI](https://www.opencti.io/en/)
+   * [SpiderFoot](https://www.spiderfoot.net/)
+
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
    * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) " Command line tool to collect data from and pentest wifi networks
@@ -181,14 +253,20 @@ permalink: /links/
    * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
    * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
 
+
+## SEIM
+   * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
+   * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
+   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
+
 ## Simulation
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
    * [SimSpace](https://www.simspace.com/):  High-fidelity cyber simulations and ranges
    * [Scythe](https://scythe.io/) : Cyber Threat Emulation Platform.  Host-based; incorporates Atomic Red Team.
-  
 
-## Tools
-  * [Tools](http://stevehenderson.github.io/tools/) 🛠 : Dedicated page to tool links
+## Testing
+
+   * [k6.io](https://k6.io/) : Exceptional load testing framework.
 
 ## Training
    * [ACloudGuru](https://acloudguru.com/) : Exceptional training -- formerly Linux academy
@@ -200,6 +278,11 @@ permalink: /links/
   * [Ant Media Server](https://antmedia.io/)
   * [Descript](https://www.descript.com) : All-in-one audio & video editing, as easy as a doc.
 
+
+## Virtualization
+
+   * [VMWare User Group (VMUG) Advantage Products](https://vmugadvantage.onthehub.com/)
+  
 ## Web Assembly
   * [Go WASM Hello World](https://wasmbyexample.dev/examples/hello-world/hello-world.go.en-us.html) : Nice wasm demo with go
   * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
@@ -211,4 +294,11 @@ permalink: /links/
   * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
   * [Meson Network](https://www.meson.network/): the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem
   * [FileCoin](https://filecoin.io/build/#intro) : A Web3 distributed filesystem and related ecosystem.  Linked to crypto currency economics
+
+## Workflow Automation / Management 
+   * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
+   * [Node-Red](https://nodered.org/)
+   * [WalkOFF](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
+
+
 
