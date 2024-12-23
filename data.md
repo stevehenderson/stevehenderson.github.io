@@ -19,7 +19,7 @@ permalink: /data/
    * [Hackmageddon](http://www.hackmageddon.com/2015-cyber-attacks-timeline-master-index/)
 Cyber attack timelines by month.  Burrow down.  The 2016 summaries link to google sheets where you can get the raw data.  The older timelines seem to only show png's.
 
-   * [​The Center for Strategic Studies](https://csis-prod.s3.amazonaws.com/s3fs-public/160824_Significant_Cyber_Events_List.pdf)
+   * [​The Center for Strategic Studies](https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents)
 This timeline records significant cyber incidents since 2006. Focus on cyber attacks on government agencies, defense and high tech companies, or economic crimes with losses of more than a million dollars.
 
 ### Domain Names
