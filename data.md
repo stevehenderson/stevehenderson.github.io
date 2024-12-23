@@ -109,6 +109,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 ## General
 
    * [AWS Open Data](https://registry.opendata.aws/) : Large scale AWS-ready datasets
+   * [Stack Overflow Archive](https://archive.org/details/stackexchange) : Historical stackoverflow data (posts, replies, etc)
 
 ## GIS
    * [Equator Studios LiDAR](https://equatorstudios.com/) : Great source for LiDAR
