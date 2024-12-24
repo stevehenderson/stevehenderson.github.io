@@ -19,7 +19,7 @@ to create some commands that send some valuable debugging information to the bui
 If you drop this Build Step near the top of your `cloudbuild.yaml` you can see what's in the builder parent directory,
 where you Dockerfile is, etc.
 
-```
+```python
 import pandas
 print("This is a test")
 
