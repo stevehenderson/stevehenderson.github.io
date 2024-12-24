@@ -13,6 +13,12 @@ Landing zone for all things..loosley categorized!
 
 ## Artificial Intelligence / Machine Learning
 
+### Agenic AI
+   * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agenets
+   * [Langroid](https://github.com/langroid/langroid) : An intuitive, lightweight, extensible and principled Python framework to easily build LLM-powered applications
+   * [monoid](https://github.com/munkim/monoid) : Build AI Agents directly on top of your APIs
+   * [Open Agents](https://github.com/xlang-ai/OpenAgents) 
+
 ### General
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
    * [Haystack](https://github.com/deepset-ai/haystack) : End-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases
@@ -24,6 +30,7 @@ Landing zone for all things..loosley categorized!
 
 ### Large Language Model Links (LLM)
    * [axolotl](https://axolotl.ai/) :  LLM fine-tuning
+   * [deepmark](https://github.com/IngestAI/deepmark) : Enables a unique testing environment for language models (LLM) assessment on task-specific metrics and on your own data
    * [LM Studio](https://lmstudio.ai/) : Excellent LLM IDE/Workbench.  Integrates with HuggingFace.   Provides API
    * [ollama](https://github.com/ollama/ollama) : A toolkit for working with LLMs.  Bindings for python on js.
 
@@ -142,6 +149,9 @@ Landing zone for all things..loosley categorized!
 
 ### General
    * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
+
+### Malware
+   * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
  
 ### Security Information Event Monitoring (SIEM)
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
@@ -157,7 +167,8 @@ Landing zone for all things..loosley categorized!
    * [Scribl](https://github.com/criblio/scribl) : A Splunk historical index export tool
    * [SIGMA](https://github.com/SigmaHQ/sigma) :  Generic Signature Format for SIEM Systems
    * [Sigma Rule Converter](https://sigconverter.io/) : Convert Sigma Rules to various detection pipelines
-   * [Splunk](https://www.splunk.com/) : Best in class SIEM   
+   * [Splunk](https://www.splunk.com/) : Best in class SIEM
+   * [Phantom Community Playbooks](https://github.com/phantomcyber/playbooks) : Splunk SOAR Playbooks.  Good source of inspiration even if you can't afford Splunk
 
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
@@ -266,6 +277,14 @@ Landing zone for all things..loosley categorized!
 
 ### Rancher Kubernetes Engine
    * [Deploying k8s on Bare Metal (equinix) with RKE](https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides/deploy-rancher-manager/equinix-metal)
+
+## Languages, Parsers, and Translators
+   *[elvish](https://github.com/elves/elvish):  Powerful scripting language & versatile interactive shell written in go
+   * [grule](https://github.com/hyperjumptech/grule-rule-engine): go-based rule engine
+   * [gval](https://github.com/PaesslerAG/gval) : Go-based evaluator pkg.  Gval can evaluate expressions with parameters, arimethetic, logical, and string operations
+   * [tengo](https://github.com/d5/tengo) : an embedding script language for Go.  Usecases:  rule engine, state management, CI/CD.  
+
+
 
 ## Linux Essential
    * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
