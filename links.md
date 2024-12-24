@@ -193,13 +193,13 @@ Landing zone for all things..loosley categorized!
    * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
 
 ## Data Systems
-   * [Database of databases](https://dbdb.io/) :  fantastic taxonomy of database management systems
 
 ### Data Models
    *  [brim](https://www.brimdata.io/) : A novel data lake based on super-structured data
 
 ### Databases
-   * [Database of databases](https://dbdb.io/) :  fantastic taxonomy of database management systems
+   * [Database of databases](https://dbdb.io/) :  **fantastic** taxonomy of database management systems
+   * [GUN](https://gun.eco/docs/Introduction) : Distributed Graph database. Technically, GUN is a graph synchronization protocol with a lightweight embedded engine, capable of doing 20M+ API ops/sec in just ~9KB gzipped size.
 
 ### Data Lakes
    * [zed](https://github.com/brimdata/zed) : Zed offers a new approach to data that makes it easier to manipulate and manage your data.
