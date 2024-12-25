@@ -27,6 +27,7 @@ Landing zone for all things..loosley categorized!
    * [Poe](https://poe.com/login) : multi ChatBot interface
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    * [fabric](https://github.com/danielmiessler/fabric) : open-source framework for augmenting humans using AI
+   * [n8n.io](https://n8n.io) Automation software
 
 ### Large Language Model Links (LLM)
    * [axolotl](https://axolotl.ai/) :  LLM fine-tuning
