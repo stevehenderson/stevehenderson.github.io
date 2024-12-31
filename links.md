@@ -143,13 +143,16 @@ Landing zone for all things..loosley categorized!
    * [openCTI](https://www.opencti.io/en/)
    * [Fing](https://app.fing.com/business/devrecog/demo) : Device fingerprinting
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
-   * [SpiderFoot](https://www.spiderfoot.net/)
+   * [SpiderFoot](https://www.spiderfoot.net/) :
+   * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots github for IoCs.  Organized by CVE, Threat, and more
 
 ### Cyber Operations
    * [Honeypot + SOC](https://github.com/0xbythesecond/Azure-SOC-Honeynet-Project) : Great example Security Operations center defending a honey network!
+   * [Fast Incident Response (FIR)](https://github.com/certsocietegenerale/FIR) : A cyber-security incident handling system
 
 ### General
    * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
+   * [OSINT Framework](https://osintframework.com/) : A slick and comprehensive list of many cyber resources
 
 ### Malware
    * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
