@@ -207,14 +207,14 @@
 .highlight {
   color: #f8f8f2;
   background-color: #49483e;
-  width: 2000px
+  width: fit-content
 }
 
 /* CSS for styling code blocks on a white background */
 
 code {
     font-family: 'Courier New', Courier, monospace;    
-    color: #333; /* Dark text color */
+    color: #5555; /* Dark text color */
     padding: 2px 4px;
     border-radius: 4px;
     width: 100%;
