@@ -216,6 +216,9 @@ code {
     color: #333; /* Dark text color */
     padding: 2px 4px;
     border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
 }
 
 
