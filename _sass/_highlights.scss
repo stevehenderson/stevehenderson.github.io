@@ -222,6 +222,17 @@ code {
     display: block;
 }
 
+td code {
+    font-family: 'Courier New', Courier, monospace;    
+    color: #FFF;
+    padding: 2px 4px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+
 pre.rouge-code {
   color: #ffffff;  
 }
