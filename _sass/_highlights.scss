@@ -214,7 +214,7 @@
 
 code {
     font-family: 'Courier New', Courier, monospace;    
-    color: #5555; /* Dark text color */
+    color: #3333; /* Dark text color */
     padding: 2px 4px;
     border-radius: 4px;
     width: 100%;
@@ -222,6 +222,9 @@ code {
     display: block;
 }
 
+pre.rouge-code {
+  color: #ffffff;  
+}
 
 pre.lineno {
   color: #ffffff;  
