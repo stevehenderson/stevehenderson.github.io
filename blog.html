@@ -4,14 +4,14 @@ title: Blog
 permalink: /blog/
 ---
 
-<h1>Blob Articles</h1>
-
 Random musings about data, security, coding..
 
-<div class="posts">
-  {% for post in site.posts%}
+<div class="blog-posts">
+  {% for post in site.posts %}
     <article class="post">
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      <p class="post-summary">{{ post.excerpt }}</p>
     </article>
   {% endfor %}
 </div>
