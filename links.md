@@ -34,6 +34,8 @@ Landing zone for all things..loosley categorized!
    * [deepmark](https://github.com/IngestAI/deepmark) : Enables a unique testing environment for language models (LLM) assessment on task-specific metrics and on your own data
    * [LM Studio](https://lmstudio.ai/) : Excellent LLM IDE/Workbench.  Integrates with HuggingFace.   Provides API
    * [ollama](https://github.com/ollama/ollama) : A toolkit for working with LLMs.  Bindings for python on js.
+   * [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/). 
+ Top vulnerability for LLMs.  [2025 report](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/).
 
 ## Asset Management
    * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
