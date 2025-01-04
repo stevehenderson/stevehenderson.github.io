@@ -184,7 +184,12 @@ Landing zone for all things..loosley categorized!
 ### Threat Emulation
    * [Caldera](https://caldera.mitre.org/) : MITRE Threat Emulation Platform
    * [Scythe](https://scythe.io/):  Emulates real-worl adversarial campaigns.  Commercial product.
-   * [PurpleSHarp](https://github.com/mvelazc0/PurpleSharp): adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments
+   * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp): adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments
+
+### Vulnerability Testing / Pentesting Practice
+   * [Vulnhub Docker Images](https://github.com/vulhub/vulhub)
+   * [Vulhub VMs](https://www.vulnhub.com/) : Treasure trove of vulnerable and challenge VMs
+     * [42challenge](https://www.vulnhub.com/entry/42challenge-1,465/) : A nice intermediate challenge
      
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
