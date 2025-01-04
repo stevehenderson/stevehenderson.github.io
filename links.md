@@ -176,6 +176,10 @@ Landing zone for all things..loosley categorized!
    * [Splunk](https://www.splunk.com/) : Best in class SIEM
    * [Phantom Community Playbooks](https://github.com/phantomcyber/playbooks) : Splunk SOAR Playbooks.  Good source of inspiration even if you can't afford Splunk
 
+### Threat Emulation
+   * [Scythe](https://scythe.io/):  Emulates real-worl adversarial campaigns.  Commercial product.
+   * [PurpleSHarp](https://github.com/mvelazc0/PurpleSharp): adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments
+     
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
