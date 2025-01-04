@@ -37,6 +37,11 @@ Landing zone for all things..loosley categorized!
    * [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/). 
  Top vulnerability for LLMs.  [2025 report](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/).
 
+### AI Cyber Security
+   * [Arsenal](https://github.com/mitre-atlas/arsenal) : CALDERA plugin for adversary emulation of AI-enabled systems
+   * [MITRE Atlas]: ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
+   * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project 
+
 ## Asset Management
    * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
 
@@ -177,6 +182,7 @@ Landing zone for all things..loosley categorized!
    * [Phantom Community Playbooks](https://github.com/phantomcyber/playbooks) : Splunk SOAR Playbooks.  Good source of inspiration even if you can't afford Splunk
 
 ### Threat Emulation
+   * [Caldera](https://caldera.mitre.org/) : MITRE Threat Emulation Platform
    * [Scythe](https://scythe.io/):  Emulates real-worl adversarial campaigns.  Commercial product.
    * [PurpleSHarp](https://github.com/mvelazc0/PurpleSharp): adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments
      
