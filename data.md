@@ -111,8 +111,9 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [AWS Open Data](https://registry.opendata.aws/) : Large scale AWS-ready datasets
    * [Stack Overflow Archive](https://archive.org/details/stackexchange) : Historical stackoverflow data (posts, replies, etc)
 
-## GIS
+## GIS / Location
    * [Equator Studios LiDAR](https://equatorstudios.com/) : Great source for LiDAR
+   * [GeoNames](https://www.geonames.org/) : GeoNames contains over 25 million geographical names and consists of over 12 million unique features whereof 4.8 million populated places and 16 million alternate names. All features are categorized into one out of nine feature classes and further subcategorized into one out of 645 feature codes.  Free / CC/
 
 ## Images
 
