@@ -145,10 +145,13 @@ Landing zone for all things..loosley categorized!
    * [greynoise](https://greynoise.io/) : Identify internet noise and attacks
    * [Talos Intelligence](https://www.talosintelligence.com/) : IP Info and threats by Cisco
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
-   * [cyberIntelMatrix](https://cyberintelmatrix.com/)  
+   * [cyberIntelMatrix](https://cyberintelmatrix.com/)
+   * [IpInfo](https://ipinfo.io/) : best in class ip enrichment for geolocation, company, RDNS, Whois, etc
+   * [ipapi.is](https://ipapi.is/) : Solid ip enrichment for geolocation and more.  Generous free tier and api.
    * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
    * [openCTI](https://www.opencti.io/en/)
    * [Fing](https://app.fing.com/business/devrecog/demo) : Device fingerprinting
+   * [PulsediveCTI](https://pulsedive.com/) : Comprehensive and affordable cybre threat intelligence indicator with API
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/) :
    * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots github for IoCs.  Organized by CVE, Threat, and more
