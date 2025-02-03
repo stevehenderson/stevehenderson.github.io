@@ -170,7 +170,6 @@ Landing zone for all things..loosley categorized!
    * [Fast Incident Response (FIR)](https://github.com/certsocietegenerale/FIR) : A cyber-security incident handling system
 
 ### General
-   * [DFIR Tool List](https://awesomedfir.com/dfir-tooling) : Extensive list of stuff
    * [OSINT Framework](https://osintframework.com/) : A slick and comprehensive list of many cyber resources
 
 ### Malware
@@ -340,6 +339,7 @@ Landing zone for all things..loosley categorized!
    * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
    * [Twingate ](https://www.twingate.com/) : Twingate secure remote network bridge.  Like a VPN.
    * [Mullvad](https://mullvad.net/en) :  Mullvad VPN service.  Cheap with support for Wireguard and OpenVPN
+   * [RIPE Atlas](https://atlas.ripe.net/) :  RIPE Atlas employs a global network of probes that measure Internet connectivity and reachability, providing an unprecedented understanding of the state of the Internet in real time.
 
 ### DNS Discovery
    * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
