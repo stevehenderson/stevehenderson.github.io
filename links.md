@@ -155,6 +155,8 @@ Landing zone for all things..loosley categorized!
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/) :
    * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots github for IoCs.  Organized by CVE, Threat, and more
+   * [T-Mobile US Geo IP](https://github.com/tmobile/tmus-geofeed/blob/main/tmus-geo-ip.txt) : T-Mobile US Geolocation Datafeed
+   * [IETF RFC8805](datatracker.ietf.org/doc/html/rfc8805) : IETF RFC8805 Data Tracker
 
 ### Cyber Operations
    * [Honeypot + SOC](https://github.com/0xbythesecond/Azure-SOC-Honeynet-Project) : Great example Security Operations center defending a honey network!
