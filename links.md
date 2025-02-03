@@ -155,10 +155,12 @@ Landing zone for all things..loosley categorized!
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
    * [SpiderFoot](https://www.spiderfoot.net/) :
    * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots github for IoCs.  Organized by CVE, Threat, and more
+   * [Lord Alfred IP Ranges](https://github.com/lord-alfred/ipranges) : Lord Alfred's List of IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft, Oracle (Cloud), GitHub, Facebook (Meta), OpenAI (GPTBot) and other with daily updates.
 
 #### RFC8805 GeoFeeds
 
-   * [AWS Geo Ip Feed](https://raw.githubusercontent.com/chriselsen/AWS-Geofeed/main/data/aws-geofeed.txt) : AWS GeoIp Feed
+   * [AWS GeoFeed](https://raw.githubusercontent.com/chriselsen/AWS-Geofeed/main/data/aws-geofeed.txt) : AWS GeoIp Feed
+   * [Netflix GeoFeed](https://github.com/Netflix/nflx-geofeed/blob/main/geofeed.csv) : Netflix GeoFeed
    * [T-Mobile US Geo IP](https://github.com/tmobile/tmus-geofeed/blob/main/tmus-geo-ip.txt) : T-Mobile US Geolocation Datafeed
    * [Verizon GeoFeed](https://github.com/Verizon/verizon-geofeed/blob/main/feed.csv) : Verizon GeoFeed
    * [IETF RFC8805](https://datatracker.ietf.org/doc/html/rfc8805) : IETF RFC8805 Documentation
