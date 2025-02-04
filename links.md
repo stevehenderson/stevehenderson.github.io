@@ -39,7 +39,7 @@ Landing zone for all things..loosley categorized!
 
 ### AI Cyber Security
    * [Arsenal](https://github.com/mitre-atlas/arsenal) : CALDERA plugin for adversary emulation of AI-enabled systems
-   * [MITRE Atlas]: ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
+   * [MITRE Atlas](https://atlas.mitre.org/): ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
    * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project 
 
 ## Asset Management
@@ -172,6 +172,7 @@ Landing zone for all things..loosley categorized!
 
 ### General
    * [OSINT Framework](https://osintframework.com/) : A slick and comprehensive list of many cyber resources
+   * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber trends
 
 ### Malware
    * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
@@ -341,6 +342,7 @@ Landing zone for all things..loosley categorized!
    * [Twingate ](https://www.twingate.com/) : Twingate secure remote network bridge.  Like a VPN.
    * [Mullvad](https://mullvad.net/en) :  Mullvad VPN service.  Cheap with support for Wireguard and OpenVPN
    * [RIPE Atlas](https://atlas.ripe.net/) :  RIPE Atlas employs a global network of probes that measure Internet connectivity and reachability, providing an unprecedented understanding of the state of the Internet in real time.
+   * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber and networking trends
 
 ### DNS Discovery
    * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
