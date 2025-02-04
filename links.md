@@ -148,6 +148,7 @@ Landing zone for all things..loosley categorized!
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [IpInfo](https://ipinfo.io/) : best in class ip enrichment for geolocation, company, RDNS, Whois, etc
    * [ipapi.is](https://ipapi.is/) : Solid ip enrichment for geolocation and more.  Generous free tier and api.
+   * [db-ip](https://db-ip.com/) : Another good ip enrichment for geolocation.  Creative commons, commercial-ready free-tier.
    * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
    * [openCTI](https://www.opencti.io/en/)
    * [Fing](https://app.fing.com/business/devrecog/demo) : Device fingerprinting
