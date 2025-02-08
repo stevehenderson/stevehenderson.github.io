@@ -1,11 +1,9 @@
 ---
 layout: post
-title: The Importance of Secure Boot
+title: iSCSI Applications & Security
 categories: ['blog']
 tags: ['cyber', 'iscsi', 'networking']
 ---
-
-# Using iSCSI to Securely Add Storage to Your Networked Devices
 
 iSCSI (Internet Small Computer Systems Interface) is a powerful protocol that allows you to extend storage capabilities over a network. Whether you're managing a home office setup or a full-fledged data center, iSCSI can help you integrate Network Attached Storage (NAS) devices with hypervisors like VMware ESXi. However, like any network device, iSCSI present a number of security vulnerabilities and attack surfaces that must be considered.  This guide will explore the iSCSI protocol, its applications, and various security considerations to ensure your data remains protected.
 
