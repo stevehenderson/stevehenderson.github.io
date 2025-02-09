@@ -207,6 +207,7 @@ Landing zone for all things..loosley categorized!
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
+   * [Bacalhau](https://docs.bacalhau.org/) : Platform for fast, cost-efficient, and secure computation by running jobs (WASM workers or docker containers) in distributed network
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
    * [chdb](https://doc.chdb.io/#/) : chDB is an embedded OLAP SQL Engine 🚀 powered by ClickHouse.  Supports many backend and file formats.
    * [Cribl](https://docs.cribl.io/stream/about/): Cribl Stream is an observability and data streaming platform for real-time processing of logs, metrics, traces, and data
@@ -288,6 +289,7 @@ Landing zone for all things..loosley categorized!
    * [Great intro to IPFS](https://www.youtube.com/watch?v=KIEq2FyMczs)
    * [Hands-on IPFS](https://www.youtube.com/watch?v=GJ2980DWdyc)
    * [Using IPFS with replication](https://cestoliv.com/blog/using-ipfs-for-data-replication/)
+   * [Pinata](https://pinata.cloud/): IPFS Private network provider; IPFS Pinning
 
 ## Kubernetes
 
@@ -482,7 +484,9 @@ Landing zone for all things..loosley categorized!
   * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
   * [Meson Network](https://www.meson.network/): the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem
   * [FileCoin](https://filecoin.io/build/#intro) : A Web3 distributed filesystem and related ecosystem.  Linked to crypto currency economics
-  * [Tableland](https://docs.tableland.xyz/) : A Web3 decentralized database built on Ehtereum, FileCoin, others and based on sqlite 
+  * [Tableland](https://docs.tableland.xyz/) : A Web3 decentralized database built on Ehtereum, FileCoin, others and based on sqlite
+  * [Lighthouse](https://lighthouse.storage) : A Web3 storage provide; It is built on IPFS and Filecoin.
+  * [Singularity](https://singularity.storage/) : Mass migration tool for moving data into Filecoin.
 
 ## Window Essential
    * [CygWin](https://www.cygwin.com/): Linux like environment on Windows
