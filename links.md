@@ -64,6 +64,7 @@ Landing zone for all things..loosley categorized!
    * [rclone](https://rclone.org/) : Clone data from Cloud Storage X to Cloud Storage Y.  Supports Google GCS, AWS S3, Azure, and more!
    * [Cloudflare R2](https://developers.cloudflare.com/r2/) : Object storage for all your data
    * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
+   * [Akash Network](https://akash.network/) : Decentralized compute marketplace
        
 ### Cloud Filesystems
    * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end to end encyption and may other features
@@ -283,6 +284,8 @@ Landing zone for all things..loosley categorized!
    * [runpod.io](runpod.io) : Globally distributed GPU containers.  Pay as you go.
    * [fly.io](https://fly.io/) : Deploy containers anywhere in the world.  K8s IaaS
    * [LimaCharlie](https://limacharlie.io/) : Security Infrastructure as a Service.  Handles collection, streaming analytics, and moving data
+   * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
+   * [Akash Network](https://akash.network/) : Decentralized compute marketplace
 
 ## Interplanetary File System (IPFS)
    * [Kubo](https://github.com/ipfs/kubo):  the first and most widely used IPFS implementation today
