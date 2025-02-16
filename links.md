@@ -147,6 +147,7 @@ Landing zone for all things..loosley categorized!
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [IpInfo](https://ipinfo.io/) : best in class ip enrichment for geolocation, company, RDNS, Whois, etc
+   * [ip2location](https://lite.ip2location.com/) : IP Geolocation.  Generoud Free Tier
    * [ipapi.is](https://ipapi.is/) : Solid ip enrichment for geolocation and more.  Generous free tier and api.
    * [db-ip](https://db-ip.com/) : Another good ip enrichment for geolocation.  Creative commons, commercial-ready free-tier.
    * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
