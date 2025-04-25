@@ -416,6 +416,7 @@ Landing zone for all things..loosley categorized!
    * [Grist](https://github.com/gristlabs/grist-core#readme) : An open source alternative to Google Sheets
    * [LibreOffice](https://www.libreoffice.org/) : An open-source alternative to MS Orffice.  Has an unsupported [online](https://www.libreoffice.org/download/libreoffice-online/) version
    * [OwnCloud](https://owncloud.com/) : an open source alternative for Google Drive
+   * [Cosmos Cloud](https://cosmos-cloud.io/) :  The Most Secure and Easy Selfhosted Home Server.
 
 ## Publications
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
