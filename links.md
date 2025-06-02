@@ -349,6 +349,7 @@ Landing zone for all things..loosley categorized!
    * [Mullvad](https://mullvad.net/en) :  Mullvad VPN service.  Cheap with support for Wireguard and OpenVPN
    * [RIPE Atlas](https://atlas.ripe.net/) :  RIPE Atlas employs a global network of probes that measure Internet connectivity and reachability, providing an unprecedented understanding of the state of the Internet in real time.
    * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber and networking trends
+   * [GlobalPing](https://globalping.io/) : Global ping/tracert as a service
 
 ### DNS Discovery
    * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
