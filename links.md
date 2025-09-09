@@ -239,6 +239,8 @@ Landing zone for all things..loosley categorized!
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
    * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
    * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
+   * [Meltano](https://github.com/meltano/meltano) : A fantastic middleware + CLI for moving data between various formats and APIs.  Singer compatible.
+   * [Singer](https://github.com/singer-io/getting-started) : Singer is an open source standard for moving data between databases, web APIs, files, queues, and just about anything else you can think of
 
 ## Data Systems
 
