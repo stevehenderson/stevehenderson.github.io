@@ -501,6 +501,7 @@ Landing zone for all things..loosley categorized!
    * [CygWin](https://www.cygwin.com/): Linux like environment on Windows
    * [MobaXterm](https://mobaxterm.mobatek.net/) : Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
    * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) : Windows Subsystem for Linux
+   * [PingCastle](https://www.pingcastle.com/) : Active Directory Vulnerability Management
 
 ## Workflow Automation / Management 
    * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
