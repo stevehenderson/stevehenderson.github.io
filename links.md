@@ -331,6 +331,7 @@ Landing zone for all things..loosley categorized!
 ## Linux Essential
    * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
    * [NoMachine](https://www.nomachine.com/) : Remote Desktop
+   * [Linux Toolbox](https://cb.vu/unixtoolbox.html) : Excellent reference guide
 
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
