@@ -8,6 +8,9 @@ permalink: /cyber/
 ### CMMC
   * [CyberAB](https://cyberab.org/) : The official accreditation body of the Cybersecurity Maturity Model Certification (CMMC) Ecosystem and the sole authorized non-governmental partner of the U.S. Department of Defense in implementing and overseeing the CMMC conformance regime.
 
+### CTI
+   * [Curated Intel CTI Research Guide](https://github.com/curated-intel/The-CTI-Research-Guide) : A nice guide to performing CTI
+
 ### Data
 
   * See [Cyber Data](https://stevehenderson.github.io/data/)
@@ -24,7 +27,6 @@ permalink: /cyber/
 ### Links
 
    * [ParrotOS](https://parrotsec.org/) : A debian-based security operating systems
-
 
 ### PCAPs
 
