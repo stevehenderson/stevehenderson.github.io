@@ -7,14 +7,15 @@ permalink: /links/
 Landing zone for all things..loosley categorized!
 
 ## API Tools
-   * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
+   * [Bruno](https://www.usebruno.com/) : Fantastic API testing and dev tool
+   * [Insomnia](https://insomnia.rest/) : U formerly Fantastic API testing and dev tool.  Not so good anymore :(
    * [Paw](https://paw.cloud/) : Mac only API tools
    * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerfied and ready to roll.
 
 ## Artificial Intelligence / Machine Learning
 
 ### Agenic AI
-   * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agenets
+   * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agents
    * [Langroid](https://github.com/langroid/langroid) : An intuitive, lightweight, extensible and principled Python framework to easily build LLM-powered applications
    * [monoid](https://github.com/munkim/monoid) : Build AI Agents directly on top of your APIs
    * [Open Agents](https://github.com/xlang-ai/OpenAgents) 
@@ -40,7 +41,10 @@ Landing zone for all things..loosley categorized!
 ### AI Cyber Security
    * [Arsenal](https://github.com/mitre-atlas/arsenal) : CALDERA plugin for adversary emulation of AI-enabled systems
    * [MITRE Atlas](https://atlas.mitre.org/): ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
-   * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project 
+   * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project
+
+### AI Agent Tools
+  * [Keep](https://www.keephq.dev/) : AI managed alerts and logs
 
 ## Asset Management
    * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
