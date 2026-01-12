@@ -9,7 +9,7 @@ permalink: /cyber/
   * [CyberAB](https://cyberab.org/) : The official accreditation body of the Cybersecurity Maturity Model Certification (CMMC) Ecosystem and the sole authorized non-governmental partner of the U.S. Department of Defense in implementing and overseeing the CMMC conformance regime.
 
 ### CTI
-   * [Curated Intel CTI Research Guide](https://github.com/curated-intel/The-CTI-Research-Guide) : A nice guide to performing CTI
+   * [Currated Intel CTI Research Guide](https://github.com/curated-intel/The-CTI-Research-Guide) : A nice guide to performing CTI
 
 ### Data
 
@@ -32,8 +32,12 @@ permalink: /cyber/
 
    * [TIMInfosec](https://github.com/neu5ron/TMInfosec/blob/master/Datasets/PCAPs.md)
 
-
 ### Publications
+
+### Standards
+  * [Elastic Common Schema](https://www.elastic.co/docs/reference/ecs) : ECS defines a common set of fields to be used when storing event data in Elasticsearch, such as logs and metrics.
+  * [MITRE ATT&CK](https://attack.mitre.org/) :  Globally-accessible knowledge base of adversary tactics and techniques based on real-world observations
+  * [Open Cybersecurity Schema Framework](https://schema.ocsf.io/1.7.0/?extensions=)  : Extensive Cybersecurity focused on technical details
 
 
 
