@@ -173,6 +173,16 @@ Landing zone for all things..loosley categorized!
 ### General
    * [OSINT Framework](https://osintframework.com/) : A slick and comprehensive list of many cyber resources
    * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber trends
+   * See also: [Cyber Page](https://stevehenderson.github.io/cyber/) for CMMC resources and publications
+
+### Cyber Tools
+   * [BGPView](https://bgpview.io/) : Lookup ASN and Ips
+   * [BinaryEdge](https://www.binaryedge.io/) : Internet scanner
+   * [CloudShark Personal](https://www.cloudshark.org/login) : Wireshark in the cloud
+   * [Censys](https://censys.io/) : Attack surface management
+   * [KeyCaliber](https://www.keycaliber.com/) : Risk management platform
+   * [ParrotOS](https://parrotsec.org/) : A debian-based security operating system
+   * [REx : Rule Explorer](https://rulexplorer.io/) : Sweet search engine for all types of rule based signatures and SEIMs
 
 ### Malware
    * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
