@@ -28,6 +28,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Majestic Million - Site](https://majestic.com/reports/majestic-million) : Free search and download of the top million websites
    * [Majestic Million - Data](http://downloads.majestic.com/majestic_million.csv) : Majestic Million Daily snapshot
    * [DomainIQ](https://www.domainiq.com/) : Great site for domain intel
+   * [The Hackers Choice](https://ip.thc.org) :   The world’s largest IP<>Domain database. Massive, free rDNS data set.  Includes CNAME and subdomains.
    
 ### Low-Level Data (PCAP, Zeek, etc)
 
@@ -48,7 +49,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [KDD CUP 99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) : A baseline dataset for IDS.  See: Stolfo, J., et al. "Cost-based modeling and evaluation for data mining with application to fraud and intrusion detection." Results from the JAM Project by Salvatore (2000).
 
-   * [ICS-Security-Tools PCAPs](https://github.com/ITI/ICS-Security-Tools/tree/master/pcaps) : Nice collection of ICS PCAPs -- MELSEC, Zigbee, CIP and many more.
+   * [ICS-Security-Tools PCAPs](https://github.com/ITI/ICS-Security-Tools/tree/master/pcaps) : Nice collection of ICS PCAPs -- MELSEC, Zigbee, CIP and many more.  Follow link to google drive.
 
    * [Kitsune PCAPs](https://drive.google.com/drive/folders/1kmoWY4poGWfmmVSdSu-r_3Vo84Tu4PyE) : PCAPs for the [Kitsune ANN paper](https://archive.ics.uci.edu/ml/datasets/Kitsune+Network+Attack+Dataset)
 
@@ -57,6 +58,8 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [NETRESEC Data](http://www.netresec.com/?page=PcapFiles) : Lots of CDX and CTF data!
 
    * [NSL-KDD](https://web.archive.org/web/20150205070216/http://nsl.cs.unb.ca/NSL-KDD/) : Augments issues with earlier version KDD CUP 99 (see above).  Also available from [here](http://www.unb.ca/research/iscx/dataset/iscx-NSL-KDD-dataset.html)
+
+   * [OpTC Data](https://github.com/FiveDirections/OpTC-data/tree/master) : Massive public dataset from DARPA CHASE.  Raw data and data formatted as Extended Cyber Analytics Repository Model
 
    * [PandaCAP](https://zenodo.org/record/3759652#.Y5juvtLMJhE) : PandaCap PCAP, a dataset of 63 PANDA traces from honeynet, collected using the PANDAcap framework
 
@@ -75,6 +78,10 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [DoH -- Real-World](https://zenodo.org/record/5956044#.YyCeA9LMJhE) : A very large ISP network
      
    * [CESNET-TLS22](https://zenodo.org/records/7965515) : CESNET-TLS22: A large dataset for fine-grained classification of TLS services
+
+   * [Wireshark Wiki](https://wiki.wireshark.org/samplecaptures) : Assorted PCAPs with descriptions.  Some rare examples in here.
+
+   * [Practical Packet Analysis Packets](https://github.com/markofu/pcaps/tree/master/PracticalPacketAnalysis) : A nice collection of documented PCAPS from Chris Sanders.
 
 ### Mocking Data
 
@@ -134,4 +141,6 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Impact Cyber Trust](https://www.impactcybertrust.org/search?filter[]=Datasets&filter[]=pcap) : Mass repo of Cyber data
      
 
+## Logs
 
+   * [](https://github.com/logpai/loghub) : LogHub - A large collection of system log datasets for AI-driven log analytics

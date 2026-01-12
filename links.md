@@ -7,14 +7,15 @@ permalink: /links/
 Landing zone for all things..loosley categorized!
 
 ## API Tools
-   * [Insomnia](https://insomnia.rest/) : Fantastic API testing and dev tool
+   * [Bruno](https://www.usebruno.com/) : Fantastic API testing and dev tool
+   * [Insomnia](https://insomnia.rest/) : U formerly Fantastic API testing and dev tool.  Not so good anymore :(
    * [Paw](https://paw.cloud/) : Mac only API tools
    * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerfied and ready to roll.
 
 ## Artificial Intelligence / Machine Learning
 
 ### Agenic AI
-   * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agenets
+   * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agents
    * [Langroid](https://github.com/langroid/langroid) : An intuitive, lightweight, extensible and principled Python framework to easily build LLM-powered applications
    * [monoid](https://github.com/munkim/monoid) : Build AI Agents directly on top of your APIs
    * [Open Agents](https://github.com/xlang-ai/OpenAgents) 
@@ -40,7 +41,10 @@ Landing zone for all things..loosley categorized!
 ### AI Cyber Security
    * [Arsenal](https://github.com/mitre-atlas/arsenal) : CALDERA plugin for adversary emulation of AI-enabled systems
    * [MITRE Atlas](https://atlas.mitre.org/): ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
-   * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project 
+   * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project
+
+### AI Agent Tools
+  * [Keep](https://www.keephq.dev/) : AI managed alerts and logs
 
 ## Asset Management
    * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
@@ -64,6 +68,7 @@ Landing zone for all things..loosley categorized!
    * [rclone](https://rclone.org/) : Clone data from Cloud Storage X to Cloud Storage Y.  Supports Google GCS, AWS S3, Azure, and more!
    * [Cloudflare R2](https://developers.cloudflare.com/r2/) : Object storage for all your data
    * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
+   * [Akash Network](https://akash.network/) : Decentralized compute marketplace
        
 ### Cloud Filesystems
    * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end to end encyption and may other features
@@ -147,6 +152,7 @@ Landing zone for all things..loosley categorized!
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
    * [cyberIntelMatrix](https://cyberintelmatrix.com/)
    * [IpInfo](https://ipinfo.io/) : best in class ip enrichment for geolocation, company, RDNS, Whois, etc
+   * [ip2location](https://lite.ip2location.com/) : IP Geolocation.  Generoud Free Tier
    * [ipapi.is](https://ipapi.is/) : Solid ip enrichment for geolocation and more.  Generous free tier and api.
    * [db-ip](https://db-ip.com/) : Another good ip enrichment for geolocation.  Creative commons, commercial-ready free-tier.
    * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
@@ -217,6 +223,7 @@ Landing zone for all things..loosley categorized!
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
+   * [Bacalhau](https://docs.bacalhau.org/) : Platform for fast, cost-efficient, and secure computation by running jobs (WASM workers or docker containers) in distributed network
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
    * [chdb](https://doc.chdb.io/#/) : chDB is an embedded OLAP SQL Engine 🚀 powered by ClickHouse.  Supports many backend and file formats.
    * [Cribl](https://docs.cribl.io/stream/about/): Cribl Stream is an observability and data streaming platform for real-time processing of logs, metrics, traces, and data
@@ -246,6 +253,8 @@ Landing zone for all things..loosley categorized!
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
    * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
    * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
+   * [Meltano](https://github.com/meltano/meltano) : A fantastic middleware + CLI for moving data between various formats and APIs.  Singer compatible.
+   * [Singer](https://github.com/singer-io/getting-started) : Singer is an open source standard for moving data between databases, web APIs, files, queues, and just about anything else you can think of
 
 ## Data Systems
 
@@ -291,6 +300,8 @@ Landing zone for all things..loosley categorized!
    * [runpod.io](runpod.io) : Globally distributed GPU containers.  Pay as you go.
    * [fly.io](https://fly.io/) : Deploy containers anywhere in the world.  K8s IaaS
    * [LimaCharlie](https://limacharlie.io/) : Security Infrastructure as a Service.  Handles collection, streaming analytics, and moving data
+   * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
+   * [Akash Network](https://akash.network/) : Decentralized compute marketplace
 
 ## Interplanetary File System (IPFS)
    * [Kubo](https://github.com/ipfs/kubo):  the first and most widely used IPFS implementation today
@@ -298,6 +309,7 @@ Landing zone for all things..loosley categorized!
    * [Great intro to IPFS](https://www.youtube.com/watch?v=KIEq2FyMczs)
    * [Hands-on IPFS](https://www.youtube.com/watch?v=GJ2980DWdyc)
    * [Using IPFS with replication](https://cestoliv.com/blog/using-ipfs-for-data-replication/)
+   * [Pinata](https://pinata.cloud/): IPFS Private network provider; IPFS Pinning
 
 ## Kubernetes
 
@@ -333,6 +345,7 @@ Landing zone for all things..loosley categorized!
 ## Linux Essential
    * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
    * [NoMachine](https://www.nomachine.com/) : Remote Desktop
+   * [Linux Toolbox](https://cb.vu/unixtoolbox.html) : Excellent reference guide
 
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
@@ -353,6 +366,7 @@ Landing zone for all things..loosley categorized!
    * [Mullvad](https://mullvad.net/en) :  Mullvad VPN service.  Cheap with support for Wireguard and OpenVPN
    * [RIPE Atlas](https://atlas.ripe.net/) :  RIPE Atlas employs a global network of probes that measure Internet connectivity and reachability, providing an unprecedented understanding of the state of the Internet in real time.
    * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber and networking trends
+   * [GlobalPing](https://globalping.io/) : Global ping/tracert as a service
 
 ### DNS Discovery
    * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
@@ -420,6 +434,7 @@ Landing zone for all things..loosley categorized!
    * [Grist](https://github.com/gristlabs/grist-core#readme) : An open source alternative to Google Sheets
    * [LibreOffice](https://www.libreoffice.org/) : An open-source alternative to MS Orffice.  Has an unsupported [online](https://www.libreoffice.org/download/libreoffice-online/) version
    * [OwnCloud](https://owncloud.com/) : an open source alternative for Google Drive
+   * [Cosmos Cloud](https://cosmos-cloud.io/) :  The Most Secure and Easy Selfhosted Home Server.
 
 ## Publications
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
@@ -491,12 +506,17 @@ Landing zone for all things..loosley categorized!
   * [FluxCloud](https://runonflux.io/) : Decentralized, distributed compute and storage.  Affordable!
   * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
   * [Meson Network](https://www.meson.network/): the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem
+  * [Nostr](https://nostr.com/): Nostr is a simple, open protocol that enables global, decentralized, and censorship-resistant social media.
   * [FileCoin](https://filecoin.io/build/#intro) : A Web3 distributed filesystem and related ecosystem.  Linked to crypto currency economics
+  * [Tableland](https://docs.tableland.xyz/) : A Web3 decentralized database built on Ehtereum, FileCoin, others and based on sqlite
+  * [Lighthouse](https://lighthouse.storage) : A Web3 storage provide; It is built on IPFS and Filecoin.
+  * [Singularity](https://singularity.storage/) : Mass migration tool for moving data into Filecoin.
 
 ## Window Essential
    * [CygWin](https://www.cygwin.com/): Linux like environment on Windows
    * [MobaXterm](https://mobaxterm.mobatek.net/) : Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
    * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) : Windows Subsystem for Linux
+   * [PingCastle](https://www.pingcastle.com/) : Active Directory Vulnerability Management
 
 ## Workflow Automation / Management 
    * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
