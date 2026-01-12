@@ -32,7 +32,6 @@ permalink: /cyber/
   * [CIS Controls](https://www.cisecurity.org/controls) : Prioritized set of actions for cyber defense
   * [OWASP Top 10](https://owasp.org/www-project-top-ten/) : Standard awareness document for web application security
 
-<<<<<<< HEAD
 ### Certifications & Training
 
   * [SANS Institute](https://www.sans.org/) : Premier cybersecurity training and certifications (GIAC)
@@ -41,13 +40,9 @@ permalink: /cyber/
   * [HackTheBox](https://www.hackthebox.com/) : Hands-on cyber training platform with labs
   * [TryHackMe](https://tryhackme.com/) : Gamified cybersecurity learning platform
   * [PentesterLab](https://pentesterlab.com/) : Web penetration testing exercises
-=======
-### PCAPs
->>>>>>> a8fc537dafa89c4d4f406a0ff73ac2fd971385a9
 
 ### Web Publications
 
-<<<<<<< HEAD
   * [CISA Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) : U.S. Cybersecurity and Infrastructure Security Agency threat advisories
   * [Mandiant Threat Intelligence](https://www.mandiant.com/resources/blog) : Leading threat research and APT reports
   * [Krebs on Security](https://krebsonsecurity.com/) : Brian Krebs' investigative security journalism
@@ -59,15 +54,6 @@ permalink: /cyber/
 ### Academic Publications
 
 #### Network Security & Intrusion Detection
-=======
-### Publications
-
-### Standards
-  * [Elastic Common Schema](https://www.elastic.co/docs/reference/ecs) : ECS defines a common set of fields to be used when storing event data in Elasticsearch, such as logs and metrics.
-  * [MITRE ATT&CK](https://attack.mitre.org/) :  Globally-accessible knowledge base of adversary tactics and techniques based on real-world observations
-  * [Open Cybersecurity Schema Framework](https://schema.ocsf.io/1.7.0/?extensions=)  : Extensive Cybersecurity focused on technical details
-
->>>>>>> a8fc537dafa89c4d4f406a0ff73ac2fd971385a9
 
 1. Denning, D. E. (1987). An Intrusion-Detection Model. *IEEE Transactions on Software Engineering*, SE-13(2), 222-232.
 
