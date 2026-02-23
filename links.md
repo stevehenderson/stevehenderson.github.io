@@ -476,6 +476,9 @@ Landing zone for all things..loosley categorized!
 ## Testing
    * [artillery.io](https://www.artillery.io/) : Cloud-scale performance testing
    * [k6.io](https://k6.io/) : Exceptional load testing framework.
+   * [Playwright](https://playwright.dev/): Powerful browser automation framework (javascript)
+   * [Selenium](https://www.selenium.dev/) : Powerful browser automation framework (python).  Primarily it is for automating web applications for testing purposes
+   * [Stagehand](https://www.stagehand.dev/) : AI Browser Automation Framework
 
 ## Training
    * [ACloudGuru](https://acloudguru.com/) : Exceptional training -- formerly Linux academy
