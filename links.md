@@ -18,7 +18,10 @@ Landing zone for all things..loosley categorized!
    * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agents
    * [Langroid](https://github.com/langroid/langroid) : An intuitive, lightweight, extensible and principled Python framework to easily build LLM-powered applications
    * [monoid](https://github.com/munkim/monoid) : Build AI Agents directly on top of your APIs
-   * [Open Agents](https://github.com/xlang-ai/OpenAgents) 
+   * [Open Agents](https://github.com/xlang-ai/OpenAgents)
+   * [Agentic Engineering](https://www.jayminwest.com/agentic-engineering-book):  Outstanding book by Jaymin West
+   * [Overstory](https://github.com/jayminwest/overstory) : Multi-agent orchestration for AI coding agents — pluggable runtime adapters for Claude Code, Pi, and more.  Typescript.  
+   * [Gastown](https://github.com/gastownhall/gastown) : Multi-agent workspace manager
 
 ### General
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
@@ -42,9 +45,13 @@ Landing zone for all things..loosley categorized!
    * [Arsenal](https://github.com/mitre-atlas/arsenal) : CALDERA plugin for adversary emulation of AI-enabled systems
    * [MITRE Atlas](https://atlas.mitre.org/): ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
    * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project
-
+     
 ### AI Agent Tools
   * [Keep](https://www.keephq.dev/) : AI managed alerts and logs
+
+### Machine Learning 
+
+  * [ML Ops](https://ml-ops.org/) :  An end-to-end machine learning development process to design, build and manage reproducible, testable, and evolvable ML-powered software.
 
 ## Asset Management
    * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
