@@ -22,6 +22,8 @@ Landing zone for all things..loosley categorized!
    * [Agentic Engineering](https://www.jayminwest.com/agentic-engineering-book):  Outstanding book by Jaymin West
    * [Overstory](https://github.com/jayminwest/overstory) : Multi-agent orchestration for AI coding agents — pluggable runtime adapters for Claude Code, Pi, and more.  Typescript.  
    * [Gastown](https://github.com/gastownhall/gastown) : Multi-agent workspace manager
+   * [Buidliing a Multi-Agent System](https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/1-building-a-multi-agent-system/building-a-multi-agent-system#0) :  A google tutorial on rolling your own multi-agent system
+   * [The Code Agent Orchestra - what makes multi-agent coding work](https://addyosmani.com/blog/code-agent-orchestra/)_ : Nice Blog (with tools) from Addy Osmani about Multiagent Workflows
 
 ### General
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
