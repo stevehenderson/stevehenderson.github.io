@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /search.json
+sitemap: false
+---
+{%- assign items = site.posts | concat: site.pages -%}
+{%- assign count = 0 -%}
+[
+{%- for item in items -%}
+  {%- if item.title and item.url != "/search.json" and item.search != false -%}
+    {%- if count > 0 -%},{%- endif -%}
+    {
+      "title": {{ item.title | jsonify }},
+      "url": {{ item.url | relative_url | jsonify }},
+      "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
+      "tags": {{ item.tags | join: ", " | jsonify }},
+      "content": {{ item.content | strip_html | normalize_whitespace | truncatewords: 150 | jsonify }}
+    }
+    {%- assign count = count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+]

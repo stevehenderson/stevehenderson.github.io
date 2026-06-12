@@ -1,0 +1,32 @@
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <!-- Defense-in-depth: GitHub Pages can't set HTTP headers, so use meta equivalents.
+         Site search is now self-hosted (no Google CSE). script-src still keeps
+         'unsafe-inline' for a couple of inline scripts (links.md, Gist embeds); tighten
+         to a nonce/hash if those are ever externalized. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://gist.github.com; frame-src https://www.youtube-nocookie.com">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/favicon.svg" />
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/favicon.svg" />
+
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt| strip_html }}" />
+    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    <meta name="author" content="{{ site.name }}" />
+
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ site.baseurl }}{{ site.avatar }}" />
+    <meta name="twitter:card" content="summary" />

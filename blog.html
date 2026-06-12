@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+Random musings about data, security, coding..
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read &middot; {{ post.date | date: "%B %e, %Y" }}</p>
+      <div class="entry">{{ post.excerpt }}</div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more →</a>
+    </article>
+  {% endfor %}
+</div>
