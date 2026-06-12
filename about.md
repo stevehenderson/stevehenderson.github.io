@@ -10,7 +10,7 @@ analytics platforms across enterprise, defense, and federal environments. Deep e
 data science, and analytics-pipeline development — and in building and leading high-performing
 cross-functional engineering teams on mission-critical delivery. Ph.D. in Computer Science.
 
-Today I'm Director of AI Engineering at a Fortune 500 pharmaceutical company. Previously, I directed data
+Today I'm Director of AI Engineering at a Fortune 100 pharmaceutical company. Previously, I directed data
 engineering at Cyberspatial, helping build [Teleseer](https://teleseer.com) — a best-in-class platform for
 understanding and defending networks.
 
