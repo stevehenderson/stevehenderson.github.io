@@ -5,7 +5,7 @@ categories: ['blog']
 tags: ['cyber', 'secureboot']
 ---
 
-Secure Boot is a rather cryptic and opaque security setting on your computer.  In most circumstances, it's something you or your computer's vendor will configure in your machine's BIOS, and then forget about.  Occasionally, you might be tempted to disable this setting to facilitate custom boot scenarios, install certain hardware, or peform botique configurations to your machine.  However, Secure Boot is an essential protection mechanism to help keep your computer safe from the most dangerous and sophisticated cyber security threats.
+Secure Boot is a rather cryptic and opaque security setting on your computer.  In most circumstances, it's something you or your computer's vendor will configure in your machine's BIOS, and then forget about.  Occasionally, you might be tempted to disable this setting to facilitate custom boot scenarios, install certain hardware, or perform boutique configurations to your machine.  However, Secure Boot is an essential protection mechanism to help keep your computer safe from the most dangerous and sophisticated cyber security threats.
 
 ## Overview of secure boot
 
@@ -18,11 +18,11 @@ While Secure Boot provides an essential layer of protection against malicious co
 
 ### Adding Legitimate User Applications
 
-To add a legitimate user application with Secure Boot enabled, the application must be signed with a trusted certificate. This certificate is typically obtained from a trusted Certificate Authority (CA). With modern operating systems, this is handled automatically by the package management system.  For example, on Linux Ubuntu, apt will handle isntalling applications with a trusted certificate.  **It is important when adding apt-keys that you always ensure they are trusted -- if you allow sketchy repos, you can get burnt**.   The packagage manager will add the signed application is then added to the system's whitelist, allowing it to run without being blocked by Secure Boot.  Windows works the same way, with Microsoft only allowing application to be install for which it has a trusted CA relationship built-in to Windows.
+To add a legitimate user application with Secure Boot enabled, the application must be signed with a trusted certificate. This certificate is typically obtained from a trusted Certificate Authority (CA). With modern operating systems, this is handled automatically by the package management system.  For example, on Linux Ubuntu, apt will handle installing applications with a trusted certificate.  **It is important when adding apt-keys that you always ensure they are trusted -- if you allow sketchy repos, you can get burnt**.   The package manager then adds the signed application to the system's whitelist, allowing it to run without being blocked by Secure Boot.  Windows works the same way, with Microsoft only allowing applications to be installed for which it has a trusted CA relationship built-in to Windows.
 
 ### Adding Operating System Files
 
-When adding new operating system files, such as device drivers or system libraries, these files must also be signed with a trusted certificate. Again, a **properly configured** Operating System will handle this as part of its update syetem.  In addition, the operating system's package manager will typically  be configured to verify the integrity of these files during installation. This ensures that only trusted operating system files are installed on the system.
+When adding new operating system files, such as device drivers or system libraries, these files must also be signed with a trusted certificate. Again, a **properly configured** Operating System will handle this as part of its update system.  In addition, the operating system's package manager will typically  be configured to verify the integrity of these files during installation. This ensures that only trusted operating system files are installed on the system.
 
 ### Adding Kernel Modules
 

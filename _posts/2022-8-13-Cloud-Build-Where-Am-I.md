@@ -6,7 +6,7 @@ tags: ['cloudbuild', 'cicd']
 ---
 
 
-[Goolge Cloud Build](https://cloud.google.com/build/docs) is an amazing and powerful capability and my favorite GCP service.
+[Google Cloud Build](https://cloud.google.com/build/docs) is an amazing and powerful capability and my favorite GCP service.
 
 However, it can be hard to conceptualize what's happening inside the builder during its run.
 
@@ -17,7 +17,7 @@ to create some commands that send some valuable debugging information to the bui
 
 
 If you drop this Build Step near the top of your `cloudbuild.yaml` you can see what's in the builder parent directory,
-where you Dockerfile is, etc.
+where your Dockerfile is, etc.
 
 ```python
 import pandas

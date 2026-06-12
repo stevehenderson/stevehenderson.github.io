@@ -9,9 +9,9 @@ tags: ['cyber', 'bios', 'uefi', 'firmware']
 
 This blog post aims to help illuminate the differences between Legacy BIOS, EFI, and UEFI.  Personally, it's a topic and technical evolution I've taken for granted and one which I wanted to better understand. 
 
-A computer's embeeded firmware is the first code that runs when you power on your computer.   Many of us take this for granted.  However, it performs a critical role in the computer's lifecycle.  It is code that initializes hardware and hands off control to the operating system. 
+A computer's embedded firmware is the first code that runs when you power on your computer.   Many of us take this for granted.  However, it performs a critical role in the computer's lifecycle.  It is code that initializes hardware and hands off control to the operating system. 
 
-Firmware, sometimes termed "BIOS", can be classified into three main types: Legacy BIOS, EFI, and UEFI.  These have evolved significantly in the last 15 years, and most computers still support all 3.  So it can be a source of confusion for developers, secutiy pros, and admins.  Understanding differences matters for:
+Firmware, sometimes termed "BIOS", can be classified into three main types: Legacy BIOS, EFI, and UEFI.  These have evolved significantly in the last 15 years, and most computers still support all 3.  So it can be a source of confusion for developers, security pros, and admins.  Understanding differences matters for:
 
   - Security (Secure Boot, rootkit protection)
   - Compatibility (older vs newer hardware/OS)
@@ -37,21 +37,21 @@ There are a number of limitations with the Legacy BIOS approach.  First, the MBR
 
 Next, Legacy BIOS only supports a 1 MB address space constraint.  This limits the complexity and feature set of the BIOS programming.  This can be.  
 
-Third, there is no native security features (no Secure Boot).  SecureBoot is a feature that prevents the computer from running untrusted code in the kernel, a critial safeguard against kernel ring level 0 attacks (rootkits, others).  Check out my blog post on [Detecting Secure Boot with Go](2024-12-24-GoSecureBootDetection.md) for technical details.
+Third, there is no native security features (no Secure Boot).  SecureBoot is a feature that prevents the computer from running untrusted code in the kernel, a critical safeguard against kernel ring level 0 attacks (rootkits, others).  Check out my blog post on [Detecting Secure Boot with Go](2024-12-24-GoSecureBootDetection.md) for technical details.
 
-Fourth, Legacy BIOS has zero network capability built-in.  This means not network booting, a critical tool in enterprise systems.  Many companies and admins rely on centralized boot servers for provisioning or managing zero trust environments.
+Fourth, Legacy BIOS has zero network capability built-in.  This means no network booting, a critical tool in enterprise systems.  Many companies and admins rely on centralized boot servers for provisioning or managing zero trust environments.
 
 Fifth, Legacy BIOS - Text-based interface only.  This limits the user experience and UI abilities like search.
 
-Sixth, Legacy BIOS is slow!  It uses sequential initialization and is limited to 16bits in bandwith.  That slows things down.
+Sixth, Legacy BIOS is slow!  It uses sequential initialization and is limited to 16 bits in bandwidth.  That slows things down.
 
 Seventh, and finally Legacy BIOS offers no standardized way to extend functionality.  Vendors who resell motherboards aren't able to extend the BIOS functionality of the base chipset.   This limits a lot of features and updates to other hardware in the stack.
 
 ## EFI - The Transition
 
-To address these limitations, the community proposed EFI, the Extensible Firmware Interface.  This was developed by Intel starting in mid-1990s, originally for Itanium (IA-64) servers.  The first specification for EFI was released 2000 and is an Intel's proprietary standard.  Key improvements over Legacy BIOS include 32-bit and 64-bit operation.  Additionally, EFI uses GPT -- GUID Partition Table -- which supports up to 128 partitions amd disks up to 9.4 ZB (zettabytes)!  EFI is also a modular, driver-based architecture which allows customization and hardware specific configs.  It also provides a pre-boot environment with networking capability and graphical interface support
+To address these limitations, the community proposed EFI, the Extensible Firmware Interface.  This was developed by Intel starting in mid-1990s, originally for Itanium (IA-64) servers.  The first specification for EFI was released 2000 and is an Intel's proprietary standard.  Key improvements over Legacy BIOS include 32-bit and 64-bit operation.  Additionally, EFI uses GPT -- GUID Partition Table -- which supports up to 128 partitions and disks up to 9.4 ZB (zettabytes)!  EFI is also a modular, driver-based architecture which allows customization and hardware specific configs.  It also provides a pre-boot environment with networking capability and graphical interface support
 
-However, despite its important advances, EFI was quickly superseded.  Why?  It remained Intel-controlled which limited industry adoption.  This also cripled broader vendor support which led to formation of UEFI Forum in 2005
+However, despite its important advances, EFI was quickly superseded.  Why?  It remained Intel-controlled which limited industry adoption.  This also crippled broader vendor support which led to formation of UEFI Forum in 2005
 
 
 ![EFI Boot Process Diagram](/images/efi_flowchart.png)

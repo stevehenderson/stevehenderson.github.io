@@ -1,25 +1,37 @@
-
 //
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
+// Brand / accent (Commodore-blue, used sparingly)
+$accent:       #1b5fb8;
+$accentHover:  #134a91;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+// Commodore rainbow (top stripe accent)
+$c64-red:    #ed2b2b;
+$c64-orange: #f7941e;
+$c64-yellow: #f5c518;
+$c64-green:  #2fb24c;
+$c64-teal:   #00a39a;
+$c64-blue:   #1b75bc;
+
+// Ink & paper
+$ink:        #1a1a1a;  // primary text
+$inkSoft:    #44474d;  // secondary text
+$muted:      #71757c;  // meta / captions
+$line:       #e7e8ec;  // hairlines / borders
+$paper:      #ffffff;  // page background
+$paperAlt:   #f7f8fa;  // subtle panels (code, footer)
+$black:      #000;
+$white:      #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$mono: "SFMono-Regular", "JetBrains Mono", "Fira Code", Menlo, Consolas, "Liberation Mono", monospace;
 
-// Mobile breakpoints
+// Layout
+$readWidth: 760px;
+
+// Mobile breakpoint
 @mixin mobile {
   @media screen and (max-width: 640px) {
     @content;

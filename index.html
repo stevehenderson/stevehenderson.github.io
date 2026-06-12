@@ -2,28 +2,51 @@
 layout: default
 ---
 
-What's Going On:
+<section class="intro">
+  <p class="intro__tagline">{{ site.tagline }}</p>
+  <p>I build production-grade cyber data and analytics platforms — applying AI/ML, data science, and cloud
+  engineering to defend networks and turn high-volume telemetry into decisions. Ph.D. in Computer Science,
+  20+ years across enterprise, defense, and federal environments.</p>
+  <p class="intro__links">
+    <a href="{{ site.baseurl }}/projects/">Projects</a>
+    <a href="{{ site.baseurl }}/credentials/">Credentials</a>
+    <a href="{{ site.baseurl }}/experience/">Experience</a>
+    <a href="{{ site.baseurl }}/ethos/">Ethos</a>
+    <a href="{{ site.baseurl }}/tutorials/">Tutorials</a>
+  </p>
+</section>
 
-<ul>
-	<li><a href="http://teleseer.com">Teleseer</a></li>
-	<li><a href="{{ site.baseurl }}/cyber">Cyber</a></li>
-	<li><a href="{{ site.baseurl }}/datascience">Data Science</a></li>	
-	<li><a href="{{ site.baseurl }}/links">Links</a></li>		
-</ul>
+<h2 class="section-head">Focus Areas</h2>
 
-<hr>
+<div class="pillars">
+  <div class="pillar">
+    <h3 class="pillar__title">AI for Cyber</h3>
+    <p class="pillar__desc">Offline/air-gapped LLM fine-tuning, MCP &amp; agentic AI workflows, and ML-based
+    anomaly detection on live network telemetry.</p>
+  </div>
+  <div class="pillar">
+    <h3 class="pillar__title">Network Defense &amp; Forensics</h3>
+    <p class="pillar__desc">Real-time situational awareness, threat detection at scale, and cyber-topology
+    visualization for analysts and operators.</p>
+  </div>
+  <div class="pillar">
+    <h3 class="pillar__title">Data Science &amp; Pipelines</h3>
+    <p class="pillar__desc">Large-scale analytics pipelines, cloud data engineering on AWS/GCP, and
+    ML modeling over messy, high-volume data.</p>
+  </div>
+</div>
 
-<h1>Recent Blog Posts:</h1>
+<h2 class="section-head">Recent Posts</h2>
 
 <div class="posts">
-  {% for post in site.posts limit 5%}
+  {% for post in site.posts limit:5 %}
     <article class="post">
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read &middot; {{ post.date | date: "%B %e, %Y" }}</p>
       <div class="entry">
         {{ post.excerpt }}
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more →</a>
     </article>
   {% endfor %}
 </div>
-

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    {% if page.math %}
+    <!-- MathJax 2.7 — renders kramdown's $$…$$ math (script type="math/tex") -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML"></script>
+    {% endif %}
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -18,24 +19,26 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <header class="masthead">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <p class="site-description">{{ site.description }}</p>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+          <div class="site-social">
+            {% include svg-icons.html %}
           </div>
 
           <nav>
+            <a href="{{ site.baseurl }}/tutorials/">Tutorials</a>
+            <a href="{{ site.baseurl }}/projects/">Projects</a>
+            <a href="{{ site.baseurl }}/credentials/">Credentials</a>
+            <a href="{{ site.baseurl }}/experience/">Experience</a>
+            <a href="{{ site.baseurl }}/ethos/">Ethos</a>
             <a href="{{ site.baseurl }}/blog/">Blog</a>
-            <a href="{{ site.baseurl }}/links/">Links</a>
-            <a href="{{ site.baseurl }}/search/">Search</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
           </nav>
         </header>
       </div>
     </div>
-   
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -44,7 +47,16 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          <nav class="footer-nav">
+            <a href="{{ site.baseurl }}/cyber/">Cyber</a>
+            <a href="{{ site.baseurl }}/datascience/">Data Science</a>
+            <a href="{{ site.baseurl }}/links/">Links</a>
+            <a href="{{ site.baseurl }}/search/">Search</a>
+          </nav>
+          <div class="site-social">
+            {% include svg-icons.html %}
+          </div>
+          <p class="footer-note">&copy; {{ site.time | date: '%Y' }} {{ site.name }} &middot; built with Jekyll</p>
         </footer>
       </div>
     </div>

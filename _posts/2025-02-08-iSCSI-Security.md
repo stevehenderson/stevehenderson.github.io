@@ -5,7 +5,7 @@ categories: ['blog']
 tags: ['cyber', 'iscsi', 'networking']
 ---
 
-iSCSI (Internet Small Computer Systems Interface) is a powerful protocol that allows you to extend storage capabilities over a network. Whether you're managing a home office setup or a full-fledged data center, iSCSI can help you integrate Network Attached Storage (NAS) devices with hypervisors like VMware ESXi. However, like any network device, iSCSI present a number of security vulnerabilities and attack surfaces that must be considered.  This guide will explore the iSCSI protocol, its applications, and various security considerations to ensure your data remains protected.
+iSCSI (Internet Small Computer Systems Interface) is a powerful protocol that allows you to extend storage capabilities over a network. Whether you're managing a home office setup or a full-fledged data center, iSCSI can help you integrate Network Attached Storage (NAS) devices with hypervisors like VMware ESXi. However, like any network device, iSCSI presents a number of security vulnerabilities and attack surfaces that must be considered.  This guide will explore the iSCSI protocol, its applications, and various security considerations to ensure your data remains protected.
 
 ## What is iSCSI?  
 
@@ -18,17 +18,17 @@ iSCSI is a network storage protocol that enables communication between storage d
 
 ### Additional Technical Details:
 
-  * [Internet Small Computer Systems Interface (iSCSI)](https://datatracker.ietf.org/doc/html/rfc3720), RFC, *Internet Engineering Task Force (IETC) - Network Working group*, April, 2004.
+  * [Internet Small Computer Systems Interface (iSCSI)](https://datatracker.ietf.org/doc/html/rfc3720), RFC, *Internet Engineering Task Force (IETF) - Network Working Group*, April, 2004.
   * [Open-iscsi project](https://github.com/open-iscsi/open-iscsi) : iSCSI tools for Linux
-  * [goisci](https://github.com/dell/goiscsi) :  Portable Go module for iSCSI operations, *Dell*
+  * [goiscsi](https://github.com/dell/goiscsi) :  Portable Go module for iSCSI operations, *Dell*
 
 ## Application of iSCSI :  ESXi Datastores
 
-iSCSI is a versatile protocol that fits a variety of use cases, whether you're working in a small-scale home office or managing enterprise-grade infrastructure.  If you are using a virtualized infrastructre (e.g. VMWare ESXi), its pretty simple to use iSCSI to the hypervisor and create new datastores.
+iSCSI is a versatile protocol that fits a variety of use cases, whether you're working in a small-scale home office or managing enterprise-grade infrastructure.  If you are using a virtualized infrastructure (e.g. VMWare ESXi), it's pretty simple to use iSCSI to the hypervisor and create new datastores.
 
 ### Adding LUNs to an ESXi Hypervisor  
 
-The process entails adding adding Logical Unit Numbers (LUNs) from a NAS device (e.g. Synology Device, ReadyNAS, FreeNAS) to an ESXi hypervisor. LUNs are essentially virtualized storage volumes that can be accessed as block devices. Here’s how it works:  
+The process entails adding Logical Unit Numbers (LUNs) from a NAS device (e.g. Synology Device, ReadyNAS, FreeNAS) to an ESXi hypervisor. LUNs are essentially virtualized storage volumes that can be accessed as block devices. Here’s how it works:  
 
 1. **Prepare the NAS Device**:  
    - Configure the NAS to act as an iSCSI target.  This is pretty simple and documented in your NAS documentation.
@@ -51,7 +51,7 @@ The process entails adding adding Logical Unit Numbers (LUNs) from a NAS device 
 
 While iSCSI is a flexible protocol, security is a concern, especially in environments where sensitive data is stored or accessed. Without proper precautions, iSCSI connections can expose your systems to unauthorized access, data breaches, or malicious attacks. Considerations for iSCSI include Authentication, Network Segmentation, Encryption and Access Control.
 
-While it might be tempting to say "It's all internal communication anyway," you leave your self wide open to lateral movement attacks that can find, target and exploit iSCSI.  Here are a few examples:
+While it might be tempting to say "It's all internal communication anyway," you leave yourself wide open to lateral movement attacks that can find, target and exploit iSCSI.  Here are a few examples:
 
    * [CVE-2023-21527](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21527) : Microsoft Windows up to Server 2022 iSCSI Service denial of service
    * [CVE-2021-3139](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-3139) : Open-iSCSI vulnerability in tcmu-runner 1.3.x, 1.4.x, and 1.5.x through 1.5.2

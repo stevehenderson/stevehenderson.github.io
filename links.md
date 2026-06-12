@@ -6,6 +6,12 @@ permalink: /links/
 
 Landing zone for all things..loosley categorized!
 
+<div class="links-controls">
+  <input type="search" id="links-filter" class="links-filter" autocomplete="off"
+         aria-label="Filter links" placeholder="Filter links…  (e.g. nmap, siem, pcap, topology, kubernetes)">
+  <p id="links-filter-count" class="links-filter-count" aria-live="polite"></p>
+</div>
+
 ## API Tools
    * [Bruno](https://www.usebruno.com/) : Fantastic API testing and dev tool
    * [Insomnia](https://insomnia.rest/) : U formerly Fantastic API testing and dev tool.  Not so good anymore :(
@@ -50,6 +56,7 @@ Landing zone for all things..loosley categorized!
      
 ### AI Agent Tools
   * [Keep](https://www.keephq.dev/) : AI managed alerts and logs
+  * [warren](https://github.com/secmon-lab/warren) : AI-native security alert management — LLM agents that automate SOC triage and investigation, with Slack and threat-intel orchestration
 
 ### Machine Learning 
 
@@ -199,9 +206,68 @@ Landing zone for all things..loosley categorized!
    * [KeyCaliber](https://www.keycaliber.com/) : Risk management platform
    * [ParrotOS](https://parrotsec.org/) : A debian-based security operating system
    * [REx : Rule Explorer](https://rulexplorer.io/) : Sweet search engine for all types of rule based signatures and SEIMs
+   * [Nmap](https://nmap.org/) : The essential network/port scanner and service-version mapper.  Pair with the NSE script engine.
+   * [masscan](https://github.com/robertdavidgraham/masscan) : Internet-scale asynchronous port scanner; nmap-like syntax
+   * [RustScan](https://github.com/RustScan/RustScan) : Ultra-fast port scanner that pipes open ports straight into nmap
+   * [OpenVAS / Greenbone](https://www.greenbone.net/) : Open-source vulnerability scanner and management
+   * [Nessus](https://www.tenable.com/products/nessus) : Industry-standard vulnerability scanner
+
+### Web Application Security
+   * [Burp Suite](https://portswigger.net/burp) : The de-facto web app pentest proxy, scanner, and intruder
+   * [OWASP ZAP](https://www.zaproxy.org/) : Free, open-source web app scanner and proxy
+   * [sqlmap](https://sqlmap.org/) : Automated SQL injection detection and exploitation
+   * [Nuclei](https://github.com/projectdiscovery/nuclei) : Fast, template-based vulnerability scanner (ProjectDiscovery)
+   * [ffuf](https://github.com/ffuf/ffuf) : Fast web fuzzer for content/parameter discovery
+   * [gobuster](https://github.com/OJ/gobuster) : Directory, DNS, and vhost brute-forcer
+   * [Nikto](https://github.com/sullo/nikto) : Classic web server misconfiguration scanner
+   * [Amass](https://github.com/owasp-amass/amass) : OWASP attack-surface / subdomain enumeration
+   * [ProjectDiscovery](https://projectdiscovery.io/) : subfinder, httpx, naabu, katana — a superb recon toolkit
+   * [theHarvester](https://github.com/laramies/theHarvester) : Email, subdomain, and host OSINT gathering
+
+### Exploitation, C2 & Post-Exploitation
+   * [Metasploit](https://www.metasploit.com/) : The industry-standard exploitation and post-exploitation framework
+   * [Exploit-DB](https://www.exploit-db.com/) : Archive of public exploits and PoCs (by Offensive Security)
+   * [Sliver](https://github.com/BishopFox/sliver) : Modern, open-source cross-platform C2 framework
+   * [Havoc](https://github.com/HavocFramework/Havoc) : Modern malleable C2 framework
+   * [Mythic](https://github.com/its-a-feature/Mythic) : Multiplayer, plugin-based C2 framework
+   * [Impacket](https://github.com/fortra/impacket) : Python classes for network protocols — essential for AD/network attacks
+   * [NetExec (nxc)](https://github.com/Pennyw0rth/NetExec) : Network/AD swiss-army knife (the maintained CrackMapExec successor)
+   * [Responder](https://github.com/lgandx/Responder) : LLMNR/NBT-NS/mDNS poisoner and credential capture
+   * [Evil-WinRM](https://github.com/Hackplayers/evil-winrm) : The go-to WinRM shell for Windows post-exploitation
+   * [mimikatz](https://github.com/gentilkiwi/mimikatz) : Windows credential extraction (research/red-team)
+
+### Active Directory
+   * [BloodHound](https://github.com/SpecterOps/BloodHound) : Graph-based AD/Azure attack-path mapping
+   * [Certipy](https://github.com/ly4k/Certipy) : AD Certificate Services (AD CS) enumeration and abuse
+   * [PingCastle](https://www.pingcastle.com/) : Active Directory security posture assessment
+
+### Reverse Engineering
+   * [Ghidra](https://ghidra-sre.org/) : NSA's free, open-source software reverse-engineering suite + decompiler
+   * [radare2](https://rada.re/n/) : Powerful open-source RE/disassembly framework (used in my 42Challenge writeup)
+   * [Cutter](https://cutter.re/) : Modern GUI for radare2/rizin
+   * [x64dbg](https://x64dbg.com/) : Open-source Windows x64/x32 debugger
+   * [IDA Free](https://hex-rays.com/ida-free/) : The classic interactive disassembler (free tier)
+   * [pwndbg](https://github.com/pwndbg/pwndbg) : GDB plugin for exploit development and RE
+   * [pwntools](https://github.com/Gallopsled/pwntools) : CTF and exploit-development framework (Python)
+
+### Password Cracking
+   * [hashcat](https://hashcat.net/hashcat/) : World's fastest GPU password recovery (also under Cryptography)
+   * [John the Ripper](https://www.openwall.com/john/) : Versatile password cracker (jumbo build)
+   * [hydra](https://github.com/vanhauser-thc/thc-hydra) : Fast network login brute-forcer
+
+### Wordlists, Payloads & Cheatsheets
+   * [SecLists](https://github.com/danielmiessler/SecLists) : The collection of wordlists for security testing
+   * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) : Payloads and bypass techniques by category
+   * [GTFOBins](https://gtfobins.github.io/) : Unix binaries abused for privilege escalation / bypass
+   * [LOLBAS](https://lolbas-project.github.io/) : Living-off-the-land binaries for Windows
+   * [PEASS-ng (LinPEAS/WinPEAS)](https://github.com/peass-ng/PEASS-ng) : Privilege-escalation enumeration scripts
+   * [HackTricks](https://book.hacktricks.xyz/) : Encyclopedic pentest / privesc methodology reference
 
 ### Malware
    * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
+   * [YARA](https://virustotal.github.io/yara/) : The pattern-matching standard for identifying and classifying malware
+   * [Volatility](https://github.com/volatilityfoundation/volatility3) : The memory-forensics framework for IR and malware analysis
+   * [Velociraptor](https://github.com/Velocidex/velociraptor) : Endpoint visibility, DFIR, and hunting at scale
  
 ### Security Information Event Monitoring (SIEM)
    * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
@@ -220,6 +286,16 @@ Landing zone for all things..loosley categorized!
    * [Splunk](https://www.splunk.com/) : Best in class SIEM
    * [Phantom Community Playbooks](https://github.com/phantomcyber/playbooks) : Splunk SOAR Playbooks.  Good source of inspiration even if you can't afford Splunk
 
+### Detection & Blue Team
+   * [MITRE ATT&CK](https://attack.mitre.org/) : The knowledge base of adversary tactics and techniques
+   * [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) : Annotate and visualize ATT&CK coverage
+   * [Zeek](https://zeek.org/) : Powerful network security monitor / traffic analysis framework (formerly Bro)
+   * [Suricata](https://suricata.io/) : High-performance IDS/IPS and network security monitoring
+   * [Snort](https://www.snort.org/) : The classic open-source IDS/IPS
+   * [Wazuh](https://wazuh.com/) : Open-source XDR/SIEM with HIDS, FIM, and threat detection
+   * [Security Onion](https://securityonionsolutions.com/) : Free IDS/NSM/log-management distro
+   * [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) : Small, portable detection tests mapped to ATT&CK
+
 ### Threat Emulation
    * [Caldera](https://caldera.mitre.org/) : MITRE Threat Emulation Platform
    * [Scythe](https://scythe.io/):  Emulates real-worl adversarial campaigns.  Commercial product.
@@ -228,7 +304,13 @@ Landing zone for all things..loosley categorized!
 ### Vulnerability Testing / Pentesting Practice
    * [Vulnhub Docker Images](https://github.com/vulhub/vulhub)
    * [Vulhub VMs](https://www.vulnhub.com/) : Treasure trove of vulnerable and challenge VMs
-     * [42challenge](https://www.vulnhub.com/entry/42challenge-1,465/) : A nice intermediate challenge
+     * [42challenge](https://www.vulnhub.com/entry/42challenge-1,465/) : A nice intermediate challenge ([my walkthrough](/42Challenge-VulnHub-Walkthrough/))
+   * [Hack The Box](https://www.hackthebox.com/) : Online pentesting labs, machines, and challenges
+   * [TryHackMe](https://tryhackme.com/) : Guided, beginner-friendly hands-on security rooms
+   * [PortSwigger Web Security Academy](https://portswigger.net/web-security) : Free, best-in-class web-exploitation labs
+   * [OverTheWire](https://overthewire.org/wargames/) : Classic wargames for Linux/security fundamentals
+   * [PentesterLab](https://pentesterlab.com/) : Hands-on web and exploitation exercises
+   * [picoCTF](https://picoctf.org/) : Beginner-friendly CTF platform and practice
      
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
@@ -401,7 +483,12 @@ Landing zone for all things..loosley categorized!
    * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   
    * [Shodan](https://www.shodan.io/) : Powerful IoC, IoT, crawler, search engine
    * [tcpdump](https://www.tcpdump.org/) : Home web site of tcpdump, a powerful command-line packet analyzer; and libpcap, a portable C/C++ library for network traffic capture.
+   * [Wireshark](https://www.wireshark.org/) : The world-standard network protocol analyzer (and tshark CLI)
    * [Teleseer](https://teleseer.com/) : Best-in-class network visualization and analysis
+   * [so-crates](https://github.com/dougburks/so-crates) : Doug Burks' standalone web app for rapid PCAP/log/file analysis with Suricata, YARA, and Sigma — alerts, metadata, transcripts, and hexdumps
+   * [Faddom](https://faddom.com/) : Agentless application dependency mapping — visualizes on-prem and cloud infrastructure and server dependencies in real time
+   * [LiveAction Topology Mapping](https://www.liveaction.com/solutions/network-performance/topology-mapping/) : Automated device discovery and real-time network topology mapping for performance management and incident response
+   * [Network Perception](https://www.network-perception.com/solutions/network-visibility-software) : Agentless OT/ICS network topology mapping to audit configs and verify segmentation
    * [kismet](https://www.kismetwireless.net/) : Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
    * [PacketStreamer](https://github.com/deepfence/PacketStreamer) : Distributed tcpdump
 
@@ -542,6 +629,69 @@ Landing zone for all things..loosley categorized!
    * [Concorse](https://concourse-ci.org/) : an open-source continuous thing-doer.
    * [control-tower](https://github.com/EngineerBetter/control-tower) : Self-healing IaaS for Concorse
    * [Navattic](https://www.navattic.com/) : Clone a website and build a stand alone demo.  DOM in a box
+
+<script>
+(function () {
+  var input = document.getElementById('links-filter');
+  if (!input) return;
+  var entry = input.closest('.entry') || document;
+  var count = document.getElementById('links-filter-count');
+  var kids  = Array.prototype.slice.call(entry.children);
+  var HEAD  = { H2: 0, H3: 1, H4: 2 };
+
+  function filter() {
+    var q = input.value.trim().toLowerCase();
+    var hm = [false, false, false]; // does the current h2/h3/h4 heading itself match?
+    var matches = 0;
+
+    // 1) show/hide list items — a link shows if the query is empty, its own text
+    //    matches, or its governing section heading matches.
+    kids.forEach(function (el) {
+      var r = HEAD[el.tagName];
+      if (r !== undefined) {
+        hm[r] = q !== '' && el.textContent.toLowerCase().indexOf(q) !== -1;
+        for (var k = r + 1; k < 3; k++) hm[k] = false;
+        return;
+      }
+      if (el.tagName === 'UL') {
+        var sectionMatch = hm[0] || hm[1] || hm[2];
+        el.querySelectorAll('li').forEach(function (li) {
+          var hit = q === '' || sectionMatch || li.textContent.toLowerCase().indexOf(q) !== -1;
+          li.style.display = hit ? '' : 'none';
+          if (hit && q !== '') matches++;
+        });
+      }
+    });
+
+    // 2) hide any list with no visible items
+    entry.querySelectorAll('ul').forEach(function (ul) {
+      var any = Array.prototype.some.call(ul.querySelectorAll('li'), function (li) {
+        return li.style.display !== 'none';
+      });
+      ul.style.display = any ? '' : 'none';
+    });
+
+    // 3) hide section headings with nothing visible (unless the heading itself matches)
+    for (var i = 0; i < kids.length; i++) {
+      var el = kids[i];
+      var r = HEAD[el.tagName];
+      if (r === undefined) continue;
+      var visible = q !== '' && el.textContent.toLowerCase().indexOf(q) !== -1;
+      for (var j = i + 1; j < kids.length && !visible; j++) {
+        var sib = kids[j], sr = HEAD[sib.tagName];
+        if (sr !== undefined && sr <= r) break;            // next same/higher heading ends the section
+        if (sr === undefined && sib.tagName !== 'SCRIPT' &&
+            sib.style.display !== 'none' && sib.textContent.trim() !== '') visible = true;
+      }
+      el.style.display = visible ? '' : 'none';
+    }
+
+    if (count) count.textContent = q === '' ? '' : (matches + ' match' + (matches === 1 ? '' : 'es'));
+  }
+
+  input.addEventListener('input', filter);
+})();
+</script>
 
 
 

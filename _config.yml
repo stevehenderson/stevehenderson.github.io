@@ -3,13 +3,16 @@
 #
 
 # Name of your site (displayed in the header)
-name: Steve Henderson
+name: Steve Henderson, Ph.D.
 
 # Short bio or description (displayed in the header)
-description: Doing things the hard way!
+description: Cyber AI Expert
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Commodore64.jpg/800px-Commodore64.jpg
+# One-line positioning statement (shown on the homepage intro)
+tagline: "Cybersecurity, AI & data science leader — 20+ years building production cyber-analytics platforms across enterprise, defense, and federal."
+
+# Site logo shown in the header (and used as the social-share image).
+avatar: /images/Commodore-64-Computer-FL.jpg
 
 #
 # Flags below are optional
@@ -26,7 +29,7 @@ footer-links:
   linkedin: stevenjhenderson
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: Cyberspatial_HQ
+  twitter: # removed: Cyberspatial_HQ was a former-employer brand account
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -87,3 +90,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - "*.pdf"               # never publish PDFs (e.g. résumé) from the repo root
+  - henderson_resume_mar2026.pdf
+  - inputs                # working/source drop folder — never publish

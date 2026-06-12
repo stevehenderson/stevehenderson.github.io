@@ -1,4 +1,4 @@
-I'm installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting.  The issues was related to Linux not being able to compile and install `vmmon` and `vmnet` kernel modules.
+I'm installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting.  The issue was related to Linux not being able to compile and install `vmmon` and `vmnet` kernel modules.
 
 
 ```bash
@@ -10,7 +10,7 @@ I'm installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it no
 
 I needed to install some kernel modules to get VMWare Workstation to work.
 
-There are some [kind souls](https://github.com/mkubecek) that manage a very nice repo for ptaching the kernel.
+There are some [kind souls](https://github.com/mkubecek) that manage a very nice repo for patching the kernel.
 
 This is how I used it
 
