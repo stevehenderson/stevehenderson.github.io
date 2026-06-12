@@ -1,6 +1,4 @@
-https://stevehenderson.github.io/
-https://stevehenderson.github.io/links
-https://stevehenderson.github.io/blog
-https://stevehenderson.github.io/data
-https://stevehenderson.github.io/tools
+User-agent: *
+Allow: /
 
+Sitemap: https://stevehenderson.github.io/sitemap.xml
