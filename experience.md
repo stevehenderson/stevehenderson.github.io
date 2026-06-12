@@ -12,15 +12,14 @@ Selected highlights from 20+ years across cybersecurity, AI, and data science. F
   <div class="timeline__item">
     <p class="timeline__role">Director of AI Engineering</p>
     <p class="timeline__org">Fortune 500 Pharmaceutical Company</p>
-    <p class="timeline__points">Leads AI engineering, applying machine learning and LLM-based systems to
+    <p class="timeline__points">Leading AI engineering, applying machine learning and agentic AI systems to
     enterprise-scale problems.</p>
   </div>
 
   <div class="timeline__item">
     <p class="timeline__role">Director of Data Engineering</p>
     <p class="timeline__org">Cyberspatial</p>
-    <p class="timeline__points">Led a cross-functional engineering team building an AI-driven cyber-analytics
-    and topology-visualization platform — including air-gapped LLM assistants and ML anomaly detection.</p>
+    <p class="timeline__points">Led a cross-functional engineering team building cyber-analytics for a best-in-class topology-visualization platform, with a strong automated-testing foundation.</p>
   </div>
 
   <div class="timeline__item">

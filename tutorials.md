@@ -11,17 +11,6 @@ videos: []
 
 Hands-on cyber how-to: videos and write-ups on the tools and techniques I use.
 
-<div class="callout">
-  <h3 class="callout__title">Cyberspatial on YouTube</h3>
-  <p>Some of the work I'm proudest of happened during my time at <strong>Cyberspatial</strong>, where I
-  contributed to the team behind <a href="https://teleseer.com">Teleseer</a>. The Cyberspatial team
-  produces a fantastic YouTube channel packed with hands-on network-defense and cyber tutorials &mdash;
-  <strong>the channel is entirely their creation</strong>, and I was lucky enough to contribute a few of
-  the tutorials to it. I'm proud to have played a small part in the journey, and can't recommend the
-  channel enough.</p>
-  <p><a class="callout__link" href="https://www.youtube.com/@Cyberspatial/videos">Watch the Cyberspatial channel →</a></p>
-</div>
-
 {% assign real_videos = page.videos | where_exp: "v", "v.id != 'VIDEO_ID_HERE'" %}
 {% if real_videos.size > 0 %}
 <h2 class="section-head">My Video Tutorials</h2>
@@ -51,4 +40,17 @@ Hands-on cyber how-to: videos and write-ups on the tools and techniques I use.
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read tutorial →</a>
     </article>
   {% endfor %}
+</div>
+
+<h2 class="section-head">Other Work</h2>
+
+<div class="callout">
+  <h3 class="callout__title">Cyberspatial on YouTube</h3>
+  <p>Some of the work I'm proudest of happened during my time at <strong>Cyberspatial</strong>, where I
+  contributed to the team behind <a href="https://teleseer.com">Teleseer</a>. The Cyberspatial team
+  produces a fantastic YouTube channel packed with hands-on network-defense and cyber tutorials &mdash;
+  <strong>the channel is entirely their creation</strong>, and I was lucky enough to contribute a few of
+  the tutorials to it. I'm proud to have played a small part in the journey, and can't recommend the
+  channel enough.</p>
+  <p><a class="callout__link" href="https://www.youtube.com/@Cyberspatial/videos">Watch the Cyberspatial channel →</a></p>
 </div>
