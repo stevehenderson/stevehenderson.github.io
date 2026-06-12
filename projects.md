@@ -13,7 +13,7 @@ described at a high level by design.
     <h3 class="project-card__title">Teleseer</h3>
     <p>Production cyber-topology visualization platform.  Developed APIs and advanced cyber analytics backed by advanced automated testing.  Pioneered workflows and techniques and coached, trained and mentored customers to defend their networks with Teleseer.</p>
     <p>
-      <span class="project-card_ag">Cyber Analytics</span>      
+      <span class="project-card__tag">Cyber Analytics</span>      
       <span class="project-card__tag">GCP</span>
       <span class="project-card__tag">Network viz</span>
       <span class="project-card__tag">Automated Testing</span>
