@@ -14,7 +14,7 @@ Today I'm Director of AI Engineering at a Fortune 100 pharmaceutical company. Pr
 engineering at Cyberspatial, helping build [Teleseer](https://teleseer.com) — a best-in-class platform for
 understanding and defending networks.
 
-See [Projects](/projects/), [Credentials](/credentials/), and [Experience](/experience/) for more.
+See [Projects](/projects/) and [Experience](/experience/) for more.
 
 ### Contact
 
