@@ -30,6 +30,7 @@ Landing zone for all things..loosley categorized!
    * [Gastown](https://github.com/gastownhall/gastown) : Multi-agent workspace manager
    * [Buidliing a Multi-Agent System](https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/1-building-a-multi-agent-system/building-a-multi-agent-system#0) :  A google tutorial on rolling your own multi-agent system
    * [The Code Agent Orchestra - what makes multi-agent coding work](https://addyosmani.com/blog/code-agent-orchestra/)_ : Nice Blog (with tools) from Addy Osmani about Multiagent Workflows
+   * [SkillOpt](https://github.com/microsoft/SkillOpt) : Microsoft text-space optimizer that "trains" reusable natural-language agent skills — epochs, batch sizes, validation gates — without touching model weights, emitting deployable best_skill.md artifacts
 
 ### General
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
