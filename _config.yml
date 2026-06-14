@@ -30,6 +30,7 @@ footer-links:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: # removed: Cyberspatial_HQ was a former-employer brand account
+  x: CyberAgentPilot
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -93,3 +94,5 @@ exclude:
   - "*.pdf"               # never publish PDFs (e.g. résumé) from the repo root
   - henderson_resume_mar2026.pdf
   - inputs                # working/source drop folder — never publish
+  - vendor                # local `bundle install --path vendor/bundle` gems
+  - .bundle

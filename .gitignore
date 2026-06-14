@@ -5,3 +5,7 @@ _site/
 .DS_Store
 inputs
 *.pdf
+
+# Local Jekyll preview (gems installed via `bundle install --path vendor/bundle`)
+vendor/
+.bundle/
