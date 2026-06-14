@@ -1,0 +1,20 @@
+sequenceDiagram
+    autonumber
+    participant A as Attacker (holds Ed448 private key)
+    participant S as sshd (runs as root)
+    participant H as Hooked RSA_public_decrypt
+    participant O as Real libcrypto
+    A->>S: connect + offer crafted cert<br/>(command hidden in RSA modulus N,<br/>ChaCha20-encrypted, Ed448-signed)
+    S->>H: pubkey verify calls RSA_public_decrypt(N)
+    Note over S,H: IFUNC resolver redirected this<br/>symbol into the malicious liblzma
+    H->>H: verify Ed448 signature against<br/>the embedded attacker public key
+    alt signature INVALID — i.e. anyone but the attacker
+        H->>O: fall through to the real function
+        O-->>S: normal signature check
+        S-->>A: ordinary SSH behaviour — backdoor stays hidden
+    else signature VALID — attacker only
+        H->>H: ChaCha20-decrypt the payload to recover a command
+        H-->>S: system(command)
+        Note over S: runs BEFORE auth completes —<br/>no login, no valid account,<br/>no auth log entry
+        S-->>A: pre-auth remote code execution as root
+    end

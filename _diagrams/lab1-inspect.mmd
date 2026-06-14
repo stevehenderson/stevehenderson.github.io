@@ -1,0 +1,14 @@
+flowchart TD
+    H["Host laptop"] -->|"multipass launch 22.04"| VM[("Ubuntu sandbox VM<br/>networking OFF")]
+    H -->|"multipass transfer xz-5.6.1.tar.gz"| VM
+    H -->|"multipass shell — ssh in"| VM
+    subgraph SBX["Inside the sandbox — inspect only, never build or run"]
+        VM --> G["git clone clean upstream xz"]
+        G --> D{"diff build-to-host.m4<br/>git vs tarball"}
+        D -->|"injection lives only in the tarball"| E["read the obfuscated extractor"]
+        VM --> F["xxd / file the disguised<br/>test fixtures"]
+        VM --> M["grep the magic marker<br/>####xxxxx####"]
+    end
+    E --> T["multipass delete --purge<br/>nothing persists"]
+    F --> T
+    M --> T

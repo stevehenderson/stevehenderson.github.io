@@ -1,0 +1,14 @@
+flowchart TD
+    H["Host laptop"] -->|"multipass launch — internal net, NO internet"| VM[("Multipass VM")]
+    subgraph SBX["Isolated VM — your OWN Ed448 key only"]
+        VM --> P["patch liblzma with xzbot<br/>Ed448 public key you control"]
+        P --> S["run backdoored sshd<br/>port 2222"]
+        TC["tcpdump -w xz-trigger.pcap"] -. captures .-> S
+        XB["xzbot client<br/>trigger signed w/ your key"] -->|"payload in SSH cert CA N value"| S
+        S -->|"command executes"| R["id &gt; /tmp/pwned on target"]
+    end
+    S --> L["host log:<br/>'xzbot: magic 1 [preauth]'"]
+    TC --> W["pcap: encrypted post-kex<br/>payload NOT in cleartext"]
+    L --> C{"correlate<br/>wire + host"}
+    W --> C
+    C --> DET["detection story:<br/>host telemetry beats NIDS"]
