@@ -180,6 +180,8 @@ Landing zone for all things..loosley categorized!
    * [SpiderFoot](https://www.spiderfoot.net/) :
    * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots github for IoCs.  Organized by CVE, Threat, and more
    * [Lord Alfred IP Ranges](https://github.com/lord-alfred/ipranges) : Lord Alfred's List of IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft, Oracle (Cloud), GitHub, Facebook (Meta), OpenAI (GPTBot) and other with daily updates.
+   * [TweetFeed](https://tweetfeed.live/) : Central source for Twitter/X based IoC
+   * [PhishHunt](https://phishunt.io/) : Central fource for phishing IoC
 
 #### RFC8805 GeoFeeds
 
@@ -352,15 +354,14 @@ Landing zone for all things..loosley categorized!
 
 ## Data Systems
 
-### Data Models
-   *  [brim](https://www.brimdata.io/) : A novel data lake based on super-structured data
-
 ### Databases
    * [Database of databases](https://dbdb.io/) :  **fantastic** taxonomy of database management systems
    * [GUN](https://gun.eco/docs/Introduction) : Distributed Graph database. Technically, GUN is a graph synchronization protocol with a lightweight embedded engine, capable of doing 20M+ API ops/sec in just ~9KB gzipped size.
+   * [superDB](https://github.com/brimdata/super) :  A novel data lake based on super-structured data.  (Formerly brim)
 
-### Data Lakes
-   * [zed](https://github.com/brimdata/zed) : Zed offers a new approach to data that makes it easier to manipulate and manage your data.
+## Data Models
+   * [MITRE D3FEND](https://d3fend.mitre.org/resources/ontology/) : A knowledge graph of cybersecurity countermeasures
+   * [Open Cybersecurity Schema Framework](https://schema.ocsf.io/) : The OCSF categories organize event classes, each aligned with a specific domain or area of focus.
 
 ## Data Sources
    * [Data Source Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
