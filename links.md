@@ -267,6 +267,7 @@ Landing zone for all things..loosley categorized!
 ### Malware
    * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
    * [YARA](https://virustotal.github.io/yara/) : The pattern-matching standard for identifying and classifying malware
+   * [Samplepedia](https://samplepedia.cc/?browse=true) : Fantastic collection of malware w/ training
    * [Volatility](https://github.com/volatilityfoundation/volatility3) : The memory-forensics framework for IR and malware analysis
    * [Velociraptor](https://github.com/Velocidex/velociraptor) : Endpoint visibility, DFIR, and hunting at scale
  

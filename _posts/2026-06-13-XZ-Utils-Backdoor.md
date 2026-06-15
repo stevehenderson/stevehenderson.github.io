@@ -239,9 +239,9 @@ ubuntu@xz-lab:~$ sha256sum lab1/xz-5.6.1.tar.gz
 If you look this up on [Virus Total](https://www.virustotal.com/gui/home/search), confirmed bad:
 
 
-![Virus Total Search](image.png)
+![Virus Total Search](../images/xz/image.png)
 
-![Virus Total Results](image-1.png)
+![Virus Total Results](../images/xz/image-1.png)
 
 
 Note in the virus total report this file:  `xz-5.6.1/m4/build-to-host.m4`
@@ -268,7 +268,7 @@ diff clean-build-to-host.m4 /tmp/foo/xz-5.6.1/m4/build-to-host.m4
 ```
 
 
-![Diff of the payload file](image-2.png)
+![Diff of the payload file](../images/xz/image-2.png)
 
 These lines are the hook into installing the backdoor:
 
@@ -297,7 +297,7 @@ gl_am_configmake=`grep -aErls "#{4}[[:alnum:]]{5}#{4}$" $srcdir/`
 
 We can look for the magic marker ourselves:
 
-![xxd for the marker](image-3.png)
+![xxd for the marker](../images/xz/image-3.png)
 
 Teaching point: a genuine `.xz` starts with magic `FD 37 7A 58 5A 00` ('7zXZ').  These 'corrupt' fixtures carry the compressed backdoor stages, not test data.  This is a tell of sorts..
 
@@ -382,7 +382,7 @@ This is built into the lab2 setup file, so let's just run that:
 make lab2
 ```
 
-![Making lab2](image-4.png)
+![Making lab2](../images/xz/image-4.png)
 
 This will run the lab autonomously, which is a good starting point for our analysis:
 
@@ -418,11 +418,11 @@ The lab makes 3 VMs:
   * compromised:  A linux VM w/ `sshd` build with the compromised `xz` lib (after `setup.sh` is ran)
   * normal:  Plain, non-compromised VM
 
-![Lab2 Architecture](image-5.png)
+![Lab2 Architecture](../images/xz/image-5.png)
 
 The lab2 make file also edits the compromised machine to have the backdoor:
 
-![Compromised Host setup during make](image-7.png)
+![Compromised Host setup during make](../images/xz/image-7.png)
 
 
 #### Analysis
@@ -501,7 +501,7 @@ Collecting PCAP gives us some extra analysis:
 
 Open a second terminal and connect to the analyst VM:
 
-![Second Terminal](image-8.png)
+![Second Terminal](../images/xz/image-8.png)
 
 In one terminal start a capture on the `ens4` interface
 
@@ -515,11 +515,11 @@ In the other, ssh into the compromised machine
 ssh 10.77.0.20
 ```
 
-![Capturing Compromised Traffic](image-9.png)
+![Capturing Compromised Traffic](../images/xz/image-9.png)
 
 After 60 seconds the capture should stop:
 
-![alt text](image-10.png)
+![alt text](../images/xz/image-10.png)
 
 Repeat the process, this time against the normal VM:
 
@@ -576,11 +576,11 @@ Open Wireshark and enable
 
   * Preferences → Protocols → TCP → "Calculate conversation timestamps.
 
-![alt text](image-11.png)
+![alt text](../images/xz/image-11.png)
 
 Then add the `tcp.time_delta` column:
 
-![alt text](image-15.png)
+![alt text](../images/xz/image-15.png)
 
 Set:
 
@@ -590,13 +590,13 @@ Set:
 
 This will add a nice duration column to each packet
 
-![alt text](image-14.png)
+![alt text](../images/xz/image-14.png)
 
 Leave that wireshark instance open, and open a second one with the pcap capture from the normal ssh.  Repeat the steps above to add the delta column.
 
 Add ssh as the filter in both captures:
 
-![Comparing the ssh connections](image-16.png)
+![Comparing the ssh connections](../images/xz/image-16.png)
 
 **Frame 6 is the clearest divergence in the capture** — though I wouldn't call it a smoking gun. In the compromised session the server
 takes **0.1234 s** to emit its OpenSSH banner (`SSH-2.0-OpenSSH_8.9p1`); the clean

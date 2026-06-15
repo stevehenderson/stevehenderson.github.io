@@ -638,10 +638,69 @@ footer {
   font-size: 13.5px;
   line-height: 1.55;
 }
+// ---------------------------------------------------------------------------
+// IDE-style line-number gutter. With `line_numbers: true`, rouge emits a
+// <table class="rouge-table"> with a gutter column + a code column. Left alone,
+// the generic `table`/`th, td` rules render it as a bordered spreadsheet with
+// the line numbers boxed in their own cell. Strip that chrome and make the
+// gutter a subtle, non-selectable rail on the left like an editor.
+// ---------------------------------------------------------------------------
+.highlight .rouge-table {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  table-layout: auto;
+  td { border: 0; padding: 0; vertical-align: top; }
+  pre {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    line-height: 1.55;
+  }
+}
+.highlight .rouge-table .rouge-gutter {
+  width: 1%;                 // shrink-wrap the gutter to its digits
+  white-space: nowrap;
+  padding: 14px 14px 14px 12px;
+  text-align: right;
+  user-select: none;
+  -webkit-user-select: none;
+  background: #21221d;       // a touch darker than the code rail
+  border-right: 1px solid #3a3b35;
+  .lineno { color: #75766a; font-size: 13.5px; } // muted, recede behind code
+}
+.highlight .rouge-table .rouge-code {
+  width: 100%;
+  padding: 14px 16px;
+}
 // Inline code stays a light chip (styled in BASE RULES) — guard against the
 // generic `pre code` color bleed for code NOT inside a highlight block.
 :not(.highlight) > pre {
   background: #272822;
   color: #f8f8f2;
   border: 1px solid #1d1e19;
+}
+
+// Home page sign-off: Commodore 64 portrait + retro caption
+.home-outro {
+  margin: 3.5em 0 1em;
+  text-align: center;
+
+  img {
+    max-width: 320px;
+    width: 60%;
+    height: auto;
+    border: 1px solid $line;
+    border-radius: 8px;
+  }
+
+  figcaption {
+    margin-top: 0.9em;
+    font-family: $mono;
+    font-size: 1.05em;
+    letter-spacing: 0.02em;
+    color: $inkSoft;
+  }
 }
