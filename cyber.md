@@ -41,6 +41,12 @@ permalink: /cyber/
   * [TryHackMe](https://tryhackme.com/) : Gamified cybersecurity learning platform
   * [PentesterLab](https://pentesterlab.com/) : Web penetration testing exercises
 
+### AI & Agentic Security
+
+  * [GDM AI Control Roadmap (v0.1)](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf) : Google DeepMind's framework (Phuong et al., 2026) for controlling internally-deployed AI agents as a potential insider threat — TRAIT&R threat taxonomy, control invariants, and capability-tiered detection/prevention ladders. See my [write-up and lessons for cyber agent development]({% post_url 2026-06-23-GDM-AI-Control-Roadmap %}).
+  * [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) : Standard awareness document for security risks in LLM and generative AI applications
+  * [MITRE ATLAS](https://atlas.mitre.org/) : Adversarial Threat Landscape for Artificial-Intelligence Systems — ATT&CK-style knowledge base of attacks on ML/AI systems
+
 ### Web Publications
 
   * [CISA Alerts & Advisories](https://www.cisa.gov/news-events/cybersecurity-advisories) : U.S. Cybersecurity and Infrastructure Security Agency threat advisories
