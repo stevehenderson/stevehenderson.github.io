@@ -90,6 +90,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - plans.md            # working rework plan — never publish
   - CNAME
   - "*.pdf"               # never publish PDFs (e.g. résumé) from the repo root
   - henderson_resume_mar2026.pdf
