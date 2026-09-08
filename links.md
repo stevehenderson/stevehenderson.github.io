@@ -11,7 +11,7 @@ Landing zone for all things..loosley categorized!
          aria-label="Filter links" placeholder="Filter links…  (e.g. nmap, siem, pcap, topology, kubernetes)">
   <p id="links-filter-count" class="links-filter-count" aria-live="polite"></p>
 </div>
-
+ƒ
 ## API Tools
    * [Bruno](https://www.usebruno.com/) : Fantastic API testing and dev tool
    * [Insomnia](https://insomnia.rest/) : U formerly Fantastic API testing and dev tool.  Not so good anymore :(
@@ -286,6 +286,7 @@ Landing zone for all things..loosley categorized!
    * [Sagan](https://sagan.readthedocs.io/en/latest/what-is-sagan.html):  Log Analysis Engine
    * [Scribl](https://github.com/criblio/scribl) : A Splunk historical index export tool
    * [SIGMA](https://github.com/SigmaHQ/sigma) :  Generic Signature Format for SIEM Systems
+   * [HuntRule](https://huntrule.com/) : Sigma Rule feed.  Some free ones.
    * [Sigma Rule Converter](https://sigconverter.io/) : Convert Sigma Rules to various detection pipelines
    * [Splunk](https://www.splunk.com/) : Best in class SIEM
    * [Phantom Community Playbooks](https://github.com/phantomcyber/playbooks) : Splunk SOAR Playbooks.  Good source of inspiration even if you can't afford Splunk
