@@ -254,7 +254,7 @@ The fix is **Decode As… → MAVLink** on UDP 14550, 14551 and 14560, after whi
 Before the next part, the caveat that governs it: one host means no link layer, no distinct endpoint identities, and no impairment.
 Everything above is a single machine talking to itself, and that destroys most of what network analysis is for.
 
-I uploaded the capture to a fantastic hosted analysis product, [Teleseer](go.teleseer.com), to get a second opinion.
+I uploaded the capture to a fantastic hosted analysis product, [Teleseer](https://go.teleseer.com), to get a second opinion.
 It parsed the traffic correctly, resolved the ports, and accounted for all 7.5 MB of UDP:
 
 ![Teleseer's packet view of the same capture](/images/drone-cyber/teleseer-packets.png)
