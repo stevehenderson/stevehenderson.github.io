@@ -254,7 +254,7 @@ The fix is **Decode As… → MAVLink** on UDP 14550, 14551 and 14560, after whi
 Before the next part, the caveat that governs it: one host means no link layer, no distinct endpoint identities, and no impairment.
 Everything above is a single machine talking to itself, and that destroys most of what network analysis is for.
 
-I uploaded the capture to a hosted analysis product, Teleseer, expecting a second opinion.
+I uploaded the capture to a fantastic hosted analysis product, [Teleseer](go.teleseer.com), to get a second opinion.
 It parsed the traffic correctly, resolved the ports, and accounted for all 7.5 MB of UDP:
 
 ![Teleseer's packet view of the same capture](/images/drone-cyber/teleseer-packets.png)
@@ -263,10 +263,9 @@ Then it reported what a loopback capture actually contains, which is one host, `
 
 ![Teleseer's host inventory: a single loopback host](/images/drone-cyber/teleseer-external-hosts.png)
 
-My first instinct was to write that up as a product failure, and that would have been unfair.
-Teleseer maps assets, flows, and topology, and I handed it a capture with no assets, no topology, and one address.
-The tool did the only correct thing available to it.
-The result is a good illustration of what loopback destroys rather than a verdict on the tool, and I will re-run it against the part 2 container network, where there will actually be something to map.
+This is exactly as expected.
+
+The result is a good illustration of how loopback can mask MAC.  I will re-run it against the part 2 container network, where there will actually be something to map.
 
 ## What an autonomy stack inherits
 
