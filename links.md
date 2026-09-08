@@ -512,6 +512,7 @@ Landing zone for all things..loosley categorized!
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
    * [openCTI](https://www.opencti.io/en/)
    * [SpiderFoot](https://www.spiderfoot.net/)
+   * [SubMap](https://submap.net/) : Attack surface management scanner search tool
 
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
