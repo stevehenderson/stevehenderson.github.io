@@ -13,7 +13,7 @@ Selected highlights from 20+ years across cybersecurity, AI, and data science. F
 
   <div class="timeline__item">
     <p class="timeline__role">Director of AI Engineering</p>
-    <p class="timeline__org">Fortune 500 Pharmaceutical Company</p>
+    <p class="timeline__org">Fortune 100 Pharmaceutical Company</p>
     <p class="timeline__points">Leading AI engineering, applying machine learning and agentic AI systems to
     enterprise-scale problems.</p>
   </div>
