@@ -11,7 +11,7 @@ Landing zone for all things..loosley categorized!
          aria-label="Filter links" placeholder="Filter links…  (e.g. nmap, siem, pcap, topology, kubernetes)">
   <p id="links-filter-count" class="links-filter-count" aria-live="polite"></p>
 </div>
-ƒ
+
 ## API Tools
    * [Bruno](https://www.usebruno.com/) : Fantastic API testing and dev tool
    * [Insomnia](https://insomnia.rest/) : U formerly Fantastic API testing and dev tool.  Not so good anymore :(
