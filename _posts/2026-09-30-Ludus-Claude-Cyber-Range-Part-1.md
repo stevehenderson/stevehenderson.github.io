@@ -179,7 +179,7 @@ Here I have to own something: I gave Claude far more authority than this job nee
 
 - **An admin API key.**
   The MCP server exposes the whole Ludus API, 105 operations, through a single `call_ludus_api` tool.
-  With an admin key, those include creating and deleting users, changing quotas, and managing other people's ranges, not just my own.
+  With an admin key, those include creating and deleting users, changing quotas, and managing every user's ranges.
 - **Auto-approval for that tool.**
   Early on, I clicked "always allow" for `call_ludus_api`, so Claude Code stopped asking me before any API call.
   The MCP server does have a guard: DELETEs and a few other destructive operations require `confirm: true`.
@@ -192,7 +192,7 @@ Here I have to own something: I gave Claude far more authority than this job nee
   That turns off confirmation for every tool, shell commands included, so for those sessions the allowlist above didn't matter at all.
 
 Nothing went wrong, and the admin power was never used.
-But "nothing went wrong" isn't a control, and it's the wrong lesson from a post about building a security range.
+But luck doesn't count as a control, and a post about building a security range shouldn't suggest otherwise.
 Here's what I'd do from the start next time:
 
 1. **Give Claude its own non-admin Ludus user** (`ludus user add` without `--admin`) with just its own range assigned.
@@ -200,10 +200,10 @@ Here's what I'd do from the start next time:
    Everything in this post touched only one range and its roles, so a scoped user should be enough; I haven't re-run it that way yet.
 2. **Auto-approve only the read-only tools.**
    `list_ludus_operations` and `describe_ludus_operation` are safe to auto-approve.
-   Claude Code [approves MCP tools per tool](https://code.claude.com/docs/en/permissions), not per argument, so `call_ludus_api` should prompt every time.
+   Claude Code [approves an MCP tool as a whole](https://code.claude.com/docs/en/permissions), with no way to approve some arguments and prompt on others, so `call_ludus_api` should prompt every time.
    It's a click per action, but it's the only point where a human sees the action before it runs.
    And no bypass mode against anything that holds an admin key.
-3. **Allowlist CLI subcommands, not wildcards:** `ludus range status`, `ludus range logs *`, `ludus range config get`, and nothing that can remove anything.
+3. **Allowlist specific CLI subcommands:** `ludus range status`, `ludus range logs *`, `ludus range config get`, and nothing that can remove anything.
 4. **[Snapshot](https://docs.ludus.cloud/docs/using-ludus/snapshots/) before letting the agent deploy** (`ludus snapshots create pre-agent`), so any change it makes can be rolled back with `ludus snapshots revert`.
 
 I started with nothing deployed, and a one-paragraph description of what I wanted:
@@ -235,7 +235,7 @@ Two management paths sit outside that rule on purpose, and you'll see both in th
 - **The Ludus host (`192.0.2.254`)** reaches every VM over SSH, because that's how Ansible provisions them.
 - **WireGuard clients (`198.51.100.x`)** can reach the whole range. The client config's `AllowedIPs = 10.1.0.0/16` is what lets my laptop `curl` the portal.
 
-Those are operator paths, not part of the scenario.
+Those are operator paths that sit outside the scenario.
 If you wanted to model an outside attacker, the VPN would be the first thing to lock down.
 
 That is the point of the scenario.
@@ -256,8 +256,8 @@ The database host is passed to the web app as a shared `global_role_vars` value,
 ### Deploy and verify
 
 With the config pushed, `deployRange` kicked off, and six VMs were built and provisioned.
-Rather than watch `ludus range logs`, Claude started a background monitor that polled until the range reached `SUCCESS`.
-It then ran the real test, which is not "did Ansible exit 0" but "does the application work":
+Claude started a background monitor that polled until the range reached `SUCCESS`.
+It then checked that the application actually works:
 
 ```console
 $ curl -s http://10.1.20.10/
@@ -271,8 +271,8 @@ Documents served live from the LAN database at admin-database.
 
 The DMZ webserver pulled all four documents live from the LAN database, across the VLAN boundary, through the single 3306 rule.
 
-That proves the allowed path works, but not that anything else is blocked.
-For that, you have to try the paths that should fail.
+That proves the allowed path works.
+To show that everything else is blocked, you have to try the paths that should fail.
 The Debian template doesn't ship `nc`, so these use bash's built-in `/dev/tcp`:
 
 ```console
@@ -290,8 +290,8 @@ bash: connect: Connection refused
 bash: line 1: /dev/tcp/10.1.20.10/22: Connection refused
 ```
 
-All three are refused immediately rather than timing out, which is the router's REJECT answering.
-It isn't a closed port: sshd is listening on every one of these VMs, and I ran these probes by SSHing into them over the VPN.
+All three come back immediately with `Connection refused`, which is the router's REJECT answering.
+sshd is listening on every one of these VMs, and I ran these probes by SSHing into them over the VPN, so the refusal comes from the firewall.
 
 With both the allowed and the rejected paths behaving as designed, it's a working, segmented range, end to end, from one paragraph of description.
 
@@ -365,7 +365,7 @@ When you run `tcpdump` on the bridge master (`vmbr3`), you capture every frame t
 The forwarding decision is separate.
 Every mirrored frame arrives on `eno3` carrying a range VM's source MAC, so the bridge learns all of those range MACs as living on the `eno3` port.
 When a reply frame arrives destined for one of those learned MACs, the bridge forwards it only toward `eno3`.
-Because the frame also arrived on `eno3`, the bridge drops it instead of sending it back out the same port, so it never floods to the capture VM's tap.
+Because the frame also arrived on `eno3`, the bridge drops it, because a bridge never sends a frame back out the port it came in on, so it never floods to the capture VM's tap.
 The only frames that still reach the VM are broadcast and multicast, plus anything in the brief window before a MAC is learned, which matched the "local traffic only" symptom I was seeing.
 
 The fix is to stop the bridge from learning on `eno3` (see [`bridge(8)`](https://man7.org/linux/man-pages/man8/bridge.8.html)), so every range MAC stays unknown and is flooded to all ports, including the VM's tap:
@@ -450,7 +450,7 @@ systemctl start range-traffic-gen      # resume the traffic
 ```
 
 The tap now has a steady stream to work with.
-Importantly, it is the right traffic: it only exercises the flows the firewall permits, so the capture reflects the segmented design rather than random noise.
+Importantly, it is the right traffic: it only exercises the flows the firewall permits, so the capture reflects the segmented design.
 
 Loading the capture into [Teleseer](https://www.cyberspatial.com/) as a graph makes the design clear at a glance.
 The two `/24`s sit in separate zones, the analyst boxes and database cluster in the LAN, and web01 stands alone in the DMZ.
