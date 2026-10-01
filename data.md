@@ -14,9 +14,9 @@ permalink: /data/
 
    * [Dataloss DB (Includes a breakdown of the sony hack)](https://blog.datalossdb.org)
 
-   * [Verizon RISK Team](http://www.verizonenterprise.com/DBIR/)
+   * [Verizon RISK Team](https://www.verizon.com/business/resources/reports/dbir/)
 
-   * [Hackmageddon](http://www.hackmageddon.com/2015-cyber-attacks-timeline-master-index/)
+   * [Hackmageddon](https://www.hackmageddon.com/2015-cyber-attacks-timeline-master-index/)
 Cyber attack timelines by month.  Burrow down.  The 2016 summaries link to google sheets where you can get the raw data.  The older timelines seem to only show png's.
 
    * [​The Center for Strategic Studies](https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents)
@@ -24,9 +24,9 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ### Domain Names
 
-   * [Cisco Umbrealla - Top 1 Million](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html) : A free list of the top 1 million most popular domains
+   * [Cisco Umbrealla - Top 1 Million](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) : A free list of the top 1 million most popular domains
    * [Majestic Million - Site](https://majestic.com/reports/majestic-million) : Free search and download of the top million websites
-   * [Majestic Million - Data](http://downloads.majestic.com/majestic_million.csv) : Majestic Million Daily snapshot
+   * [Majestic Million - Data](https://downloads.majestic.com/majestic_million.csv) : Majestic Million Daily snapshot
    * [DomainIQ](https://www.domainiq.com/) : Great site for domain intel
    * [The Hackers Choice](https://ip.thc.org) :   The world’s largest IP<>Domain database. Massive, free rDNS data set.  Includes CNAME and subdomains.
    
@@ -39,15 +39,15 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
    * [Canadadian Institute of Cyebrsecurity Datasets](https://www.unb.ca/cic/datasets/index.html)
       *  [CSE-CIC-IDS2018 on AWS](https://www.unb.ca/cic/datasets/ids-2018.html)
         
-   * [Collegiate Penetration Testing Competition Exercise Data](https://cptc.rit.edu/) : Data from the  Collegiate Penetration Testing Competition.  Splunk tream data, logs, winevents, more.   No PCAP here
+   * [Collegiate Penetration Testing Competition Exercise Data](https://www.nationalcptc.org/) : Data from the  Collegiate Penetration Testing Competition.  Splunk tream data, logs, winevents, more.   No PCAP here
 
-   * [Cyber Security Data Mining Competition (CDMC)](http://www.csmining.org/ ) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
+   * [Cyber Security Data Mining Competition (CDMC)](https://www.csmining.org/) : Competition for Cyber Data Mining.  Data not publically available.  Interesting to see the prompts for the competition.
 
-   * [Global Collegiate Penetration Testing Competition ](http://cptc.rit.edu/) : Global Collegiate Penetration Testing Competition data
+   * [Global Collegiate Penetration Testing Competition ](https://www.nationalcptc.org/) : Global Collegiate Penetration Testing Competition data
 
   * [DAPT2020 Dataset for Advanced Persistent Threats](https://www.kaggle.com/datasets/sowmyamyneni/dapt2020) :  This dataset, DAPT 2020, was created with network traffic collected over 5 days, where each day can be considered analogous to 3 months in a real-world scenario..
 
-   * [KDD CUP 99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) : A baseline dataset for IDS.  See: Stolfo, J., et al. "Cost-based modeling and evaluation for data mining with application to fraud and intrusion detection." Results from the JAM Project by Salvatore (2000).
+   * [KDD CUP 99](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) : A baseline dataset for IDS.  See: Stolfo, J., et al. "Cost-based modeling and evaluation for data mining with application to fraud and intrusion detection." Results from the JAM Project by Salvatore (2000).
 
    * [ICS-Security-Tools PCAPs](https://github.com/ITI/ICS-Security-Tools/tree/master/pcaps) : Nice collection of ICS PCAPs -- MELSEC, Zigbee, CIP and many more.  Follow link to google drive.
 
@@ -55,9 +55,9 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [Malware Analysis PCAPs](https://www.malware-traffic-analysis.net/training-exercises.html) : Good repo for PCAPs with challenges
    
-   * [NETRESEC Data](http://www.netresec.com/?page=PcapFiles) : Lots of CDX and CTF data!
+   * [NETRESEC Data](https://www.netresec.com/?page=PcapFiles) : Lots of CDX and CTF data!
 
-   * [NSL-KDD](https://web.archive.org/web/20150205070216/http://nsl.cs.unb.ca/NSL-KDD/) : Augments issues with earlier version KDD CUP 99 (see above).  Also available from [here](http://www.unb.ca/research/iscx/dataset/iscx-NSL-KDD-dataset.html)
+   * [NSL-KDD](https://web.archive.org/web/20150205070216/http://nsl.cs.unb.ca/NSL-KDD/) : Augments issues with earlier version KDD CUP 99 (see above).  Also available from [here](https://www.unb.ca/cic/datasets/nsl.html)
 
    * [OpTC Data](https://github.com/FiveDirections/OpTC-data/tree/master) : Massive public dataset from DARPA CHASE.  Raw data and data formatted as Extended Cyber Analytics Repository Model
 
@@ -69,7 +69,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
    * [Security Datasets](https://securitydatasets.com/introduction.html) :  open-source initiatve that contributes malicious and benign datasets, from different platforms, to the infosec community to expedite data analysis and threat research
 
-   * [SimpleWeb](http://www.simpleweb.org/wiki/Traces) : PCAP traces for various network events/attacks
+   * [SimpleWeb](https://web.archive.org/web/20160806192147/http://www.simpleweb.org:80/wiki/Traces) : PCAP traces for various network events/attacks
 
    * [StratosphereLabs](https://www.stratosphereips.org/datasets-overview) : Fantastic site of various captures and analysis
 
@@ -101,7 +101,7 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ### Threat Feeds
 
-   * [FireHol](http://iplists.firehol.org/) - firehol uber list of IPs 
+   * [FireHol](https://iplists.firehol.org/) - firehol uber list of IPs 
    * [GreyNoise](https://greynoise.io) - Great list of malicious IOC and benign/noise
 
 ### Malware
@@ -128,11 +128,11 @@ This timeline records significant cyber incidents since 2006. Focus on cyber att
 
 ## Media
 
-   * [GDELT project](http://gdeltproject.org/data.html) : The GDELT Project is the largest, most comprehensive, and highest resolution open database of human society ever created. Geotagged social media, news, and other NLP
+   * [GDELT project](https://gdeltproject.org/data.html) : The GDELT Project is the largest, most comprehensive, and highest resolution open database of human society ever created. Geotagged social media, news, and other NLP
 
 ## Data Search Engines / Aggregators
 
-   * [Data Central](http://www.datasciencecentral.com/profiles/blogs/big-data-sets-available-for-free)
+   * [Data Central](https://web.archive.org/web/20211028004834/https://www.datasciencecentral.com/profiles/blogs/big-data-sets-available-for-free)
 
    * [Caesar0301 Awesome List of Public Datasets](https://github.com/caesar0301/awesome-public-datasets) : Pretty big list;  Categorized
    

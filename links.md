@@ -105,7 +105,7 @@ Landing zone for all things..loosley categorized!
 ## Authentication
    * [Auth0](https://auth0.com/)  : Best in class Authentication as a service.  Great value!
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
-   * [jwt builder](http://jwtbuilder.jamiekurtz.com/) : Webbased tool for constucting custom JWTs.  Great for learning.
+   * [jwt builder](https://web.archive.org/web/20220121165054/http://jwtbuilder.jamiekurtz.com/) : Webbased tool for constucting custom JWTs.  Great for learning.
    * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT   
 
 ## Block Chain
@@ -387,7 +387,7 @@ Landing zone for all things..loosley categorized!
    * [Steampipe](https://steampipe.io/) : Dynamically query APIs, code and more with SQL.  Zero-ETL from 140 data sources.  Another SQL all the stuff.
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
    * [DeltaLake](https://delta.io/) : Provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes, such as S3, ADLS, GCS, and HDFS.
-   * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](datamechanics.io)
+   * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](https://www.datamechanics.co/)
    * [Querybuilder](https://querybuilder.js.org/) : Query Builder is a javascript library for building SQL
    * [rql](https://github.com/a8m/rql):  RQL is a resource query language for REST (written in go). It provides a simple and light-weight API for adding dynamic querying capabilities to web-applications that use SQL-based database
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
@@ -410,7 +410,7 @@ Landing zone for all things..loosley categorized!
    * [Open Cybersecurity Schema Framework](https://schema.ocsf.io/) : The OCSF categories organize event classes, each aligned with a specific domain or area of focus.
 
 ## Data Sources
-   * [Data Source Links](http://stevehenderson.github.io/data/) 🖴 : Dedicated page to data links
+   * [Data Source Links](/data/) 🖴 : Dedicated page to data links
 
 ## Documentation / Doc Management
    * [Pandoc](https://pandoc.org/) : Very capable document translator.  Markdown to pdf and more.    
@@ -440,7 +440,7 @@ Landing zone for all things..loosley categorized!
    * [pulumi](https://www.pulumi.com/) : Build infrastructure intuitively on any cloud using familiar languages
 
 ## Infrastructure as Service
-   * [runpod.io](runpod.io) : Globally distributed GPU containers.  Pay as you go.
+   * [runpod.io](https://www.runpod.io/) : Globally distributed GPU containers.  Pay as you go.
    * [fly.io](https://fly.io/) : Deploy containers anywhere in the world.  K8s IaaS
    * [LimaCharlie](https://limacharlie.io/) : Security Infrastructure as a Service.  Handles collection, streaming analytics, and moving data
    * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
@@ -472,7 +472,7 @@ Landing zone for all things..loosley categorized!
    * [OpenFaaS](https://www.openfaas.com/):  Deploy event-driven functions and microservices to Kubernetes easily
 
 ### K8s Management as a Service
-   * [plural.sh](http://plural.sh) : Deploy, secure, and scale open-source applications on your cloud in minutes. Slick interface
+   * [plural.sh](https://www.plural.sh/) : Deploy, secure, and scale open-source applications on your cloud in minutes. Slick interface
 
 ### Rancher Kubernetes Engine
    * [Deploying k8s on Bare Metal (equinix) with RKE](https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides/deploy-rancher-manager/equinix-metal)
@@ -522,7 +522,7 @@ Landing zone for all things..loosley categorized!
 ### DNS IP Resolvers:
    * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
    * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address   
-   * [xip.io](xip.io):  The original
+   * [xip.io](https://web.archive.org/web/20210104212515/http://xip.io/):  The original
 
 ### Proxies
    * [gost](https://github.com/ginuerzh/gost) : Simple proxy written in go.  Essential
@@ -638,7 +638,7 @@ Landing zone for all things..loosley categorized!
 ## Training
    * [ACloudGuru](https://acloudguru.com/) : Exceptional training -- formerly Linux academy
    * [Codility](https://www.codility.com/) : Challenge platform
-   * [CTFHAcker](http://ctfhacker.com/) : Exceptional cyber challenge walkthroughs by [Cory Duplantis](https://github.com/ctfhacker)
+   * [CTFHAcker](https://web.archive.org/web/20220104214249/http://ctfhacker.com/) : Exceptional cyber challenge walkthroughs by [Cory Duplantis](https://github.com/ctfhacker)
    * [PluralSight](https://www.pluralsight.com/) : Excellent skills training 
 
 ## Video/Audio Tools
