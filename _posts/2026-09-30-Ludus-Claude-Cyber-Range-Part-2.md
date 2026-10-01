@@ -117,6 +117,45 @@ The traffic generator from Entry 3 is still running underneath all of this, so t
 *(Dashboard credentials are generated per deploy and saved to `/root/wazuh-credentials.txt` on the manager.
 They are deliberately not included here.)*
 
+### What the SIEM saw on its first day
+
+Agents checking in is the minimum.
+The more useful question is what Wazuh had found after watching the range for a day, so I went back and captured a few of its views.
+
+**The traffic matches the firewall.**
+The IT Hygiene view summarizes network activity across all five agents.
+The top destination ports are 80, 3306, and 1514: analysts browsing the portal, the portal querying the database, and agents reporting to the manager.
+Those are the flows the firewall allows, seen this time from the hosts themselves rather than from the tap.
+
+![Wazuh IT Hygiene dashboard for the five Debian agents. The top destination ports are 80, 3306, and 1514.](/images/ludus-range/entry4-wazuh-it-hygiene-ports.png)
+
+**It caught Claude guessing usernames.**
+Threat Hunting showed four authentication failures and a MITRE ATT&CK "Password Guessing" hit.
+Filtering on the rule shows all four: `sshd: Attempt to login using a non-existent user` on web01 and soc1, within three seconds of each other, from `198.51.100.3`.
+That address is my laptop on the VPN.
+While checking the range for this post, Claude Code tried `localuser` and `admin`, among other usernames, to find out which account the VMs accepted.
+That's exactly the behavior a SIEM should flag, and it doesn't matter that the agent doing it was mine.
+It's also a reminder of why Part 1 argues for giving the agent a scoped account: an AI agent probing for valid usernames looks the same in the logs as an attacker doing it.
+
+![Wazuh Threat Hunting events filtered to rule 5710: four "Attempt to login using a non-existent user" alerts on admin-soc1 and admin-web01 at 17:04 on Sep 30.](/images/ludus-range/entry4-wazuh-auth-failures.png)
+
+**The hosts aren't hardened.**
+Configuration Assessment runs the CIS Debian Linux 12 Benchmark against each agent.
+web01 scores 40%: 74 checks passed and 108 failed, starting with `/tmp` not being a separate partition.
+That's expected for a stock template that nobody has hardened, but now the gap has a number, which gives a later hardening pass a baseline to measure against.
+
+![Wazuh Configuration Assessment for admin-web01: CIS Debian Linux 12 Benchmark v1.1.0, 74 passed, 108 failed, score 40%.](/images/ludus-range/entry4-wazuh-sca-web01.png)
+
+**The template is stale.**
+Vulnerability Detection reports 1,966 critical and 9,644 high findings across the five agents, and the top packages are the kernel images that came with the template.
+The totals overstate the distinct problems, because the same CVE counts once for each affected package on each agent.
+What they do show is that every VM in the range starts from the same unpatched image.
+
+![Wazuh Vulnerability Detection dashboard: 1,966 critical and 9,644 high findings, all on Debian 12, led by the linux-image kernel packages.](/images/ludus-range/entry4-wazuh-vulnerabilities.png)
+
+I captured these views with a short [Playwright](https://playwright.dev/) script that logs in to the dashboard and screenshots each page.
+The script reads the dashboard password over SSH into an environment variable, so the password never lands on disk or in a screenshot.
+
 ---
 
 ## Entry 5 - Reviewing the build, and a version pin that went wrong
@@ -209,6 +248,7 @@ Adding an assertion that states the invariant on the host that owns it is what t
 - Add a passive sensor ([Zeek](https://zeek.org/) or [Suricata](https://suricata.io/)) on the mirror NIC and capture a real analyst -> portal -> database session.
 - Restrict LAN egress to the internet (DMZ-only internet) as a post-deploy hardening pass.
 - Turn on Wazuh enrollment passwords and pin the installer's checksum.
+- Patch and harden the base template, then compare the CIS score and vulnerability counts against the first-day numbers above.
 - Rebuild the Claude side with a non-admin Ludus user and without bypass mode, as described in Part 1.
 - Consider swapping the headless analyst boxes for desktop workstations.
 - [Snapshot](https://docs.ludus.cloud/docs/using-ludus/snapshots/) the range and try Ludus testing mode for a repeatable exercise.
@@ -229,6 +269,8 @@ Adding an assertion that states the invariant on the host that owns it is what t
 - [Wazuh agent installation and agent/manager compatibility](https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html)
 - [Agent enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html) and [password-based enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/security-options/using-password-authentication.html)
 - [Wazuh package list](https://documentation.wazuh.com/current/installation-guide/packages-list.html)
+- [CIS Debian Linux Benchmarks](https://www.cisecurity.org/benchmark/debian_linux)
+- [Playwright](https://playwright.dev/), used to capture the dashboard screenshots
 
 **Ludus and Claude**
 - [Ludus](https://ludus.cloud/) and its [documentation](https://docs.ludus.cloud/)
