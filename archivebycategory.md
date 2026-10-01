@@ -18,8 +18,7 @@ sitemap: false
 
 <div id="index">
 	{% for category in categories %}
-		<a name="{{ category[0] }}"></a>
-		<h2>{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
+		<h2 id="{{ category[0] | slugify }}">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
 		{% assign sorted_posts = site.posts | sort: 'title' %}
 		{% for post in sorted_posts %}
 		{%if post.categories contains category[0]%}
