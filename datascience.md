@@ -11,7 +11,7 @@ permalink: /datascience/
   * [UniLM](https://github.com/microsoft/unilm) : Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
 
 # Books
-  * [Alex Hayes - Conditional Process Analysis](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html) : Introduction to Mediation, Moderation, and CPA
+  * [Alex Hayes - Conditional Process Analysis](https://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html) : Introduction to Mediation, Moderation, and CPA
 Third Edition
   * [Pandas Cookbook](https://github.com/jvns/pandas-cookbook) : Pandas gitBook
   * [Python Datascience Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) 
@@ -21,7 +21,7 @@ Third Edition
    
 # Data
 
-   * [See Data Page](data.md)
+   * [See Data Page](/data/)
    
 # Tools
 
