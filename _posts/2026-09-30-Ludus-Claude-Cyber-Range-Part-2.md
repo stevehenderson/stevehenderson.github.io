@@ -48,20 +48,20 @@ Entry 5 covers that in detail.
 One thing a reviewer should flag in those rules: agents enroll over 1515 with no enrollment password.
 Wazuh's default lets anything that can reach 1515 register itself as an agent, so here the firewall rules are the only thing deciding who can enroll.
 For a lab where I control every host, that's acceptable.
-Anywhere else, I'd turn on [password-based enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/security-options/using-password-authentication.html) so a host has to know a secret, not just have a route.
+Anywhere else, I'd turn on [password-based enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/security-options/using-password-authentication.html) so a host also needs a shared secret before it can enroll.
 
 ### The detour: an "unsupported" OS and a trust-store problem
 
 This entry did not go cleanly on the first try, which is why it is worth writing down.
 
 First question: the range runs Debian 12, and Debian isn't on Wazuh's supported list.
-Rather than guess, I had Claude read the installer's source.
+I had Claude read the installer's source to find out.
 The current installation assistant only *warns* on an unsupported OS and continues, and Wazuh ships Debian apt packages, so it installs fine with `-i`.
 There was no need to move the whole range to Ubuntu.
 
 Reading the installer mattered for a second reason: the role downloads `wazuh-install.sh` and runs it as root.
 The download is over verified TLS from `packages.wazuh.com`, but the role doesn't pin a checksum, so it trusts whatever that URL serves on the day it runs.
-Pinning a hash would make an unexpected change to the script fail the deploy instead of running it.
+With a pinned hash, an unexpected change to the script would fail the deploy before the script ever ran.
 
 Then the deploy failed twice, with the same error in two places:
 
@@ -73,8 +73,8 @@ fatal: [admin-web01]: SSL: CERTIFICATE_VERIFY_FAILED ...
 
 The base VM template ships without a populated CA trust store, so Ansible's [`get_url`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/get_url_module.html) couldn't verify TLS to `packages.wazuh.com`.
 (`curl` had worked earlier only because it was hitting internal HTTP.)
-The tempting fix is `validate_certs: false`, which makes the error go away by turning off the check that caught the problem, on the very download that fetches the signing key for every Wazuh package after it.
-The right fix is one step: refresh `ca-certificates` before any HTTPS fetch, so verification works instead of being skipped.
+Setting `validate_certs: false` would have made the error go away by turning off the check that caught the problem, on the very download that fetches the signing key for every Wazuh package after it.
+I left verification on and fixed the trust store, which takes one step: refresh `ca-certificates` before any HTTPS fetch.
 The one place the roles do skip verification is a call to the Wazuh indexer on `localhost`, whose certificate is self-signed by the installer.
 
 The interesting part was the shape of the failure: it surfaced first in the agent role, I fixed it there and redeployed, and it reappeared in the server role, which needed the identical fix.
@@ -84,12 +84,12 @@ Fast, idempotent redeploys made that loop cheap: the manager install is guarded 
 One more lab-specific setting is built into the role.
 The Wazuh indexer switches its indices to read-only once the disk passes about 85% usage, which silently stops ingestion.
 On a small lab disk that is likely to happen, so the role raises `vm.max_map_count` and disables the disk watermark up front.
-That trades a SIEM that stops ingesting for one that can fill its disk completely, which is the right trade for a disposable lab and the wrong one anywhere else.
-In production, the answer is a bigger disk and index retention, not turning the safety off.
+For a disposable lab, that's an acceptable trade: the indexer keeps ingesting, at the risk of filling the disk completely.
+In production, I'd leave the watermark on and size the disk and index retention to fit.
 
 ### Proof it works
 
-A successful deploy isn't the bar; the SIEM seeing the range is.
+The real test is whether the SIEM can see the range.
 The dashboard answers on `https://10.1.30.10` (a 302 to the login page):
 
 ![Wazuh dashboard on first load, running its API connection and index pattern checks.](/images/ludus-range/entry4-wazuh-dashboard-first-load.png)
@@ -112,7 +112,7 @@ The dashboard's Endpoints view shows the same five agents, all on Debian 12 and 
 ![Wazuh Endpoints view listing five active agents: admin-soc1/2/3, admin-database, and admin-web01, all Debian GNU/Linux 12 on v4.14.6.](/images/ludus-range/entry4-wazuh-endpoints-active.png)
 
 Every host is **Active**, including `admin-web01`, whose agent reports from the DMZ across the VLAN boundary through exactly the 1514/1515 rule opened for it, and nothing wider.
-The traffic generator from Entry 3 is still running underneath all of this, so the SIEM is watching live analyst-to-portal-to-database activity rather than an idle range.
+The traffic generator from Entry 3 is still running underneath all of this, so the SIEM is watching live analyst-to-portal-to-database activity.
 
 *(Dashboard credentials are generated per deploy and saved to `/root/wazuh-credentials.txt` on the manager.
 They are deliberately not included here.)*
@@ -125,7 +125,7 @@ The more useful question is what Wazuh had found after watching the range for a 
 **The traffic matches the firewall.**
 The IT Hygiene view summarizes network activity across all five agents.
 The top destination ports are 80, 3306, and 1514: analysts browsing the portal, the portal querying the database, and agents reporting to the manager.
-Those are the flows the firewall allows, seen this time from the hosts themselves rather than from the tap.
+Those are the flows the firewall allows, and this time the hosts themselves are reporting them.
 
 ![Wazuh IT Hygiene dashboard for the five Debian agents. The top destination ports are 80, 3306, and 1514.](/images/ludus-range/entry4-wazuh-it-hygiene-ports.png)
 
@@ -178,7 +178,7 @@ The fix I reached for was pinning the agents to the manager's release line, `4.1
 
 I deployed the fix and every agent came back reporting `changed`.
 I had expected a pin on a host that was already in the desired state to report nothing to do.
-The reason is that `4.14.*` is a family, not a version: apt reads it as permission to install the newest patch release in that line.
+The reason is that apt treats `4.14.*` as permission to install the newest patch release in that line.
 My manager was on 4.14.6, the repository was serving 4.14.7, and my fix had upgraded all five agents past their manager.
 The pin was meant to keep the agents in step with the manager, and the result was the opposite: every agent ended up a patch release ahead of it.
 
@@ -207,7 +207,7 @@ My first attempt at the version check lived in the manager role, which felt natu
 
 It failed the deploy, correctly, on exactly the skew described above.
 It also failed it *before* the agent role ran, and that is the role that installs the matching version.
-Because the check ran ahead of the repair, the deploy stopped instead of correcting itself.
+Because the check ran ahead of the repair, the deploy stopped before it could correct itself.
 
 The manager role now reports the mismatch as a warning and the assertion lives in the agent role, on the host it applies to, after the install that resolves it.
 The check is the same; moving it changes what it does.
@@ -228,8 +228,9 @@ $ ssh 10.1.30.10 sudo /var/ossec/bin/agent_control -l
    ...
 ```
 
-Two caveats come with that design, and I'd rather name them than have a reader find them.
-Because Ludus still logs in with the template password, SSH password authentication stays on, so the key is a convenience, not a hardening step: anyone on the VPN who knows the template's default password can still log in.
+Two caveats come with that design, and I want to be up front about them.
+Because Ludus still logs in with the template password, SSH password authentication stays on.
+The key makes access more convenient and does nothing to harden the VMs: anyone on the VPN who knows the template's default password can still log in.
 And because the role only adds keys, removing a key from the config doesn't remove it from the VMs.
 Revoking a laptop means deleting its key from `~debian/.ssh/authorized_keys` by hand, or changing the role to manage the full key set.
 
@@ -252,7 +253,7 @@ Adding an assertion that states the invariant on the host that owns it is what t
 - Rebuild the Claude side with a non-admin Ludus user and without bypass mode, as described in Part 1.
 - Consider swapping the headless analyst boxes for desktop workstations.
 - [Snapshot](https://docs.ludus.cloud/docs/using-ludus/snapshots/) the range and try Ludus testing mode for a repeatable exercise.
-- Run an actual attack against web01 (or brute-force an analyst) and watch it raise a Wazuh alert, so the SIEM is useful and not just connected.
+- Run an actual attack against web01 (or brute-force an analyst) and watch it raise a Wazuh alert, so the SIEM proves it can detect something.
 - Upgrade the Wazuh manager to the current patch release, then let the agents follow it, to exercise the version flow in the other direction.
 - Forward the tap/mirror traffic into Wazuh (or a Suricata sensor beside it) so network and host telemetry land in one place.
 
