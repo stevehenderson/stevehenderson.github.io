@@ -7,7 +7,7 @@ tags: ['cyber', 'ludus', 'claude', 'cyber-range', 'proxmox', 'ansible', 'detecti
 
 > **Status:** Running draft, written as I went.
 > Part 1 builds the range and makes it observable.
-> Part 2 (coming soon) adds the SIEM and covers what the review afterwards turned up.
+> [Part 2]({% post_url 2026-09-30-Ludus-Claude-Cyber-Range-Part-2 %}) adds the SIEM and covers what the review afterwards turned up.
 
 ## Why I'm writing this
 
@@ -17,7 +17,7 @@ I wanted to see how far I could get by *describing* the range I wanted to [Claud
 This post is the running log of that experiment: what I asked for, what Claude did, where it made good calls, and the technical detours along the way.
 
 Part 1 covers standing the range up and making it observable: installing Ludus, going from a paragraph of description to a deployed and segmented range, tapping its traffic without changing what the VMs see, and giving that tap something worth capturing.
-Part 2 (coming soon) puts a SIEM in front of the analysts, then works through what a proper review of the whole thing turned up, including a version pin that caused the exact problem it was meant to prevent.
+[Part 2]({% post_url 2026-09-30-Ludus-Claude-Cyber-Range-Part-2 %}) puts a SIEM in front of the analysts, then works through what a proper review of the whole thing turned up, including a version pin that caused the exact problem it was meant to prevent.
 
 
 ---
@@ -187,6 +187,9 @@ Here I have to own something: I gave Claude far more authority than this job nee
   With the tool auto-approved, the only thing between Claude and deleting a range was Claude deciding not to.
 - **`Bash(ludus range *)` on the allowlist.**
   That pattern matches `ludus range status`, and it also matches `ludus range rm --no-prompt`.
+- **Bypass permissions mode for some sessions.**
+  For some of the work, including the Wazuh build in Part 2, I ran Claude Code in [bypass permissions mode](https://code.claude.com/docs/en/permission-modes).
+  That turns off confirmation for every tool, shell commands included, so for those sessions the allowlist above didn't matter at all.
 
 Nothing went wrong, and the admin power was never used.
 But "nothing went wrong" isn't a control, and it's the wrong lesson from a post about building a security range.
@@ -199,6 +202,7 @@ Here's what I'd do from the start next time:
    `list_ludus_operations` and `describe_ludus_operation` are safe to auto-approve.
    Claude Code [approves MCP tools per tool](https://code.claude.com/docs/en/permissions), not per argument, so `call_ludus_api` should prompt every time.
    It's a click per action, but it's the only point where a human sees the action before it runs.
+   And no bypass mode against anything that holds an admin key.
 3. **Allowlist CLI subcommands, not wildcards:** `ludus range status`, `ludus range logs *`, `ludus range config get`, and nothing that can remove anything.
 4. **[Snapshot](https://docs.ludus.cloud/docs/using-ludus/snapshots/) before letting the agent deploy** (`ludus snapshots create pre-agent`), so any change it makes can be rolled back with `ludus snapshots revert`.
 
@@ -469,7 +473,7 @@ The next step is giving the range somewhere to send its own telemetry, and someo
 The range now builds itself from a description, has segmentation that's been tested in both directions, and produces traffic worth looking at.
 What it does not have yet is anywhere for that activity to land, or anyone watching it.
 
-Part 2 (coming soon) adds a [Wazuh](https://wazuh.com/) SIEM on its own SOC VLAN, with agents reporting across the VLAN boundaries through exactly the rules opened for them.
+[Part 2]({% post_url 2026-09-30-Ludus-Claude-Cyber-Range-Part-2 %}) adds a [Wazuh](https://wazuh.com/) SIEM on its own SOC VLAN, with agents reporting across the VLAN boundaries through exactly the rules opened for them.
 It also covers the review pass at the end: the hard-coded assumptions it turned up, a version pin that left the agents a release ahead of their manager, a check that ran before the role that would have corrected them, and adding direct SSH access to the VMs.
 
 ---
