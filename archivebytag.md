@@ -18,8 +18,7 @@ sitemap: false
 
 <div id="index">
 	{% for tag in tags %}
-		<a name="{{ tag[0] }}"></a>
-		<h2>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h2>
+		<h2 id="{{ tag[0] | slugify }}">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}) </h2>
 		{% assign sorted_posts = site.posts | sort: 'title' %}
 		{% for post in sorted_posts %}
 		{%if post.tags contains tag[0]%}

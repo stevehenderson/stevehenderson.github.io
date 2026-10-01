@@ -8,7 +8,7 @@ layout: default
   <p class="post-meta">
     {{ page.content | number_of_words | divided_by: 200 | plus: 1 }} min read &middot; {{ page.date | date: "%B %e, %Y" }}
     {% if page.tags.size > 0 %}
-      &middot; {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      &middot; {% for tag in page.tags %}<a href="{{ site.baseurl }}/tagview/#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
     {% endif %}
   </p>
 
