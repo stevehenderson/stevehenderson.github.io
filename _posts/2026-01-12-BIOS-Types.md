@@ -37,7 +37,7 @@ There are a number of limitations with the Legacy BIOS approach.  First, the MBR
 
 Next, Legacy BIOS only supports a 1 MB address space constraint.  This limits the complexity and feature set of the BIOS programming.  This can be.  
 
-Third, there is no native security features (no Secure Boot).  SecureBoot is a feature that prevents the computer from running untrusted code in the kernel, a critical safeguard against kernel ring level 0 attacks (rootkits, others).  Check out my blog post on [Detecting Secure Boot with Go](2024-12-24-GoSecureBootDetection.md) for technical details.
+Third, there is no native security features (no Secure Boot).  SecureBoot is a feature that prevents the computer from running untrusted code in the kernel, a critical safeguard against kernel ring level 0 attacks (rootkits, others).  Check out my blog post on [Detecting Secure Boot with Go]({% post_url 2024-12-24-GoSecureBootDetection %}) for technical details.
 
 Fourth, Legacy BIOS has zero network capability built-in.  This means no network booting, a critical tool in enterprise systems.  Many companies and admins rely on centralized boot servers for provisioning or managing zero trust environments.
 
@@ -76,7 +76,7 @@ The EFI System Partition (ESP) is another architectural cornerstone worth unders
 
 ### Key Features
 
-**Secure Boot** is probably the core feature that most people associate with UEFI. It provides cryptographic verification of boot software before execution. Every bootloader, driver, and kernel must be signed with a trusted key, and the firmware verifies these signatures before allowing code to run. This is your first line of defense against bootkits and rootkits - malware that tries to load before the operating system and hide from security software. Without Secure Boot, an attacker who compromises your boot process owns your machine at the deepest level. Check out my blog post on [Detecting Secure Boot with Go](2024-12-24-GoSecureBootDetection.md) if you want to dig into the implementation details.
+**Secure Boot** is probably the core feature that most people associate with UEFI. It provides cryptographic verification of boot software before execution. Every bootloader, driver, and kernel must be signed with a trusted key, and the firmware verifies these signatures before allowing code to run. This is your first line of defense against bootkits and rootkits - malware that tries to load before the operating system and hide from security software. Without Secure Boot, an attacker who compromises your boot process owns your machine at the deepest level. Check out my blog post on [Detecting Secure Boot with Go]({% post_url 2024-12-24-GoSecureBootDetection %}) if you want to dig into the implementation details.
 
 **Fast boot times** come from parallel initialization. Legacy BIOS initialized hardware sequentially - one device after another. UEFI can initialize multiple devices simultaneously. On modern systems with NVMe drives, you can go from power button to login screen in seconds. This isn't just a nice-to-have; in enterprise environments, faster boot times mean faster recovery from reboots and less downtime during patching cycles.
 
