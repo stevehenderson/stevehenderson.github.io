@@ -3,6 +3,7 @@ layout: post
 title: "Automated Cyber Range Deployments with Ludus and Claude, Part 1: Building a Range You Can Watch"
 categories: ['blog']
 tags: ['cyber', 'ludus', 'claude', 'cyber-range', 'proxmox', 'ansible', 'detection-engineering', 'ai', 'series']
+summary: "Part 1 of a running log of building a cyber range by describing it to Claude Code connected to Ludus. Covers installing Ludus, deploying a segmented six-VM range from a paragraph of description, tapping its traffic passively, and generating realistic analyst activity for the tap to capture."
 ---
 
 > **Status:** Running draft, written as I went.

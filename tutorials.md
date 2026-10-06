@@ -30,15 +30,10 @@ Hands-on cyber how-to: videos and write-ups on the tools and techniques I use.
 
 <h2 class="section-head">From the Blog</h2>
 
-<div class="posts tutorial-posts">
+<div class="post-cards">
   {% assign tut_posts = site.posts | where_exp: "post", "post.tags contains 'cyber'" %}
   {% for post in tut_posts %}
-    <article class="post">
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="post-meta">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read &middot; {{ post.date | date: "%B %e, %Y" }}</p>
-      <div class="entry">{{ post.excerpt }}</div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read tutorial →</a>
-    </article>
+    {% include post-card.html post=post cta="Read tutorial" %}
   {% endfor %}
 </div>
 

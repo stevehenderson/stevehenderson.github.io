@@ -3,6 +3,7 @@ layout: post
 title: Understanding BIOS Types - Legacy BIOS, EFI, and UEFI
 categories: ['blog']
 tags: ['cyber', 'bios', 'uefi', 'firmware']
+summary: "A tour of PC firmware from Legacy BIOS through EFI to UEFI: how each one boots the machine, where each falls short, and why the differences matter for security, compatibility, boot performance and troubleshooting."
 ---
 
 ## Introduction

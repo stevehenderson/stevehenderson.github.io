@@ -3,6 +3,7 @@ layout: post
 title: "Treating Your Agents as Insiders: Lessons from the GDM AI Control Roadmap"
 categories: ['blog']
 tags: ['cyber', 'ai', 'agents', 'ai-safety', 'insider-threat']
+summary: "A summary of Google DeepMind's AI Control Roadmap, which treats capable AI agents as potential insider threats, followed by eight practical lessons for teams building cyber agents, from per-agent identity and choke points to kill switches and red-teaming the controls themselves."
 ---
 
 I build and think a lot about cyber agents — AI systems that read code, call tools, touch infrastructure, and increasingly do real work without a human watching every step. So when Google DeepMind published [**GDM AI Control Roadmap (v0.1)**](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/securing-the-future-of-ai-agents/gdm-ai-control-roadmap.pdf) (Phuong, Jenner, Simon, Ho, Shah, Farquhar & Coull, 2026), it piqued my interest. It's the clearest articulation I've seen of a simple, slightly uncomfortable idea: **the most useful framing for securing AI agents is to treat them as a potential insider threat** — and to borrow, almost wholesale, the playbook we already use against malicious employees.

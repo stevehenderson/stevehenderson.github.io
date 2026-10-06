@@ -3,6 +3,7 @@ layout: post
 title: The Importance of Secure Boot
 categories: ['blog']
 tags: ['cyber', 'secureboot']
+summary: "What UEFI Secure Boot checks at startup, how to add your own applications, OS files and kernel modules without turning it off, and how to detect whether it is enabled from Linux, PowerShell and Go."
 ---
 
 Secure Boot is a rather cryptic and opaque security setting on your computer.  In most circumstances, it's something you or your computer's vendor will configure in your machine's BIOS, and then forget about.  Occasionally, you might be tempted to disable this setting to facilitate custom boot scenarios, install certain hardware, or perform boutique configurations to your machine.  However, Secure Boot is an essential protection mechanism to help keep your computer safe from the most dangerous and sophisticated cyber security threats.

@@ -3,6 +3,7 @@ layout: post
 title: DuckDB and parquet
 categories: ['blog']
 tags: ['duckdb', 'parquet']
+summary: "A pointer to the DuckDB team's tutorial on querying Parquet files directly with SQL."
 ---
 
 
