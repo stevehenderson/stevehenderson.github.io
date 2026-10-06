@@ -4,7 +4,7 @@ title: Links
 permalink: /links/
 ---
 
-Landing zone for all things..loosley categorized!
+Landing zone for all things, loosely categorized!
 
 <div class="links-controls">
   <input type="search" id="links-filter" class="links-filter" autocomplete="off"
@@ -14,30 +14,30 @@ Landing zone for all things..loosley categorized!
 
 ## API Tools
    * [Bruno](https://www.usebruno.com/) : Fantastic API testing and dev tool
-   * [Insomnia](https://insomnia.rest/) : U formerly Fantastic API testing and dev tool.  Not so good anymore :(
-   * [Paw](https://paw.cloud/) : Mac only API tools
-   * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerfied and ready to roll.
+   * [Insomnia](https://insomnia.rest/) : Formerly a fantastic API testing and dev tool.  Not so good anymore :(
+   * [Paw](https://paw.cloud/) : Mac-only API tool
+   * [docker-http-https-echo](https://github.com/mendhak/docker-http-https-echo) : A nice http and https echo server.  Dockerized and ready to roll.
 
 ## Artificial Intelligence / Machine Learning
 
-### Agenic AI
+### Agentic AI
    * [AI Agent RnD](https://github.com/CellCS/AI-Agents-RnD) : Research page on AI Agents
    * [Langroid](https://github.com/langroid/langroid) : An intuitive, lightweight, extensible and principled Python framework to easily build LLM-powered applications
    * [monoid](https://github.com/munkim/monoid) : Build AI Agents directly on top of your APIs
    * [Open Agents](https://github.com/xlang-ai/OpenAgents)
-   * [Agentic Engineering](https://www.jayminwest.com/agentic-engineering-book):  Outstanding book by Jaymin West
-   * [Overstory](https://github.com/jayminwest/overstory) : Multi-agent orchestration for AI coding agents — pluggable runtime adapters for Claude Code, Pi, and more.  Typescript.  
+   * [Agentic Engineering](https://github.com/jayminwest/agentic-engineering-book):  Outstanding book by Jaymin West
+   * [Overstory](https://github.com/jayminwest/overstory) : Multi-agent orchestration for AI coding agents — pluggable runtime adapters for Claude Code, Pi, and more.  TypeScript.  
    * [Gastown](https://github.com/gastownhall/gastown) : Multi-agent workspace manager
-   * [Buidliing a Multi-Agent System](https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/1-building-a-multi-agent-system/building-a-multi-agent-system#0) :  A google tutorial on rolling your own multi-agent system
-   * [The Code Agent Orchestra - what makes multi-agent coding work](https://addyosmani.com/blog/code-agent-orchestra/)_ : Nice Blog (with tools) from Addy Osmani about Multiagent Workflows
+   * [Building a Multi-Agent System](https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/1-building-a-multi-agent-system/building-a-multi-agent-system#0) :  A Google tutorial on rolling your own multi-agent system
+   * [The Code Agent Orchestra - what makes multi-agent coding work](https://addyosmani.com/blog/code-agent-orchestra/) : Nice blog post (with tools) from Addy Osmani about multi-agent workflows
    * [SkillOpt](https://github.com/microsoft/SkillOpt) : Microsoft text-space optimizer that "trains" reusable natural-language agent skills — epochs, batch sizes, validation gates — without touching model weights, emitting deployable best_skill.md artifacts
    * [termany](https://github.com/thinkany-ai/termany) : Agent-Native Terminal
    * [ponytail](https://github.com/DietrichGebert/ponytail) : Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote
    * [archify](https://github.com/tt-a1i/archify) : Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams — self-contained HTML with motion and crisp export
    * [paseo](https://github.com/getpaseo/paseo) : Orchestrate multiple coding agents from desktop and mobile
-   * [paseo (AubreyF fork)](https://github.com/AubreyF/paseo) : Control plane for your agent fleet — extends Paseo with multi-account task delegation, profiles, goals, and cross-device message queuing
+   * [vorteo](https://github.com/AubreyF/vorteo) : Custom Paseo fork that adds container sandboxing, frontier account pooling, profiles, server-managed message queues, goal direction, and private cross-device access
    * [aubtown](https://github.com/AubreyF/aubtown) : Lightweight, opinionated software factory. Uses GitHub Issues and OpenAI Codex
-   * [vorton-cloud](https://github.com/AubreyF/vorton-cloud) : Sovereign superintelligence for humans and AI-native organizations — biomimetic memories, self-improving software factory, visual control plane
+   * [vorton](https://github.com/AubreyF/vorton) : Visual control plane for AI operating systems and software factories — goals, tasks, councils, and tools to build your own personal apps (replaces vorton-cloud)
    * [athena-graphs](https://github.com/luckeyfaraday/athena-graphs) : Agent-native graph orchestration for Codex, Claude, and skill-compatible agents
    * [common-sense](https://github.com/sickpancake/common-sense) : A baseline reasoning skill that helps AI agents understand user intent and apply practical judgment
    * [PhanOS](https://github.com/Aloim/PhanOS) : Automated project operating system — Phanes orchestrator, Cyphor documentation/context/tooling substrate, and Blueprompt
@@ -45,35 +45,51 @@ Landing zone for all things..loosley categorized!
    * [harness-terminal](https://github.com/robzilla1738/harness-terminal) : Native macOS terminal that keeps your sessions running and tells you when a coding agent needs you. GPU-rendered, scriptable, agent-aware
    * [lean-ctx](https://github.com/yvgude/lean-ctx) : LeanCTX — Context Intelligence for AI systems. Rust
    * [headroom](https://github.com/headroomlabs-ai/headroom) : Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. Library, proxy, and MCP server
+   * [ax](https://github.com/google/ax) : Google's open agentic orchestration runtime. Go
+   * [axe](https://github.com/jrswab/axe) : Lightweight CLI for running single-purpose AI agents. Define focused agents in TOML and trigger them from pipes, git hooks, cron, or the terminal. Go
+   * [openharness](https://github.com/autonomous-ai/openharness) : Command center for coding agents across all your machines; extends beyond code into CAD, circuits, robots, games and music
+   * [agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) : Cross-harness, self-improving memory layer for AI agents. Go
+   * [agentgateway](https://github.com/agentgateway/agentgateway) : Agentic proxy for AI agents and MCP servers. Rust
+   * [AEVS-sdk](https://github.com/fetchai/AEVS-sdk) : Transparent audit SDK for AI agents
+   * [classcad-ai](https://github.com/awv-informatik/classcad-ai) : Agent skill for the ClassCAD headless CAD engine — verified API references that help AI agents generate correct ClassCAD code
 
 ### General
    * [AIPRM](https://www.aiprm.com/) : ChatGPT prompt management
    * [Haystack](https://github.com/deepset-ai/haystack) : End-to-end framework that enables you to build powerful and production-ready pipelines for different search use cases
    * [HuggingFace](https://huggingface.co/stevehenderson) : My profile on HuggingFace
-   * [MidJourney](https://www.midjourney.com/) : Incredible AI generated art
-   * [Poe](https://poe.com/login) : multi ChatBot interface
+   * [Midjourney](https://www.midjourney.com/) : Incredible AI-generated art
+   * [Poe](https://poe.com/login) : Multi-chatbot interface
    * [SudoLang](https://github.com/paralleldrive/sudolang-llm-support) : LLM modeling language
    * [fabric](https://github.com/danielmiessler/fabric) : open-source framework for augmenting humans using AI
-   * [n8n.io](https://n8n.io) Automation software
+   * [n8n.io](https://n8n.io) : Automation software
+   * [Hands-On AI Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) : Curated collection of practical AI projects — OCR, RAG, agents, and more
 
 ### Large Language Model Links (LLM)
    * [axolotl](https://axolotl.ai/) :  LLM fine-tuning
    * [deepmark](https://github.com/IngestAI/deepmark) : Enables a unique testing environment for language models (LLM) assessment on task-specific metrics and on your own data
    * [LM Studio](https://lmstudio.ai/) : Excellent LLM IDE/Workbench.  Integrates with HuggingFace.   Provides API
-   * [ollama](https://github.com/ollama/ollama) : A toolkit for working with LLMs.  Bindings for python on js.
-   * [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/). 
- Top vulnerability for LLMs.  [2025 report](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/).
+   * [ollama](https://github.com/ollama/ollama) : A toolkit for working with LLMs.  Bindings for Python and JS.
+   * [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) : Top vulnerabilities for LLMs.  See the [2025 report](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/).
    * [laya-mlx](https://github.com/mizorewww/laya-mlx) : Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API
    * [distributed-llama](https://github.com/b4rtaz/distributed-llama) : Distributed LLM inference. Connect home devices into a powerful cluster to accelerate LLM inference
    * [prima.cpp](https://github.com/OpenCPIL/prima.cpp) : Scale your local AI beyond one device
-   * [SemIf](https://github.com/TheoLeeCJ/SemIf) : Semantic ifs from open models, on a 3090 at home
+   * [SemIf-OpenJev](https://github.com/TheoLeeCJ/SemIf-OpenJev) : Semantic ifs from open models, on a 3090 at home
    * [jevlike](https://github.com/vinnylarouge/jevlike) : Train a small model that chooses among a changing list of text options — a Jev-like option-scoring starter model
+   * [jevify](https://github.com/ryana/jevify) : Prompts to jev-ify your projects
+   * [laya](https://github.com/NandhaKishorM/laya) : Non-autoregressive "System 1" decision engine — typed choice, score, and yes/no decisions over text in a single forward pass, in 100+ languages
+   * [strands-decider](https://github.com/strands-labs/strands-decider) : Small, fast decision model for agentic workflows — pick between options or rate on a scale, with a calibrated confidence on every decision
    * [FreeToken](https://github.com/FlashML-org/FreeToken) : Datacenter-scale model serving on your desktop. Run massive models locally, fast and efficiently
    * [pulsar](https://github.com/giannisanni/pulsar) : SSD-streaming inference engine for giant MoE models (Rust + CUDA). Zero-config multi-GPU
    * [LiveBench](https://github.com/LiveBench/LiveBench) : A challenging, contamination-free LLM benchmark
    * [colibri](https://github.com/JustVugg/colibri) : Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk
    * [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX) : Fast local AI engine for Apple Silicon. Drop-in OpenAI replacement; works with Claude Code, Cursor, Aider
    * [omlx](https://github.com/jundot/omlx) : LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
+   * [ds4](https://github.com/antirez/ds4) : antirez's local inference engine for DeepSeek 4 Flash and Pro on Metal, CUDA and ROCm. C
+   * [TensorFold](https://github.com/ashhart/TensorFold) : LLM inference engine for Metal, CUDA and Vulkan
+   * [Strata](https://github.com/Niko1221/Strata) : One-click Qwen3.8-Flash-Next on consumer hardware (Windows / Linux), with an OpenAI/Anthropic-compatible API on localhost
+   * [Edge0](https://github.com/Edge0-AI/Edge0) : Run 35B MoE models in ~2.5 GB of RAM by streaming weights from SSD, with a trained router that predicts loads a step ahead
+   * [DeepSeek-V4.1-Flash-Two-Sparks](https://github.com/0xSero/DeepSeek-V4.1-Flash-Two-Sparks) : DeepSeek-V4.1-Flash across two DGX Sparks — 262k context, vision, and tools
+   * [deepseek-v41-mlx-three-mac](https://github.com/Jackten/deepseek-v41-mlx-three-mac) : Original-weight DeepSeek V4.1 Flash on three M5 Max Macs over Thunderbolt RDMA, with measured benchmarks
    * [instructor](https://github.com/567-labs/instructor) : Structured outputs for LLMs
    * [litellm](https://github.com/BerriAI/litellm) : AI gateway — call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging
    * [outlines](https://github.com/dottxt-ai/outlines) : Structured outputs for LLMs
@@ -82,11 +98,14 @@ Landing zone for all things..loosley categorized!
 
 ### AI Cyber Security
    * [Arsenal](https://github.com/mitre-atlas/arsenal) : CALDERA plugin for adversary emulation of AI-enabled systems
-   * [MITRE Atlas](https://atlas.mitre.org/): ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against Al-enabled systems based on real-world attack observations and realistic demonstrations from Al red teams and security groups.
-   * [MITRE Atlas Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from MITRE Atlas Project
+   * [MITRE ATLAS](https://atlas.mitre.org/): ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a globally accessible, living knowledge base of adversary tactics and techniques against AI-enabled systems based on real-world attack observations and realistic demonstrations from AI red teams and security groups.
+   * [MITRE ATLAS Data](https://github.com/mitre-atlas/atlas-data) : Datasets and code from the MITRE ATLAS project
    * [AthenaBench](https://github.com/Athena-Software-Group/athenabench) : A dynamic benchmark for evaluating LLMs in cyber threat intelligence (WAITI 2025)
    * [CTIBench](https://github.com/maveryn/cti-bench) : NeurIPS'24 benchmark for evaluating LLMs in cyber threat intelligence
    * [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) : Claude Code skill bundle for bug hunting and external red-team work — 82 skills, 15 slash commands, 681 disclosed-report patterns across 24 vulnerability classes
+   * [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) : Autonomous red-teaming platform; multi-agent offensive-security meta-harness
+   * [DeepTeam](https://github.com/confident-ai/deepteam) : Framework to red team LLMs and AI agents
+   * [Zurp](https://github.com/facebookincubator/Zurp) : Meta's agent-driven tooling for vetted Meta Bug Bounty researchers
      
 ### AI Agent Tools
   * [Keep](https://www.keephq.dev/) : AI managed alerts and logs
@@ -98,17 +117,18 @@ Landing zone for all things..loosley categorized!
   * [F-LMM](https://github.com/wusize/F-LMM) : CVPR2025 — Grounding Frozen Large Multimodal Models
   * [gamma-models](https://github.com/jannerm/gamma-models) : Generative Temporal Difference Learning for Infinite-Horizon Prediction
   * [FaceAnything](https://github.com/kocasariumut/FaceAnything) : 4D Face Reconstruction from Any Image Sequence (ECCV 2026)
+  * [Chandassu](https://github.com/BodduSriPavan-111/chandassu) : Python library for analyzing metrical poetry across languages
 
 ## Asset Management
-   * [OSQuery](https://www.osquery.io/) : a SQL powered operating system instrumentation, monitoring, and analytics framework.
+   * [osquery](https://www.osquery.io/) : A SQL-powered operating system instrumentation, monitoring, and analytics framework.
 
 ## Authentication
    * [Auth0](https://auth0.com/)  : Best in class Authentication as a service.  Great value!
    * [jwt.io](https://jwt.io/) : Fantastic JWT inspector
-   * [jwt builder](https://web.archive.org/web/20220121165054/http://jwtbuilder.jamiekurtz.com/) : Webbased tool for constucting custom JWTs.  Great for learning.
-   * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome Plugin to Harvest and inspect JWT   
+   * [jwt builder](https://web.archive.org/web/20220121165054/http://jwtbuilder.jamiekurtz.com/) : Web-based tool for constructing custom JWTs.  Great for learning.
+   * [JWT Inspector](https://chrome.google.com/webstore/detail/jwt-inspector/jgjihoodklabhdoeffdjofnknfijolgk/related) : Chrome extension to harvest and inspect JWTs   
 
-## Block Chain
+## Blockchain
    * [Blockchain Golang Project by diop](https://github.com/diop/blockchain-programming-golang?tab=readme-ov-file)
    * [Coral Health go blockchain tutorial](https://mycoralhealth.medium.com/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc)
 
@@ -117,21 +137,22 @@ Landing zone for all things..loosley categorized!
    * [Cascade](https://github.com/Derecho-Project/cascade): Key/Value API for data manipulation in distributed memory and persistent storage.  Very fast. C++
    * [CloudCraft](https://www.cloudcraft.co/) : Visualize your cloud infra automatically via introspection.  AWS, GCP, Azure, more
    * [LocalStack](https://localstack.cloud/) : Fully functional cloud stack (AWS)
+   * [stackd](https://github.com/radkawar/stackd) : Local AWS emulator with AWS-compatible HTTP APIs, optional SQLite persistence, and real compute/database backends. Under active development. Go
    * [minio](https://github.com/minio/minio) : A High Performance Object Storage for Cloud Storage and Kubernetes
    * [rclone](https://rclone.org/) : Clone data from Cloud Storage X to Cloud Storage Y.  Supports Google GCS, AWS S3, Azure, and more!
    * [Cloudflare R2](https://developers.cloudflare.com/r2/) : Object storage for all your data
-   * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
+   * [FluxCloud](https://runonflux.com/) : Web3 compute and storage
    * [Akash Network](https://akash.network/) : Decentralized compute marketplace
        
 ### Cloud Filesystems
-   * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end to end encyption and may other features
+   * [s3ql](https://github.com/s3ql/s3ql) : A full featured file system for online data storage.  Backed by S3, GCP, Azure...  Supports end-to-end encryption and many other features
    * [SeaweedFS](https://github.com/seaweedfs) : SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files!
 
 
 ### Google Cloud Platform
 
 #### Google Cloud Public Certs  
-   * [Oath2 Certs](https://www.googleapis.com/oauth2/v3/certs?9962f04feed9545ce2134ab54ceef581af24baff)
+   * [OAuth2 Certs](https://www.googleapis.com/oauth2/v3/certs?9962f04feed9545ce2134ab54ceef581af24baff)
    * [Firebase Public Cert](https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com)
    * [Firebase Public Cert RFC7517](https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com)
 
@@ -139,7 +160,7 @@ Landing zone for all things..loosley categorized!
    * [Cloud Console Colorizer](https://chrome.google.com/webstore/detail/gcp-console-colorize/higjahjicmccalicmgfpokdmooopdhej/related?hl=en)
 
 #### Google Cloud Forum
-   * [Google Cloud Forum](https://www.googlecloudcommunity.com/gc/Developer-Tools/bd-p/cloud-developer-tools)
+   * [Google Cloud Forum](https://discuss.google.dev/)
 
 #### Google Issue Trackers    
    * [search](https://issuetracker.google.com/components?componentId=190802) : Type "cloud"
@@ -152,24 +173,24 @@ Landing zone for all things..loosley categorized!
    * [Meld](https://meldmerge.org/) : Meld Diff Tool
 
 ### Go Tools
-   * [Curl to Go](https://mholt.github.io/curl-to-go/) : Convert any curl command to GO code
-   * [JSON to Go Struct](https://mholt.github.io/json-to-go/) : Convert a json blob into a go struct
+   * [Curl to Go](https://mholt.github.io/curl-to-go/) : Convert any curl command to Go code
+   * [JSON to Go Struct](https://mholt.github.io/json-to-go/) : Convert a JSON blob into a Go struct
  
 ### VSCode & Extensions
    * [VSCode](https://code.visualstudio.com/) : Fantastic, portable, and fast IDE -- supports most languages. 
    * [Tab Groups](https://marketplace.visualstudio.com/items?itemName=usama8800.tab-groups&ssr=false#review-details) : Save open tabs as a group
 
 ### Code Signing
-   * [MacOS Code Signing Tutorial by Ken Cochrane](https://www.kencochrane.com/2020/08/01/build-and-sign-golang-binaries-for-macos-with-github-actions/) : Nice tutorial on code signing with MacOS
+   * [macOS Code Signing Tutorial by Ken Cochrane](https://www.kencochrane.com/2020/08/01/build-and-sign-golang-binaries-for-macos-with-github-actions/) : Nice tutorial on code signing for macOS
 
 ### Coding Support
    * [random.org](https://www.random.org/strings/) : Random strings and such.
    * [transform tools](https://transform.tools/json-to-go) : Online tool to convert JSON to lots of code formats
    * [Binder](https://mybinder.org/) : Git to Jupyter Notebooks
-   * [github](https://github.com/stevehenderson) : My github profile
-   * [go playground](https://go.dev/play/)  : Online go playground
+   * [GitHub](https://github.com/stevehenderson) : My GitHub profile
+   * [go playground](https://go.dev/play/)  : Online Go playground
    * [Google code search](https://cs.opensource.google/)  : Google Code Search
-   * [Jupyter Free](https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb): Demo jupyter notebooks
+   * [Jupyter Free](https://jupyter.org/try): Demo Jupyter notebooks
    * [PySpark](https://spark.apache.org/docs/latest/api/python/getting_started/index.html):  PySpark Documentation -- good
 
 ## CI/CD
@@ -179,50 +200,50 @@ Landing zone for all things..loosley categorized!
 
 ## Collaboration
    * [Miro](https://miro.com/):  Amazing whiteboarding and collaboration tool
-   * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool, rivals visio, insanely collaborative
+   * [Whimsical](https://whimsical.com/) : Excellent graphical diagramming tool, rivals Visio, insanely collaborative
   
 ## Communications
-   * [Riot](https://about.riot.im/) : Open-source chat, video, filesharing
+   * [Element](https://element.io/) : Open-source chat, video, file sharing (formerly Riot)
    * [Matrix](https://matrix.org/) : An open-source standard for communications
+   * [signal-headless](https://github.com/jaggedmountain/signal-headless) : Headless Signal linked device. Go
 
 ## Cryptography
-   * [cyberchef](https://gchq.github.io/CyberChef/) : Crypto Swiss Army Knife
+   * [CyberChef](https://gchq.github.io/CyberChef/) : Crypto Swiss Army Knife
    * [cryptii](https://cryptii.com/)  : Crypto chaining
-   * [decode.fr](https://www.dcode.fr/en)  : Fantastic crypto site
+   * [dCode](https://www.dcode.fr/en)  : Fantastic crypto site
    * [hashcat](https://hashcat.net/hashcat/): Hashcat
 
 ## Cybersecurity
 
 ### Continuous Attack Surface Management (CASM)
-   * [Axionius](https://www.axonius.com/): Connects to hundreds of data sources; comprehensive inventory, uncovers gaps, and triggers automated response actions whenever devices, users, and SaaS apps deviate from policies, controls, and expectations.
-   * [JupyterOne](https://www.jupiterone.com/) : A centralized view of your cyber assets; Cyber Asset Attack Surface Management, Cloud Security Posture, Security Operations, and Compliance.
+   * [Axonius](https://www.axonius.com/): Connects to hundreds of data sources; comprehensive inventory, uncovers gaps, and triggers automated response actions whenever devices, users, and SaaS apps deviate from policies, controls, and expectations.
+   * [JupiterOne](https://www.jupiterone.com/) : A centralized view of your cyber assets; Cyber Asset Attack Surface Management, Cloud Security Posture, Security Operations, and Compliance.
 
 ### Cyber Intel
    * [AlienVault](https://otx.alienvault.com/) : Open Threat Intel
-   * [Cyber Threat Cognitive Intelligence](https://www.ctci.ai/) : Best in class CVE prioritization and lookups
-   * [greynoise](https://greynoise.io/) : Identify internet noise and attacks
+   * [GreyNoise](https://greynoise.io/) : Identify internet noise and attacks
    * [Talos Intelligence](https://www.talosintelligence.com/) : IP Info and threats by Cisco
    * [VirusTotal](https://www.virustotal.com/) : Full feature file scanner, ip and url info
-   * [cyberIntelMatrix](https://cyberintelmatrix.com/)
+   * [ThreatDome](https://www.threatdome.com/) : CTI platform specialized for ICS and IoT (formerly cyberIntelMatrix)
    * [IpInfo](https://ipinfo.io/) : best in class ip enrichment for geolocation, company, RDNS, Whois, etc
-   * [ip2location](https://lite.ip2location.com/) : IP Geolocation.  Generoud Free Tier
-   * [ipapi.is](https://ipapi.is/) : Solid ip enrichment for geolocation and more.  Generous free tier and api.
+   * [ip2location](https://lite.ip2location.com/) : IP geolocation.  Generous free tier
+   * [ipapi.is](https://ipapi.is/) : Solid ip enrichment for geolocation and more.  Generous free tier and API.
    * [db-ip](https://db-ip.com/) : Another good ip enrichment for geolocation.  Creative commons, commercial-ready free-tier.
-   * [MISP](https://misp-project.org/) : Opensource Intel Threat sharing platform
-   * [openCTI](https://www.opencti.io/en/)
+   * [MISP](https://misp-project.org/) : Open-source threat intel sharing platform
+   * [OpenCTI](https://www.opencti.io/en/)
    * [Fing](https://app.fing.com/business/devrecog/demo) : Device fingerprinting
-   * [PulsediveCTI](https://pulsedive.com/) : Comprehensive and affordable cybre threat intelligence indicator with API
+   * [Pulsedive](https://pulsedive.com/) : Comprehensive and affordable cyber threat intelligence with an API
    * [RITA](https://github.com/activecm/rita) : Real Intelligence Threat Analytics
-   * [SpiderFoot](https://www.spiderfoot.net/) :
-   * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots github for IoCs.  Organized by CVE, Threat, and more
-   * [Lord Alfred IP Ranges](https://github.com/lord-alfred/ipranges) : Lord Alfred's List of IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft, Oracle (Cloud), GitHub, Facebook (Meta), OpenAI (GPTBot) and other with daily updates.
+   * [SpiderFoot](https://github.com/smicallef/spiderfoot)
+   * [rodanmaharjan's ThreatIntelligence](https://github.com/rodanmaharjan/ThreatIntelligence) : A grassroots GitHub repo for IoCs.  Organized by CVE, Threat, and more
+   * [Lord Alfred IP Ranges](https://github.com/lord-alfred/ipranges) : Lord Alfred's List of IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft, Oracle (Cloud), GitHub, Facebook (Meta), OpenAI (GPTBot) and others, with daily updates.
    * [TweetFeed](https://tweetfeed.live/) : Central source for Twitter/X based IoC
-   * [PhishHunt](https://phishunt.io/) : Central fource for phishing IoC
+   * [Phishunt](https://phishunt.io/) : Central source for phishing IoC
    * [OpenAI Crawlers IP Ranges](https://github.com/FabrizioCafolla/openai-crawlers-ip-ranges) : Complete and updated lists of OpenAI crawler IP addresses
 
 #### RFC8805 GeoFeeds
 
-   * [AWS GeoFeed](https://raw.githubusercontent.com/chriselsen/AWS-Geofeed/main/data/aws-geofeed.txt) : AWS GeoIp Feed
+   * [AWS GeoFeed](https://raw.githubusercontent.com/chriselsen/AWS-Geofeed/main/data/aws-geofeed.txt) : AWS GeoIP Feed
    * [Netflix GeoFeed](https://github.com/Netflix/nflx-geofeed/blob/main/geofeed.csv) : Netflix GeoFeed
    * [T-Mobile US Geo IP](https://github.com/tmobile/tmus-geofeed/blob/main/tmus-geo-ip.txt) : T-Mobile US Geolocation Datafeed
    * [Verizon GeoFeed](https://github.com/Verizon/verizon-geofeed/blob/main/feed.csv) : Verizon GeoFeed
@@ -236,16 +257,13 @@ Landing zone for all things..loosley categorized!
    * [OSINT Framework](https://osintframework.com/) : A slick and comprehensive list of many cyber resources
    * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber trends
    * See also: [Cyber Page](https://stevehenderson.github.io/cyber/) for CMMC resources and publications
-   * [Open Cybersecurity Schema Framework](https://github.com/ocsf) : OCSF provides a standard schema for common security events, defines versioning criteria to facilitate schema evolution, and includes a self-governance process for security log producers and consumer
+   * [Open Cybersecurity Schema Framework](https://github.com/ocsf) : OCSF provides a standard schema for common security events, defines versioning criteria to facilitate schema evolution, and includes a self-governance process for security log producers and consumers
 
 ### Cyber Tools
-   * [BGPView](https://bgpview.io/) : Lookup ASN and Ips
-   * [BinaryEdge](https://www.binaryedge.io/) : Internet scanner
-   * [CloudShark Personal](https://www.cloudshark.org/login) : Wireshark in the cloud
-   * [Censys](https://censys.io/) : Attack surface management
+   * [Censys](https://censys.com/) : Attack surface management
    * [KeyCaliber](https://www.keycaliber.com/) : Risk management platform
    * [ParrotOS](https://parrotsec.org/) : A debian-based security operating system
-   * [REx : Rule Explorer](https://rulexplorer.io/) : Sweet search engine for all types of rule based signatures and SEIMs
+   * [REx : Rule Explorer](https://rulexplorer.io/) : Sweet search engine for all types of rule-based signatures and SIEMs
    * [Nmap](https://nmap.org/) : The essential network/port scanner and service-version mapper.  Pair with the NSE script engine.
    * [masscan](https://github.com/robertdavidgraham/masscan) : Internet-scale asynchronous port scanner; nmap-like syntax
    * [RustScan](https://github.com/RustScan/RustScan) : Ultra-fast port scanner that pipes open ports straight into nmap
@@ -282,6 +300,7 @@ Landing zone for all things..loosley categorized!
 ### Active Directory
    * [BloodHound](https://github.com/SpecterOps/BloodHound) : Graph-based AD/Azure attack-path mapping
    * [Certipy](https://github.com/ly4k/Certipy) : AD Certificate Services (AD CS) enumeration and abuse
+   * [GOAD](https://github.com/Orange-Cyberdefense/GOAD) : Game of Active Directory — a vulnerable AD lab for practicing attacks
    * [PingCastle](https://www.pingcastle.com/) : Active Directory security posture assessment
 
 ### Reverse Engineering
@@ -294,6 +313,7 @@ Landing zone for all things..loosley categorized!
    * [pwntools](https://github.com/Gallopsled/pwntools) : CTF and exploit-development framework (Python)
    * [FLARE-VM](https://github.com/mandiant/flare-vm) : Mandiant's installation scripts to easily set up and maintain a reverse engineering environment on a Windows VM
    * [recurse](https://github.com/Recurse-Labs/recurse) : AI-native IDE for reverse engineering. Rust
+   * [REx-skill](https://github.com/tihanyin/REx-skill) : Agentic reverse-engineering skill for binary vulnerability discovery
 
 ### Password Cracking
    * [hashcat](https://hashcat.net/hashcat/) : World's fastest GPU password recovery (also under Cryptography)
@@ -303,10 +323,10 @@ Landing zone for all things..loosley categorized!
 ### Wordlists, Payloads & Cheatsheets
    * [SecLists](https://github.com/danielmiessler/SecLists) : The collection of wordlists for security testing
    * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) : Payloads and bypass techniques by category
-   * [GTFOBins](https://gtfobins.github.io/) : Unix binaries abused for privilege escalation / bypass
+   * [GTFOBins](https://gtfobins.org/) : Unix binaries abused for privilege escalation / bypass
    * [LOLBAS](https://lolbas-project.github.io/) : Living-off-the-land binaries for Windows
    * [PEASS-ng (LinPEAS/WinPEAS)](https://github.com/peass-ng/PEASS-ng) : Privilege-escalation enumeration scripts
-   * [HackTricks](https://book.hacktricks.xyz/) : Encyclopedic pentest / privesc methodology reference
+   * [HackTricks](https://hacktricks.wiki/) : Encyclopedic pentest / privesc methodology reference
 
 ### Malware
    * [FAME](https://github.com/certsocietegenerale/fame) : FAME Automates Malware Evaluation
@@ -315,18 +335,17 @@ Landing zone for all things..loosley categorized!
    * [Volatility](https://github.com/volatilityfoundation/volatility3) : The memory-forensics framework for IR and malware analysis
    * [Velociraptor](https://github.com/Velocidex/velociraptor) : Endpoint visibility, DFIR, and hunting at scale
  
-### Security Information Event Monitoring (SIEM)
-   * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search syste.  Verizon-created
+### Security Information and Event Management (SIEM)
+   * [Arkime](https://github.com/arkime/arkime) :  Large scale, open source, indexed packet capture and search system.  Verizon-created
    * [Armis](https://www.armis.com/) : Network and asset visibility and monitoring
    * [ExtraHop](https://www.extrahop.com/) : Security SaaS with a very nice interface
-   * [Gravwell](https://www.gravwell.io/) : Impressive and massivley scalable SEIM with powerful DSL 
+   * [Gravwell](https://www.gravwell.io/) : Impressive and massively scalable SIEM with powerful DSL 
    * [Devo](https://www.devo.com/platform/how-devo-works/) : Cyber Platform   
    * [Grafana with InfluxDB Docker](https://github.com/jkehres/docker-compose-influxdb-grafana) : Quick stack for monitoring and testing   
-   * [Hive](https://thehive-project.org/) : A scalable, open source and free Security Incident Response Platform
+   * [TheHive](https://strangebee.com/thehive/) : A scalable Security Incident Response Platform, now developed by StrangeBee
    * [JupiterOne](https://www.jupiterone.com/) : Identify, map, analyze
-   * [Net Witness](https://www.netwitness.com/solutions/xdr/) : Netwitness XDR ans SIEM
+   * [NetWitness](https://www.netwitness.com/solutions/xdr/) : NetWitness XDR and SIEM
    * [Sagan](https://sagan.readthedocs.io/en/latest/what-is-sagan.html):  Log Analysis Engine
-   * [Scribl](https://github.com/criblio/scribl) : A Splunk historical index export tool
    * [SIGMA](https://github.com/SigmaHQ/sigma) :  Generic Signature Format for SIEM Systems
    * [HuntRule](https://huntrule.com/) : Sigma Rule feed.  Some free ones.
    * [Sigma Rule Converter](https://sigconverter.io/) : Convert Sigma Rules to various detection pipelines
@@ -346,12 +365,12 @@ Landing zone for all things..loosley categorized!
 
 ### Threat Emulation
    * [Caldera](https://caldera.mitre.org/) : MITRE Threat Emulation Platform
-   * [Scythe](https://scythe.io/):  Emulates real-worl adversarial campaigns.  Commercial product.
-   * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp): adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments
+   * [Scythe](https://scythe.io/):  Emulates real-world adversarial campaigns.  Commercial product.
+   * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp): Adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments
 
 ### Vulnerability Testing / Pentesting Practice
-   * [Vulnhub Docker Images](https://github.com/vulhub/vulhub)
-   * [Vulhub VMs](https://www.vulnhub.com/) : Treasure trove of vulnerable and challenge VMs
+   * [Vulhub Docker Images](https://github.com/vulhub/vulhub)
+   * [VulnHub VMs](https://www.vulnhub.com/) : Treasure trove of vulnerable and challenge VMs
      * [42challenge](https://www.vulnhub.com/entry/42challenge-1,465/) : A nice intermediate challenge ([my walkthrough](/42Challenge-VulnHub-Walkthrough/))
    * [Hack The Box](https://www.hackthebox.com/) : Online pentesting labs, machines, and challenges
    * [TryHackMe](https://tryhackme.com/) : Guided, beginner-friendly hands-on security rooms
@@ -363,9 +382,9 @@ Landing zone for all things..loosley categorized!
 ## Data Engineering
    * [Airbyte](https://airbyte.com/) : Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.  Open source and SaaS.  300+ input and output connectors
    * [AirFlow](https://airflow.apache.org/) : Programmatically author, schedule and monitor workflows
-   * [Bacalhau](https://docs.bacalhau.org/) : Platform for fast, cost-efficient, and secure computation by running jobs (WASM workers or docker containers) in distributed network
+   * [Bacalhau](https://docs.bacalhau.org/) : Platform for fast, cost-efficient, and secure computation by running jobs (WASM workers or Docker containers) in a distributed network
    * [Beam](https://beam.apache.org/) : Open source, unified model for defining both batch and streaming data-parallel processing pipelines
-   * [chdb](https://doc.chdb.io/#/) : chDB is an embedded OLAP SQL Engine 🚀 powered by ClickHouse.  Supports many backend and file formats.
+   * [chDB](https://clickhouse.com/docs/chdb) : chDB is an embedded OLAP SQL Engine 🚀 powered by ClickHouse.  Supports many backend and file formats.
    * [Cribl](https://docs.cribl.io/stream/about/): Cribl Stream is an observability and data streaming platform for real-time processing of logs, metrics, traces, and data
    * [croc](https://github.com/schollz/croc) : File xfer all the things peer to peer
    * [cube](https://cube.dev/) : A powerful middleware between your data source and your data application.  Handles modeling, security, cache, API
@@ -373,25 +392,24 @@ Landing zone for all things..loosley categorized!
    * [DB Fiddle](https://www.db-fiddle.com/) : Database Fiddle and prototyping
    * [DataGrip](https://www.jetbrains.com/datagrip/) : SQL + more client
    * [datastation](https://github.com/multiprocessio/datastation) : open-source data IDE for developers. Front end for dsq.
-   * [dsq](https://github.com/multiprocessio/dsq) : Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
+   * [dsq](https://github.com/multiprocessio/dsq) : Command-line tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
    * [duckdb](https://duckdb.org/) : Exceptional in-process SQL OLAP database management system. SQL on many backends
-   * [octosq](https://github.com/cube2222/octosql) :  CLI tool which lets you query a plethora of databases and file formats using SQL through a unified interface, even do JOINs between them
+   * [octosql](https://github.com/cube2222/octosql) :  CLI tool which lets you query a plethora of databases and file formats using SQL through a unified interface, even do JOINs between them
    * [EverSQL](https://www.eversql.com/) : AI-based system to optimize database queries
    * [Flowable](https://github.com/flowable/flowable-engine) :  Light-weight business process engine written in Java
    * [Gaffer](https://github.com/gchq/Gaffer) : Gaffer is a graph database framework   
-   * [GigaSheet](https://www.gigasheet.com/cyber-security) : Mass tables and pivots as a service
    * [Apache Nifi](https://nifi.apache.org/) : Powerful and scalable directed graphs of data routing, transformation, and system mediation logic   
    * [orchest](https://github.com/orchest/orchest) : Sweet data pipeline and jupyter notebook tool
    * [pgAdmin](https://www.pgadmin.org/) : Capable, mature and free* Postgres Client
-   * [Polarity](https://polarity.io/) : Fuses disparate data, tools, and knowledge into one unified view
+   * [Dataminr Investigation Insights](https://www.dataminr.com/products/cyber-defense/investigation-insights/) : Formerly Polarity.  Fuses disparate data, tools, and knowledge into one unified view
    * [Steampipe](https://steampipe.io/) : Dynamically query APIs, code and more with SQL.  Zero-ETL from 140 data sources.  Another SQL all the stuff.
    * [Spring Cloud Data Flow](https://dataflow.spring.io/) :  A microservices-based toolkit for building streaming and batch data processing pipelines in Cloud Foundry and Kubernetes
    * [DeltaLake](https://delta.io/) : Provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes, such as S3, ADLS, GCS, and HDFS.
    * [delight](https://www.datamechanics.co/delight) : A free, amazing Spark UI from [DataMechanics](https://www.datamechanics.co/)
-   * [Querybuilder](https://querybuilder.js.org/) : Query Builder is a javascript library for building SQL
-   * [rql](https://github.com/a8m/rql):  RQL is a resource query language for REST (written in go). It provides a simple and light-weight API for adding dynamic querying capabilities to web-applications that use SQL-based database
+   * [Querybuilder](https://querybuilder.js.org/) : Query Builder is a JavaScript library for building SQL
+   * [rql](https://github.com/a8m/rql):  RQL is a resource query language for REST (written in go). It provides a simple and light-weight API for adding dynamic querying capabilities to web applications that use SQL-based databases
    * [milvus](https://milvus.io/) : Vector database built for scalable similarity search
-   * [planetscale](https://planetscale.com/) : Serveless MySQL.  Generous free tier
+   * [planetscale](https://planetscale.com/) : Serverless MySQL.  Generous free tier
    * [Sleeper](https://github.com/gchq/sleeper) : Sleeper is a serverless, cloud-native, log-structured merge tree based, scalable key-value store.
    * [Meltano](https://github.com/meltano/meltano) : A fantastic middleware + CLI for moving data between various formats and APIs.  Singer compatible.
    * [Singer](https://github.com/singer-io/getting-started) : Singer is an open source standard for moving data between databases, web APIs, files, queues, and just about anything else you can think of
@@ -404,6 +422,7 @@ Landing zone for all things..loosley categorized!
    * [GUN](https://gun.eco/docs/Introduction) : Distributed Graph database. Technically, GUN is a graph synchronization protocol with a lightweight embedded engine, capable of doing 20M+ API ops/sec in just ~9KB gzipped size.
    * [superDB](https://github.com/brimdata/super) :  A novel data lake based on super-structured data.  (Formerly brim)
    * [qdrant](https://github.com/qdrant/qdrant) : High-performance, massive-scale vector database and vector search engine for the next generation of AI. Rust
+   * [HelixDB](https://github.com/HelixDB/helix-db) : OLTP graph database with native vector and full-text search, built on object storage. Rust
 
 ## Data Models
    * [MITRE D3FEND](https://d3fend.mitre.org/resources/ontology/) : A knowledge graph of cybersecurity countermeasures
@@ -414,25 +433,27 @@ Landing zone for all things..loosley categorized!
 
 ## Documentation / Doc Management
    * [Pandoc](https://pandoc.org/) : Very capable document translator.  Markdown to pdf and more.    
-   * [Joplin](https://joplinapp.org/) : Joplin Notetaking SaaS.  Markdown / opensource / Latex.
-   * [Notion](https://www.notion.so) : Notion team collaboration and documentation
+   * [Joplin](https://joplinapp.org/) : Joplin note-taking app.  Markdown / open source / LaTeX.
+   * [Notion](https://www.notion.com/) : Notion team collaboration and documentation
    * [Obsidian](https://obsidian.md/) : Powerful markdown based second brain.
    * [marker](https://github.com/datalab-to/marker) : Convert PDF to markdown + JSON quickly with high accuracy
+   * [md2cb](https://github.com/oderwat/md2cb) : Convert Markdown to formatted text on the clipboard. Go
+   * [mimik](https://github.com/westpoint-io/mimik) : Browser extension that records your clicks and turns them into a step-by-step guide with annotated screenshots
 
 ## Email Tools
-   * [AnonAndy](https://anonaddy.com/) : Anonymous email SaaS tool
+   * [addy.io](https://addy.io/) : Anonymous email SaaS tool (formerly AnonAddy)
    * [Gmail Alias Trick](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) : Create on the fly aliases for your gmail
-   * [Google Admin Toolbox](https://toolbox.googleapps.com/apps/checkmx/):  Google's EMail Admin Toolbox
+   * [Google Admin Toolbox](https://toolbox.googleapps.com/apps/checkmx/):  Google's Email Admin Toolbox
    * [SimpleLogin](https://simplelogin.io/): Anonymous email SaaS tool
 
-## GPU & GPU Programmming
-   * [Uingine beinchmark](https://benchmark.unigine.com/) : uingine unity-based stresstest
+## GPU & GPU Programming
+   * [Unigine Benchmark](https://benchmark.unigine.com/) : Unigine engine GPU benchmarks and stress tests
    * [Algorythmic Explorations](https://github.com/ericrius1/AlgorythmicExplorations) : Interactive article series with live WebGPU demos — particle worlds, N-body sims, SPH water, and stable fluids
 
 ## Hosting
-   * [CoLoco](https://coloco.net/) : Coloco colacation services (USA)
-   * [Equinix](https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in  Class
-   * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in Class
+   * [CoLoco](https://coloco.net/) : Coloco colocation services (USA)
+   * [Equinix](https://www.equinix.com/) : Cloud Infrastructure Provider.  Best in class
+   * [OVH](https://us.ovhcloud.com/) : Cloud Infrastructure Provider. Best in class
    * [Vultr](https://www.vultr.com/) : Instantly deploy High Performance Cloud Servers, Cloud GPUs, Bare Metal, and Cloud Storage worldwide.
 
 ## Infrastructure as Code
@@ -443,11 +464,11 @@ Landing zone for all things..loosley categorized!
    * [runpod.io](https://www.runpod.io/) : Globally distributed GPU containers.  Pay as you go.
    * [fly.io](https://fly.io/) : Deploy containers anywhere in the world.  K8s IaaS
    * [LimaCharlie](https://limacharlie.io/) : Security Infrastructure as a Service.  Handles collection, streaming analytics, and moving data
-   * [FluxCloud](https://runonflux.io/) : Web3 compute and storage
+   * [FluxCloud](https://runonflux.com/) : Web3 compute and storage
    * [Akash Network](https://akash.network/) : Decentralized compute marketplace
 
 ## Interplanetary File System (IPFS)
-   * [Kubo](https://github.com/ipfs/kubo):  the first and most widely used IPFS implementation today
+   * [Kubo](https://github.com/ipfs/kubo):  The first and most widely used IPFS implementation today
    * [IPFS System Requirements](https://github.com/ipfs/kubo#system-requirements)   
    * [Great intro to IPFS](https://www.youtube.com/watch?v=KIEq2FyMczs)
    * [Hands-on IPFS](https://www.youtube.com/watch?v=GJ2980DWdyc)
@@ -459,69 +480,66 @@ Landing zone for all things..loosley categorized!
 ### Autoscaling
 
    * [Calming the Autoscaler - Fedor Korotkov](https://medium.com/google-cloud/calming-down-kubernetes-autoscaler-fbdba52adba6)
-   * [Adding spare cpacity to GKE Autopilot w/ Baloon Pods - William Denniss](https://wdenniss.com/gke-autopilot-spare-capacity)
+   * [Adding spare capacity to GKE Autopilot w/ Balloon Pods - William Denniss](https://wdenniss.com/gke-autopilot-spare-capacity)
 
 ### General 
-   * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent google community tutorial on ingress
+   * [GKE Ingress Tutorial](https://cloud.google.com/community/tutorials/nginx-ingress-gke) : Excellent Google community tutorial on ingress
    * [k3s](https://k3s.io/) : Lightweight Kubernetes
    * [kubefwd](https://github.com/txn2/kubefwd) : Access kubedns locally for development
-   * [Rancher](https://github.com/rancher/rancher)  : Fantastic WebUI for Kubernetes.  Open sourced
-   * [Setting up Multiple Ingress](https://spltech.co.uk/how-to-setup-multiple-ingress-controller-with-nginx-ingress-on-gke/)
-   * [Spare Capacity to GKE AutoPilot](https://wdenniss.com/gke-autopilot-spare-capacity) : Spoofing Autopilot with Baloon Pods
+   * [Rancher](https://github.com/rancher/rancher)  : Fantastic WebUI for Kubernetes.  Open source
+   * [Spare Capacity to GKE Autopilot](https://wdenniss.com/gke-autopilot-spare-capacity) : Spoofing Autopilot with Balloon Pods
    * [Knative](https://knative.dev/) : Serverless Containers in Kubernetes environments
    * [OpenFaaS](https://www.openfaas.com/):  Deploy event-driven functions and microservices to Kubernetes easily
 
 ### K8s Management as a Service
    * [plural.sh](https://www.plural.sh/) : Deploy, secure, and scale open-source applications on your cloud in minutes. Slick interface
 
-### Rancher Kubernetes Engine
-   * [Deploying k8s on Bare Metal (equinix) with RKE](https://ranchermanager.docs.rancher.com/getting-started/quick-start-guides/deploy-rancher-manager/equinix-metal)
-
 ## Languages, Parsers, and Translators
-   *[elvish](https://github.com/elves/elvish):  Powerful scripting language & versatile interactive shell written in go
-   * [grule](https://github.com/hyperjumptech/grule-rule-engine): go-based rule engine
-   * [gval](https://github.com/PaesslerAG/gval) : Go-based evaluator pkg.  Gval can evaluate expressions with parameters, arimethetic, logical, and string operations
-   * [tengo](https://github.com/d5/tengo) : an embedding script language for Go.  Usecases:  rule engine, state management, CI/CD.  
+   * [elvish](https://github.com/elves/elvish):  Powerful scripting language & versatile interactive shell written in Go
+   * [grule](https://github.com/hyperjumptech/grule-rule-engine): Go-based rule engine
+   * [gval](https://github.com/PaesslerAG/gval) : Go-based evaluator pkg.  Gval can evaluate expressions with parameters, arithmetic, logical, and string operations
+   * [tengo](https://github.com/d5/tengo) : An embeddable script language for Go.  Use cases:  rule engine, state management, CI/CD.  
 
 
 
-## Linux Essential
+## Linux Essentials
    * [Flameshot](https://github.com/flameshot-org/flameshot) : Screenshot Software
    * [NoMachine](https://www.nomachine.com/) : Remote Desktop
    * [Linux Toolbox](https://cb.vu/unixtoolbox.html) : Excellent reference guide
    * [linux-insides](https://github.com/0xAX/linux-insides) : A book-in-progress about the Linux kernel and its insides
+   * [gobackup](https://github.com/gobackup/gobackup) : CLI for scheduled backups of databases and files to cloud storage. Go
 
 ## Malware
    * [AnyRun](https://any.run/) : Malware Detonation with a fantastic UI
-   * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and anlyze malware and their indicators
+   * [Hybrid-Analysis](https://www.hybrid-analysis.com/) : Detect and analyze malware and their indicators
    * [Intezer](https://www.intezer.com/) : Intezer
 
 ## Networking
-   * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across Internet
+   * [bird](https://bird.network.cz/?get_doc&f=bird.html&v=20) : BIRD Internet Routing Daemon.  A dynamic router that works across the Internet
    * [brightdata](https://brightdata.com/) : Award-winning proxy networks, AI-powered web scrapers, and business-ready datasets for download. The internet’s most trusted web data platform.
-   * [openziti](https://openziti.github.io/) : open source ZeroTrust overlay network
+   * [OpenZiti](https://openziti.io/) : Open-source zero-trust overlay network
    * [sniffer](https://github.com/chenjiandongx/sniffer) : Analyze which processes are generating what traffic
    * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
-   * [iodine](https://github.com/yarrick/iodine) : ip4 tunneling over DNS
+   * [iodine](https://github.com/yarrick/iodine) : IPv4 tunneling over DNS
    * [netcat](https://netcat.sourceforge.net/) : Networking Swiss army knife  
-   * [tailscale](https://tailscale.com/) : Mesh netowork VPN SaaS
+   * [tailscale](https://tailscale.com/) : Mesh network VPN SaaS
    * [wireguard](https://www.wireguard.com/) : Simple, fast, secure VPN
    * [scanopy](https://github.com/scanopy/scanopy) : Network diagrams that update themselves. Rust
-   * [Twingate ](https://www.twingate.com/) : Twingate secure remote network bridge.  Like a VPN.
+   * [Twingate](https://www.twingate.com/) : Twingate secure remote network bridge.  Like a VPN.
    * [Mullvad](https://mullvad.net/en) :  Mullvad VPN service.  Cheap with support for Wireguard and OpenVPN
    * [RIPE Atlas](https://atlas.ripe.net/) :  RIPE Atlas employs a global network of probes that measure Internet connectivity and reachability, providing an unprecedented understanding of the state of the Internet in real time.
    * [Cloudflare Radar](https://radar.cloudflare.com/?dateRange=7d):  Cloudflare's global cyber and networking trends
    * [GlobalPing](https://globalping.io/) : Global ping/tracert as a service
 
 ### DNS Discovery
-   * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with a misconfiguration DNS.
+   * [Cloudmare](https://github.com/mrh0wl/Cloudmare) : Cloudmare is a simple tool to find the origin servers of websites protected by Cloudflare, Sucuri, or Incapsula with misconfigured DNS.
 
 ### DNS Firewall
    * [nextDNS](https://nextdns.io/) : DNS proxy / firewall
 
-### DNS IP Resolvers:
-   * [https://nip.io/](https://nip.io/) :  a DNS that redirects to embedded IP address
-   * [https://sslip.io/](https://sslip.io/) : another DNS service that redirects to embedded IP address   
+### DNS IP Resolvers
+   * [https://nip.io/](https://nip.io/) :  Wildcard DNS that resolves to the IP address embedded in the hostname
+   * [https://sslip.io/](https://sslip.io/) : Another wildcard DNS service that resolves to the embedded IP address   
    * [xip.io](https://web.archive.org/web/20210104212515/http://xip.io/):  The original
 
 ### Proxies
@@ -529,11 +547,7 @@ Landing zone for all things..loosley categorized!
 
 ## Network Analysis
    * [APackets](https://apackets.com/) : Online pcap file analyzer
-   * [CloudShark](https://www.cloudshark.org/captures) : Cloud-based Wireshark 
-      * [example](https://www.cloudshark.org/captures/abdc8742488f) 
-      * [more](https://packetlife.net/captures/)
-   * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A cloudshark clone (github)
-   * [PacketTotal](https://packettotal.com/) : Simple, free, high-quality PCAP analysis   
+   * [Cloud-PCAP](https://github.com/thepacketgeek/cloud-pcap) : A CloudShark clone (GitHub)
    * [Shodan](https://www.shodan.io/) : Powerful IoC, IoT, crawler, search engine
    * [tcpdump](https://www.tcpdump.org/) : Home web site of tcpdump, a powerful command-line packet analyzer; and libpcap, a portable C/C++ library for network traffic capture.
    * [Wireshark](https://www.wireshark.org/) : The world-standard network protocol analyzer (and tshark CLI)
@@ -544,49 +558,56 @@ Landing zone for all things..loosley categorized!
    * [Network Perception](https://www.network-perception.com/solutions/network-visibility-software) : Agentless OT/ICS network topology mapping to audit configs and verify segmentation
    * [kismet](https://www.kismetwireless.net/) : Kismet is a sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF, and more, which runs on Linux and macOS
    * [PacketStreamer](https://github.com/deepfence/PacketStreamer) : Distributed tcpdump
+   * [GoAccess](https://github.com/allinurl/goaccess) : Real-time web log analyzer that runs in the terminal or the browser
 
 ## Network Security
-   * [CloudFlare](https://www.cloudflare.com/) : Fantastic batteries-included network as-a-service.  DNS, WAF, Bot Detection, Firewall and more.  Massive free capabiliies.
-   * [Malcom](https://github.com/cisagov/Malcolm) : Malcolm is a powerful, easily deployable network traffic analysis tool suite for full packet capture artifacts (PCAP files), Zeek logs and Suricata alerts.
-   * [OpenSnitch](https://github.com/evilsocket/opensnitch) : Free opensource selfhosted outbound application firewall made for Linux 
-   * [pfSense](https://www.pfsense.org/download/) : Leading opensource firewall
-   * [RockNSM](https://rocknsm.io/) : opensource security stack
-   * [Selks](https://www.stamus-networks.com/selks) : Turn-key Suricata-based IDS/NSM and Threat Hunting System
+   * [CloudFlare](https://www.cloudflare.com/) : Fantastic batteries-included network as-a-service.  DNS, WAF, Bot Detection, Firewall and more.  Massive free capabilities.
+   * [Malcolm](https://github.com/cisagov/Malcolm) : Malcolm is a powerful, easily deployable network traffic analysis tool suite for full packet capture artifacts (PCAP files), Zeek logs and Suricata alerts.
+   * [OpenSnitch](https://github.com/evilsocket/opensnitch) : Free, open-source, self-hosted outbound application firewall made for Linux 
+   * [pfSense](https://www.pfsense.org/download/) : Leading open-source firewall
+   * [pfsense-mcp-server](https://github.com/gensecaihq/pfsense-mcp-server) : MCP server for managing pfSense in natural language — rules, VPNs, DNS, DHCP — with guardrails, config backup, and rollback on every change
+   * [RockNSM](https://rocknsm.io/) : Open-source security stack
+   * [Clear NDR (formerly SELKS)](https://github.com/StamusNetworks/Clear-NDR-ISO) : Turn-key Suricata-based IDS/NSM and threat hunting system
 
 ## Operating Systems
    * [Parrot Security](https://parrotsec.org/) : Debian-based security focused OS
-   * [ReactOS](https://github.com/reactos/reactos) : open source windowsNT operating system
+   * [ReactOS](https://github.com/reactos/reactos) : Open-source Windows NT-compatible operating system
 
 ## OSINT / Enrichment   
-   * [cyberIntelMatrix](https://cyberintelmatrix.com/)
+   * [ThreatDome](https://www.threatdome.com/) : CTI platform specialized for ICS and IoT (formerly cyberIntelMatrix)
    * [GreyNoise](https://www.greynoise.io/) : tracks internet noise / triage false positive
-   * [openCTI](https://www.opencti.io/en/)
-   * [SpiderFoot](https://www.spiderfoot.net/)
+   * [OpenCTI](https://www.opencti.io/en/)
+   * [SpiderFoot](https://github.com/smicallef/spiderfoot)
    * [SubMap](https://submap.net/) : Attack surface management scanner search tool
    * [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) : A spy satellite simulator in your browser, except the data is real — live open source spatial intelligence on a photorealistic 3D globe
 
 ## Pentest
    * [Hak5](https://shop.hak5.org/) : Incredible HW and USB based devices for pentesting
-   * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) " Command line tool to collect data from and pentest wifi networks
+   * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) : Command-line tool to collect data from and pentest Wi-Fi networks
 
 ## Packet Capture
    * [cloud-probe](https://github.com/Netis/cloud-probe) : A Software Probe for network packet capturing and forwarding in Cloud/Kubernetes and Virtualized environment
    * [etl2pcapng](https://github.com/microsoft/etl2pcapng) : Utility that converts an .etl file containing a Windows network packet capture into .pcapng format.
-   * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) " Command line tool to collect data from and pentest wifi networks
-   * [PcaketStreamer](https://github.com/deepfence/PacketStreamer) : Distributed tcpdump for cloud native environments
-   * [PCAPdriod](https://github.com/emanuele-f/PCAPdroid) : No-root network monitor, firewall and PCAP dumper for Android
-   * [rvi_capture](https://github.com/gh2o/rvi_capture) : Capture packets sents via ios devices
-   * [WirePenguin](https://github.com/pwdz/WirePenguin) : Packet Sniffer in golang
+   * [hcxdumptool](https://github.com/ZerBea/hcxdumptool) : Command-line tool to collect data from and pentest Wi-Fi networks
+   * [PacketStreamer](https://github.com/deepfence/PacketStreamer) : Distributed tcpdump for cloud native environments
+   * [PCAPdroid](https://github.com/emanuele-f/PCAPdroid) : No-root network monitor, firewall and PCAP dumper for Android
+   * [rvi_capture](https://github.com/gh2o/rvi_capture) : Capture packets sent from iOS devices
+   * [WirePenguin](https://github.com/pwdz/WirePenguin) : Packet sniffer in Go
 
 ## Privacy
    * [Invidious](https://docs.invidious.io/instances/) : an open source alternative front-end to YouTube.
+   * [doxx.net](https://github.com/doxx/doxx.net) : Freedom of speech and privacy platform
 
 ## Office Productivity
    * [EtherPad](https://github.com/ether/etherpad-lite) : An open source alternative to Google Docs
    * [Grist](https://github.com/gristlabs/grist-core#readme) : An open source alternative to Google Sheets
-   * [LibreOffice](https://www.libreoffice.org/) : An open-source alternative to MS Orffice.  Has an unsupported [online](https://www.libreoffice.org/download/libreoffice-online/) version
-   * [OwnCloud](https://owncloud.com/) : an open source alternative for Google Drive
-   * [Cosmos Cloud](https://cosmos-cloud.io/) :  The Most Secure and Easy Selfhosted Home Server.
+   * [LibreOffice](https://www.libreoffice.org/) : An open-source alternative to MS Office.  Has an unsupported [online](https://www.libreoffice.org/download/libreoffice-online/) version
+   * [OwnCloud](https://owncloud.com/) : An open-source alternative to Google Drive
+   * [Cosmos Cloud](https://cosmos-cloud.io/) :  The most secure and easy self-hosted home server.
+
+## Finance
+   * [Wealthfolio](https://github.com/wealthfolio/wealthfolio) : Private, local-first personal finance tracker — investments, net worth, spending, and simulations. Rust
+   * [SETS](https://github.com/Shelpid/SETS) : Self-improving trading machine
 
 ## Publications
    * [dblp](https://dblp.uni-trier.de/) : Open Comp Sci publication search
@@ -594,13 +615,13 @@ Landing zone for all things..loosley categorized!
    * [Zotero](https://www.zotero.org/henderso/library) : My Zotero repo
 
 ## Robotics
-   * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challengeb
+   * [DARPA Subterranean Challenge Virtual Competition](https://github.com/osrf/subt/wiki) : Very interesting DARPA challenge
    * [CivTAK](https://www.civtak.org/) : Android Team Awareness Kit (ATAK)
    * [goatak](https://github.com/kdudkov/goatak) : go ATAK/CivTAK simple server & web client
    * [goroslib](https://github.com/aler9/goroslib) : Pure batteries-included go ROS2 library
-   * [mavros + ros2](https://docs.px4.io/main/en/ros/ros2_comm.html) : ROS2 MAVRos setup
-   * [Robotic Operating System](https://www.ros.org/) Robotic Operating System
-   * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : px4 Drone Simulator
+   * [mavros + ros2](https://docs.px4.io/main/en/ros/ros2_comm.html) : ROS2 MAVROS setup
+   * [ROS](https://www.ros.org/) : Robot Operating System
+   * [PX4 Gazebo Headless by Jonas Vautherin](https://github.com/JonasVautherin/px4-gazebo-headless) : PX4 drone simulator
    * [drone_simulator](https://github.com/patilunmesh/drone_simulator) : Autonomous drone simulation with LQR controller, trajectory planning, and obstacle avoidance in ROS2 and Python
    * [mavio](https://github.com/jaggedmountain/mavio) : A modern, async MAVLink client in Python
 
@@ -608,9 +629,9 @@ Landing zone for all things..loosley categorized!
    * [Purple Labs @ Defensive Security](https://www.defensive-security.com/purplelabs/) : A virtual / simulated network training ground
    * [SimSpace](https://www.simspace.com/):  High-fidelity cyber simulations and ranges
    * [Scythe](https://scythe.io/) : Cyber Threat Emulation Platform.  Host-based; incorporates Atomic Red Team.
-   * [AirSim](https://github.com/microsoft/airsim) : Microsoft Drone Simulator.  May soon be [archived](https://www.microsoft.com/en-us/ai/autonomous-systems-project-airsim?activetab=pivot1%3aprimaryr3) to make way for a commercial verions
+   * [AirSim](https://github.com/microsoft/airsim) : Microsoft Drone Simulator.  May soon be [archived](https://www.microsoft.com/en-us/ai/autonomous-systems-project-airsim?activetab=pivot1%3aprimaryr3) to make way for a commercial version
    * [FlightSim](https://github.com/alphasoc/flightsim) : A cyber data generator / simulator
-   * [Gamma Platform](https://gama-platform.org/) : GiS Aware Agent-based Simulation
+   * [GAMA Platform](https://gama-platform.org/) : GIS-aware agent-based simulation
 
 ## Software Development
 
@@ -623,6 +644,9 @@ Landing zone for all things..loosley categorized!
    * [graphJin](https://graphjin.com/) : Create graphql from REST APIs
    * [Hasura](https://hasura.io/) : Phenom GraphQL GW tool with many features
 
+### Web Frameworks
+   * [Datastar](https://github.com/starfederation/datastar) : Hypermedia framework for reactive web apps driven from the backend
+
 ### PlantUML
    * [goplantuml](https://github.com/jfeliu007/goplantuml) : Utility written in go for creating [plantuml](https://github.com/plantuml/plantuml) from go code
    * [PlantText](https://www.planttext.com/) : Service that renders plantuml in browser
@@ -632,13 +656,13 @@ Landing zone for all things..loosley categorized!
    * [artillery.io](https://www.artillery.io/) : Cloud-scale performance testing
    * [k6.io](https://k6.io/) : Exceptional load testing framework.
    * [Playwright](https://playwright.dev/): Powerful browser automation framework (javascript)
-   * [Selenium](https://www.selenium.dev/) : Powerful browser automation framework (python).  Primarily it is for automating web applications for testing purposes
+   * [Selenium](https://www.selenium.dev/) : Powerful browser automation framework (Python).  Primarily it is for automating web applications for testing purposes
    * [Stagehand](https://www.stagehand.dev/) : AI Browser Automation Framework
 
 ## Training
-   * [ACloudGuru](https://acloudguru.com/) : Exceptional training -- formerly Linux academy
+   * [A Cloud Guru](https://www.pluralsight.com/cloud-guru) : Exceptional training, now part of Pluralsight -- formerly Linux Academy
    * [Codility](https://www.codility.com/) : Challenge platform
-   * [CTFHAcker](https://web.archive.org/web/20220104214249/http://ctfhacker.com/) : Exceptional cyber challenge walkthroughs by [Cory Duplantis](https://github.com/ctfhacker)
+   * [CTFHacker](https://web.archive.org/web/20220104214249/http://ctfhacker.com/) : Exceptional cyber challenge walkthroughs by [Cory Duplantis](https://github.com/ctfhacker)
    * [PluralSight](https://www.pluralsight.com/) : Excellent skills training 
 
 ## Video/Audio Tools
@@ -646,31 +670,30 @@ Landing zone for all things..loosley categorized!
   * [Descript](https://www.descript.com) : All-in-one audio & video editing, as easy as a doc.
 
 ## Virtualization
-   * [ProxMox](https://pve.proxmox.com/wiki/Main_Page) :  open source server virtualization management solution based on QEMU/KVM and LXC.  Nice WebUI.  Batteries included
+   * [Proxmox](https://pve.proxmox.com/wiki/Main_Page) :  Open-source server virtualization management solution based on QEMU/KVM and LXC.  Nice WebUI.  Batteries included
    * [VMWare User Group (VMUG) Advantage Products](https://vmugadvantage.onthehub.com/)
 
 ## Visualization
-   * [d3js](https://d3js.org/) : Phenom js graphic and diagraming library
+   * [d3js](https://d3js.org/) : Phenom js graphics and diagramming library
    * [gephi](https://gephi.org/): Network graph visualization application
    * [GraphViz](https://graphviz.org/) : Open source visualization framework in code
    * [yEd Live](https://www.yworks.com/yed-live/) : Another fantastic diagramming tool.  Online and desktop versions.
+   * [KitikiPlot](https://github.com/BodduSriPavan-111/kitikiplot) : Python library for visualizing categorical sliding-window data
 
 ## Web Assembly
   * [Go WASM Hello World](https://wasmbyexample.dev/examples/hello-world/hello-world.go.en-us.html) : Nice wasm demo with go
   * [wiregasm](https://github.com/good-tools/wiregasm) : Wireshark in the browser.  See [demo](https://good.tools/packet-dissector)
 
 ## Web3
-  * [ARWeave](https://arwiki.wiki/#/en/main) : The first protocol that enables permanent data storage. Its design allows anyone to preserve data forever with just a single, one-time fee.
-  * [FluxCloud](https://runonflux.io/) : Decentralized, distributed compute and storage.  Affordable!
+  * [Arweave](https://arwiki.ar.io/) : The first protocol that enables permanent data storage. Its design allows anyone to preserve data forever with just a single, one-time fee.
+  * [FluxCloud](https://runonflux.com/) : Decentralized, distributed compute and storage.  Affordable!
   * [GagaNode](https://www.gaganode.com/) : Gaga Node is a decentralized residential IP + Bandwidth marketplace
-  * [Meson Network](https://www.meson.network/): the foundation of data transmission for decentralized storage, computation, and the emerging Web3 Dapp ecosystem
   * [Nostr](https://nostr.com/): Nostr is a simple, open protocol that enables global, decentralized, and censorship-resistant social media.
-  * [FileCoin](https://filecoin.io/build/#intro) : A Web3 distributed filesystem and related ecosystem.  Linked to crypto currency economics
-  * [Tableland](https://docs.tableland.xyz/) : A Web3 decentralized database built on Ehtereum, FileCoin, others and based on sqlite
-  * [Lighthouse](https://lighthouse.storage) : A Web3 storage provide; It is built on IPFS and Filecoin.
-  * [Singularity](https://singularity.storage/) : Mass migration tool for moving data into Filecoin.
+  * [FileCoin](https://filecoin.io/) : A Web3 distributed filesystem and related ecosystem.  Linked to crypto currency economics
+  * [Tableland](https://docs.tableland.xyz/) : A Web3 decentralized database built on Ethereum, FileCoin, others and based on sqlite
+  * [Lighthouse](https://lighthouse.storage) : A Web3 storage provider; It is built on IPFS and Filecoin.
 
-## Window Essential
+## Windows Essentials
    * [CygWin](https://www.cygwin.com/): Linux like environment on Windows
    * [MobaXterm](https://mobaxterm.mobatek.net/) : Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
    * [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) : Windows Subsystem for Linux
@@ -678,15 +701,15 @@ Landing zone for all things..loosley categorized!
 
 ## Workflow Automation / Management 
    * [Hunchly](https://www.hunch.ly/):  Automatically collects, documents, and annotates every web page you visit.
-   * [WalkOFF](https://nsacyber.github.io/WALKOFF/):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
+   * [WALKOFF](https://github.com/nsacyber/WALKOFF):  Automatically gather data, analyze data, or visualize data customized to your requirements. 
    * [Airflow](https://airflow.apache.org/) :  Fantastic workflow/service automation orchestrator
    * [Argo](https://github.com/argoproj/argo-events) :  Workflow execution engine for Kubernetes.   
    * [Node-Red](https://nodered.org/) :  A browser-based flow editor that makes it easy to wire together flows using the wide range of nodes in the palette
    * [ReactFlow](https://reactflow.dev/) : A highly customizable React component for building node-based editors and interactive diagrams
    * [Snakemake](https://snakemake.github.io/) : Python workflow management system to create reproducible and scalable data analyses.
-   * [Concorse](https://concourse-ci.org/) : an open-source continuous thing-doer.
-   * [control-tower](https://github.com/EngineerBetter/control-tower) : Self-healing IaaS for Concorse
-   * [Navattic](https://www.navattic.com/) : Clone a website and build a stand alone demo.  DOM in a box
+   * [Concourse](https://concourse-ci.org/) : an open-source continuous thing-doer.
+   * [control-tower](https://github.com/EngineerBetter/control-tower) : Self-healing IaaS for Concourse
+   * [Navattic](https://www.navattic.com/) : Clone a website and build a standalone demo.  DOM in a box
 
 <script>
 (function () {
