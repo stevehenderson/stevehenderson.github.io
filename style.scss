@@ -375,77 +375,12 @@ footer {
   }
 }
 
-// Chisel cards for post listings (blog, tutorials, homepage).
-// The outer layer is the 1px border; the body sits inset with the same cut corner.
-$chisel: 22px;
-
+// Post listings (blog, tutorials, homepage): Projects cards, one per row
 .post-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
   margin: 1.4em 0 2em;
-}
-
-.post-card {
-  position: relative;
-  background: $line;
-  padding: 1px;
-  clip-path: polygon(0 0, calc(100% - #{$chisel}) 0, 100% $chisel, 100% 100%, 0 100%);
-  transition: background-color 0.15s ease;
-
-  // Bevel facet on the cut corner
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: $chisel;
-    height: $chisel;
-    background: linear-gradient(to bottom left, transparent 50%, $accent 50%);
-    opacity: 0.85;
-  }
-
-  &:hover { background: $accent; }
-
-  &__body {
-    background: $paper;
-    clip-path: polygon(0 0, calc(100% - #{$chisel - 0.5px}) 0, 100% #{$chisel - 0.5px}, 100% 100%, 0 100%);
-    padding: 18px 22px 16px;
-  }
-
-  &__title {
-    font-size: 21px;
-    line-height: 1.3;
-    margin: 0 $chisel 0.25em 0;
-  }
-
-  &__meta {
-    color: $muted;
-    font-family: $mono;
-    font-size: 13px;
-    margin: 0 0 0.7em;
-  }
-
-  &__summary {
-    color: $inkSoft;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.6;
-    margin: 0 0 0.7em;
-  }
-
-  &__link {
-    font-family: $mono;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-
-  @include mobile {
-    &__body { padding: 16px; }
-    &__title { font-size: 19px; }
-  }
 }
 
 // Card grids (projects, certs)
@@ -468,7 +403,9 @@ $chisel: 22px;
   &:hover { border-color: $accent; transform: translateY(-2px); }
 
   &__title { margin: 0 0 0.4em; font-size: 18px; }
+  &__title a { color: $ink; &:hover { color: $accent; text-decoration: none; } }
   p { margin: 0.5em 0; font-size: 15px; }
+  & &__meta { color: $muted; font-family: $mono; font-size: 13px; margin-top: 0; }
   &__tag {
     display: inline-block;
     font-family: $mono;

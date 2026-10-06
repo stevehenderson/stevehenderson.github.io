@@ -1,14 +1,15 @@
 {% comment %}
-  Chisel card for post listings. Shows the post's `summary` front-matter field,
-  a written abstract of the whole post. Falls back to plain-text excerpt.
+  Post listing card, styled like the Projects cards. Shows the post's `summary`
+  front-matter field, falling back to a plain-text excerpt.
   Params: post, cta (link label, default "Read more").
 {% endcomment %}
 {% assign card_post = include.post %}
-<article class="post-card">
-  <div class="post-card__body">
-    <h3 class="post-card__title"><a href="{{ site.baseurl }}{{ card_post.url }}">{{ card_post.title }}</a></h3>
-    <p class="post-card__meta">{{ card_post.date | date: "%b %-d, %Y" }} &middot; {{ card_post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</p>
-    <p class="post-card__summary">{% if card_post.summary %}{{ card_post.summary | strip_html }}{% else %}{{ card_post.excerpt | strip_html | strip_newlines | truncatewords: 40 }}{% endif %}</p>
-    <a href="{{ site.baseurl }}{{ card_post.url }}" class="post-card__link">{{ include.cta | default: "Read more" }} →</a>
-  </div>
+<article class="project-card">
+  <h3 class="project-card__title"><a href="{{ site.baseurl }}{{ card_post.url }}">{{ card_post.title }}</a></h3>
+  <p class="project-card__meta">{{ card_post.date | date: "%b %-d, %Y" }} &middot; {{ card_post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</p>
+  <p>{% if card_post.summary %}{{ card_post.summary | strip_html }}{% else %}{{ card_post.excerpt | strip_html | strip_newlines | truncatewords: 40 }}{% endif %}</p>
+  {% if card_post.tags.size > 0 %}
+  <p>{% for tag in card_post.tags limit:5 %}<span class="project-card__tag">{{ tag }}</span>{% endfor %}</p>
+  {% endif %}
+  <a href="{{ site.baseurl }}{{ card_post.url }}" class="project-card__link">{{ include.cta | default: "Read more" }} →</a>
 </article>
