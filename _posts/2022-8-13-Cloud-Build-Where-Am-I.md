@@ -3,6 +3,7 @@ layout: post
 title: Cloud Build Where am I??
 categories: ['blog']
 tags: ['cloudbuild', 'cicd']
+summary: "A drop-in Cloud Build step that prints the builder's directory layout to the build log, so you can see where your Dockerfile and sources sit during a run."
 ---
 
 

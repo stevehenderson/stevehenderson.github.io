@@ -3,6 +3,7 @@ layout: post
 title: "MAVLink Has No Idea Who You Are: Drone Autonomy on an Unauthenticated Link (Part 1)"
 categories: ['blog']
 tags: ['cyber', 'drones', 'mavlink', 'ardupilot', 'gazebo', 'ai', 'simulation', 'series']
+summary: "Part 1 of a series on drone link security. Builds a simulated ArduPilot lab and the MAVIO workbench to measure what an unauthenticated MAVLink link exposes, from the parameter stream to commands that move the vehicle, and what that trust model means for the autonomy stacks, LLM-based ones included, that now sit on the other end."
 ---
 
 Every drone fleet I have looked at from a security angle has the same uncomfortable property: the protocol that flies the aircraft was designed for a world where the worst thing that happened to a packet was radio noise.

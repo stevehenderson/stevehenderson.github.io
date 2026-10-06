@@ -3,6 +3,7 @@ layout: post
 title: "Anatomy of a Backdoor: The XZ Utils Supply-Chain Attack (CVE-2024-3094)"
 categories: ['blog']
 tags: ['cyber', 'supply-chain', 'ssh', 'linux', 'opensource']
+summary: "The story of CVE-2024-3094: how an attacker spent two years earning maintainer trust in XZ Utils, hid a backdoor in its build scripts and test files that hijacked SSH authentication, and was caught by an engineer chasing a half-second slowdown. Includes how to check your exposure and two hands-on labs for inspecting and detonating the payload in an isolated VM."
 ---
 
 On Friday, March 29, 2024, a Microsoft engineer named [Andres Freund](https://github.com/anarazel) sent an email to the `oss-security` mailing list that quietly averted what might have been the most consequential supply-chain compromise in the history of open source. He had been chasing a performance oddity — SSH logins on a Debian test system were running about **half a second slower** than they should have, and `liblzma` was burning suspicious amounts of CPU. What he found at the bottom of that rabbit hole was a deliberately planted backdoor in **XZ Utils**, a compression library that ships in virtually every Linux distribution on Earth.

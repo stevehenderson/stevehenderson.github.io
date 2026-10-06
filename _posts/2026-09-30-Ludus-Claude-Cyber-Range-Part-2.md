@@ -3,6 +3,7 @@ layout: post
 title: "Automated Cyber Range Deployments with Ludus and Claude, Part 2: Watching It, and Getting It Right"
 categories: ['blog']
 tags: ['cyber', 'ludus', 'claude', 'cyber-range', 'proxmox', 'ansible', 'wazuh', 'siem', 'detection-engineering', 'ai', 'series']
+summary: "Part 2 adds a Wazuh SIEM on its own SOC VLAN, then reviews the whole build carefully, including a version pin meant to keep the agents in step with their manager that ended up upgrading all five past it."
 ---
 
 > This continues from [Part 1]({% post_url 2026-09-30-Ludus-Claude-Cyber-Range-Part-1 %}), which built the range and made it observable.

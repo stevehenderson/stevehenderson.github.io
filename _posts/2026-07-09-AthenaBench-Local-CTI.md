@@ -3,6 +3,7 @@ layout: post
 title: "Can a Local Coding Model Do Threat Intel? Benchmarking Qwen3-Coder-Next on AthenaBench"
 categories: ['blog']
 tags: ['cyber', 'ai', 'llm', 'threat-intel', 'benchmarking', 'local-models']
+summary: "Benchmarks an 8-bit Qwen3-Coder-Next running fully offline on AthenaBench's six threat-intel tasks. It scores 49.0 combined, the strongest open-weights result on the board and ahead of GPT-4 on CTI knowledge and ATT&CK technique extraction, and the post lays out a local retrieval plan for the two tasks where it struggles."
 ---
 
 A lot of the work I do lives in a place cloud LLMs can't go. Incident writeups, reverse engineering, artifact analysis, internal vuln-triage notes — the threat-intel workflows that would benefit *most* from an AI assistant are exactly the ones where pasting text into somebody else's API is a no-go. Most LLM benchmarking quietly ignores this, because the benchmarks assume you can just call GPT. In my world you often can't.

@@ -3,6 +3,7 @@ layout: post
 title: "Walkthrough: VulnHub 42Challenge — LFI to Root"
 categories: ['blog']
 tags: ['cyber', 'pentest', 'lfi', 'vulnhub', 'tutorial']
+summary: "A boot-to-root walkthrough of VulnHub's 42Challenge that chains a client-side filter bypass, local file inclusion, log poisoning, a stray shadow backup and a reverse-engineered binary into a path to root. Flags and credentials are redacted; the focus is the methodology."
 ---
 
 A condensed walkthrough of the [42Challenge](https://www.vulnhub.com/entry/42challenge-1,465/)

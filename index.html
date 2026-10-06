@@ -37,16 +37,9 @@ layout: default
 
 <h2 class="section-head">Recent Posts</h2>
 
-<div class="posts">
+<div class="post-cards">
   {% for post in site.posts limit:5 %}
-    <article class="post">
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="post-meta">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read &middot; {{ post.date | date: "%B %e, %Y" }}</p>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more →</a>
-    </article>
+    {% include post-card.html post=post %}
   {% endfor %}
 </div>
 

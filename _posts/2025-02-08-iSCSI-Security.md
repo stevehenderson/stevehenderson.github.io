@@ -3,6 +3,7 @@ layout: post
 title: iSCSI Applications & Security
 categories: ['blog']
 tags: ['cyber', 'iscsi', 'networking']
+summary: "How iSCSI delivers block storage over ordinary Ethernet, how to attach LUNs to ESXi as datastores, and the controls it needs to run safely: CHAP authentication, network segmentation, access control, monitoring, patching, and a plan for its lack of built-in encryption."
 ---
 
 iSCSI (Internet Small Computer Systems Interface) is a powerful protocol that allows you to extend storage capabilities over a network. Whether you're managing a home office setup or a full-fledged data center, iSCSI can help you integrate Network Attached Storage (NAS) devices with hypervisors like VMware ESXi. However, like any network device, iSCSI presents a number of security vulnerabilities and attack surfaces that must be considered.  This guide will explore the iSCSI protocol, its applications, and various security considerations to ensure your data remains protected.

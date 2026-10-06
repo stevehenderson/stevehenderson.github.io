@@ -13,9 +13,10 @@
     <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/images/favicon.svg" />
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/apple-touch-icon.png" />
 
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% assign page_summary = page.summary | default: page.excerpt %}
+    {% if page_summary %}
+    <meta name="description" content="{{ page_summary | strip_html | strip_newlines | escape }}" />
+    <meta property="og:description" content="{{ page_summary | strip_html | strip_newlines | escape }}" />
     {% else %}
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />

@@ -1,3 +1,6 @@
+---
+summary: "Getting VMware Workstation 16 to start on Ubuntu 20 when its vmmon and vmnet kernel modules fail to compile, using the community-maintained vmware-host-modules patches."
+---
 I'm installing VMWare Workstation on Linux Ubuntu 20, and had trouble with it not starting.  The issue was related to Linux not being able to compile and install `vmmon` and `vmnet` kernel modules.
 
 

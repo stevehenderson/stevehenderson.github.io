@@ -2,6 +2,7 @@
 layout: post
 title: You're up and running!
 categories: ['welcome']
+summary: "The starter post from the Jekyll Now template, kept as the first entry on this site."
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).

@@ -3,6 +3,7 @@ layout: post
 title: "Where Was I? Breadcrumb: Finding and Resuming OpenCode Sessions Across Machines"
 categories: ['blog']
 tags: ['ai', 'agents', 'opencode', 'developer-tools', 'typescript']
+summary: "Introduces Breadcrumb, a small daemon-free tool that records where each opencode session lives, the git state of its workspace and a gist of the last prompt, so you can find and safely resume work across machines."
 ---
 
 I run [opencode](https://opencode.ai) on a lot of machines: my laptop, a persistent devbox, a build server, a GPU box for evals. That's the natural shape of agentic coding work — some sessions are quick local edits, others are long-running debugging or evaluation runs I deliberately leave on a server. But opencode sessions are **local by design**. A session belongs to the machine and directory where it was born, and its useful context is split across two places: the saved conversation, and the working tree around it.
