@@ -388,6 +388,7 @@ A finding that points at `go-inventory/router.go:17` is something an engineer ca
 
 This is [`workflows/capscan.md`](https://github.com/stevehenderson/capscan/blob/main/workflows/capscan.md) in full:
 
+{% raw %}
 ```markdown
 ---
 description: Review each Dependabot pull request for new capabilities this repository could adopt.
@@ -490,6 +491,7 @@ Follow the rules in `.github/aw/capscan/RULES.md` exactly.
 - Post the verified report with a single `add_comment`.
   The same check runs again before the comment is published, and a report that fails it is not posted.
 ```
+{% endraw %}
 
 The design choices behind it:
 
@@ -841,6 +843,7 @@ Unless noted, results here come from Go 1.24.6 and gorilla/mux v1.8.1; the Go 1.
 
 I checked every routing claim with `httptest` so no server or network is involved:
 
+{% raw %}
 ```go
 package main
 
@@ -863,6 +866,7 @@ func main() {
 	}
 }
 ```
+{% endraw %}
 
 With `go 1.22` in `go.mod`:
 
