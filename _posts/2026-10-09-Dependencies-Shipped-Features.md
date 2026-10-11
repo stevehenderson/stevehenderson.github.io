@@ -60,7 +60,7 @@ In this Go example, the upgrade by itself changed nothing but opened the door to
 
 Every web service has a router: the code that looks at an incoming request, such as `GET /items/42`, and decides which function handles it.
 
-Until Go 1.22, Go's built-in router could match only on the host and path.  It could not tell a `GET` from a `DELETE`, and it could not pull the `42` out of a URL like `/items/42`. So most Go services added a third-party router, and [gorilla/mux](https://github.com/gorilla/mux) was a common choice and a great package.
+Until Go 1.22, Go's built-in router could match only on the host and path.  It could not tell a `GET` from a `DELETE`, and it could not pull the `42` out of a URL like `/items/42`. So many Go services added a third-party router, and [gorilla/mux](https://github.com/gorilla/mux) was a common choice and a great package.
 
 Here is a small, complete inventory service routed by `gorilla/mux`, with comments on the Go-specific parts:
 
@@ -380,9 +380,8 @@ Dependabot and the security tooling own vulnerability review; capscan runs along
 - **Risk:** <what could break, and the test that would catch it>
 ```
 
-The grounding rule does most of the work.
-A summary of release notes is easy to produce and easy to ignore.
-A finding that points at `go-inventory/router.go:17` is something an engineer can act on.
+In my experience the grounding rule does most of the work.
+A summary of release notes is easy to ignore, while a finding that points at `go-inventory/router.go:17` is something an engineer can act on.
 
 ### Step 2: the pull request workflow
 
@@ -703,7 +702,7 @@ It suggested `--env-file-if-exists` over `--env-file` for `dotenv`, because the 
 ### What changes when the agent leaves CI
 
 The skill reuses the rules, `gather-facts.sh`, and `verify-report.sh`, so a report from a laptop follows the same format and passes the same checks as one from a workflow.
-What changes is the ***isolation around the agent***.
+What changes is the isolation around the agent.
 
 In the workflow, the agent job holds a read-only token, its network goes through a firewall, and its only write is one declared comment.
 On a workstation, the agent runs with the person's own GitHub credentials, cloud credentials, SSH keys, and shell.
@@ -933,7 +932,7 @@ If one setting has to keep its old value after raising the directive, Go 1.23 an
 godebug rsa1024min=0 // legacy device certificates use 512-bit keys; remove after Q1 migration
 ```
 
-Exceptions like this have a deadline whether or not the team sets one.
+Go eventually removes old settings, so exceptions like this have a deadline even when the team does not set one.
 Go 1.27 removed `tls10server`, `tlsrsakex`, `tlsunsafeekm`, and `tls3des`, so a 1.27 toolchain applies the new TLS behavior at any `go` line.
 Settings such as `rsa1024min`, `tlsmlkem`, and `httpmuxgo121` are still held back by an old line.
 An old exception for one of them stops the build:
