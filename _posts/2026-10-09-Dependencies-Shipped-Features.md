@@ -4,6 +4,8 @@ title: "Your Dependencies Shipped Features Too"
 categories: ['blog']
 tags: ['supply-chain', 'dependencies', 'go', 'ai', 'agents', 'opensource']
 summary: "Dependency review is rightly built around security patches. Every upstream release also ships capabilities we could adopt. A Go 1.22 routing example shows how a small refactor can remove a dependency, and capscan, a Dependabot companion built on GitHub Agentic Workflows and running in a public demo repository, makes capability review a routine part of every update, and the same review runs out of band as an agent skill. It closes with lessons from building agents that read untrusted input."
+tldr: >-
+  Dependency reviews usually ask whether an update breaks anything or fixes a vulnerability. Every release also ships features, and some let us delete code or drop a dependency, such as Go 1.22's built-in router replacing gorilla/mux. I built capscan, an AI agent on GitHub Agentic Workflows that comments on each Dependabot PR with what the update lets the codebase adopt, and the post closes with lessons on securing agents that read untrusted input.
 ---
 
 This site gets a pull request from [Dependabot](https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart) almost every week.  A GitHub Action moves up a version, CI goes green, I review things and merge it.  It's semi-automated and the human-in-the-loop portion is optimized.  On most teams I have worked with, dependency management looks the same: a steady stream of version bumps, each reviewed for two questions. Does it break anything?  Does it fix a vulnerability?

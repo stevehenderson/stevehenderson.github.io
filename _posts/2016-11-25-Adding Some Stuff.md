@@ -1,4 +1,5 @@
 ---
+published: false # archived: early stub kept in the repo, unpublished from the site
 layout: post
 title: Adding to the blog
 categories: ['blog', 'setup']

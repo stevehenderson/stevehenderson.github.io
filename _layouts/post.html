@@ -12,6 +12,13 @@ layout: default
     {% endif %}
   </p>
 
+  {% if page.tldr %}
+  <aside class="tldr">
+    <p class="tldr-label">TL;DR</p>
+    {{ page.tldr | markdownify }}
+  </aside>
+  {% endif %}
+
   <div class="entry">
     {{ content }}
   </div>
