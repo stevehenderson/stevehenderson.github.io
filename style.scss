@@ -252,6 +252,29 @@ nav {
   margin: 0 0 1em;
 }
 
+// Short summary box at the top of long posts, from the `tldr` front matter.
+.tldr {
+  margin: 0 0 2em;
+  padding: 0.9em 1.2em;
+  background: $paperAlt;
+  border: 1px solid $line;
+  border-left: 3px solid $accent;
+  border-radius: 4px;
+  color: $ink;
+
+  .tldr-label {
+    margin: 0 0 0.3em;
+    font-family: $mono;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $accent;
+  }
+
+  p:last-child { margin-bottom: 0; }
+}
+
 .post-tags {
   font-family: $mono;
   font-size: 13px;

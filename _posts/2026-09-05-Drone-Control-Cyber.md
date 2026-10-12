@@ -4,6 +4,8 @@ title: "MAVLink Has No Idea Who You Are: Drone Autonomy on an Unauthenticated Li
 categories: ['blog']
 tags: ['cyber', 'drones', 'mavlink', 'ardupilot', 'gazebo', 'ai', 'simulation', 'series']
 summary: "Part 1 of a series on drone link security. Builds a simulated ArduPilot lab and the MAVIO workbench to measure what an unauthenticated MAVLink link exposes, from the parameter stream to commands that move the vehicle, and what that trust model means for the autonomy stacks, LLM-based ones included, that now sit on the other end."
+tldr: >-
+  MAVLink, the protocol that ArduPilot and PX4 drones fly on, is unauthenticated by default: anything that reaches the link can read the vehicle's parameters and send it commands. I built a simulated lab and a workbench, MAVIO, to measure that exposure, and the post covers what it means once an autonomy stack, LLM-based ones included, consumes the telemetry. It ends with practical mitigations: message signing, keeping MAVLink ports off the network, tunneling companion links, checking command acknowledgments, and sanitizing telemetry text before it reaches a model.
 ---
 
 Every drone fleet I have looked at from a security angle has the same uncomfortable property: the protocol that flies the aircraft was designed for a world where the worst thing that happened to a packet was radio noise.
