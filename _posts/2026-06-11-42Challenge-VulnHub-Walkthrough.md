@@ -51,7 +51,7 @@ Two things stand out:
 - The "you can't read that file" block is enforced in JavaScript, on the client, so it provides no security.
 - `include($_GET['log'])` is a textbook local file inclusion.
 
-## 2. Initial access: bypass the client-side filter → LFI
+## 2. Initial access: bypass the client-side filter to reach LFI
 
 Since the restriction is client-side, disable JavaScript in the browser.
 The directory-traversal payload then goes through:
@@ -68,7 +68,7 @@ I also pulled application source with the PHP filter wrapper (base64 so it isn't
 http://TARGET/index.php?log=php://filter/convert.base64-encode/resource=index.php
 ```
 
-## 3. LFI → RCE via log poisoning
+## 3. From LFI to RCE via log poisoning
 
 `data://` and `php://` input wrappers were disabled (`allow_url_include=0`), so straight LFI-to-RCE was out.
 The way through is log poisoning: the LFI can read the nginx logs, and the server writes attacker-controlled strings *into* those logs.
@@ -112,7 +112,7 @@ msf6 > exploit
 
 Browsing to `http://TARGET/payload.php` fires the callback and opens an interactive `www-data` shell.
 
-## 5. Privilege escalation by forensics, not exploits
+## 5. Privilege escalation through forensics
 
 The box is a well-patched Ubuntu 18.04, and kernel and service exploits went nowhere.
 So I switched from a "find a CVE" approach to a forensic one: hunt for files whose permissions and timestamps are out of place.
@@ -180,7 +180,7 @@ find / -writable -user root 2>&1 | grep -v "Permission denied" | grep -v proc
 ## Takeaways
 
 - Client-side validation does not provide security. The entire entry point hinged on a check that lived in the browser.
-- Chaining weaknesses matters. No single bug here was critical on its own, but LFI plus writable logs gave remote code execution.
+- No single bug here was critical on its own, but chaining LFI with writable logs gave remote code execution.
 - When exploits dry up, I find it pays to think like a forensic analyst. Timestamps and permission anomalies cracked both privilege-escalation steps. Patches stop known CVEs, and they do not stop a stray `shadow_backup.bak`.
 - Being able to read a binary helps. A few minutes in radare2 saved me hours of guessing.
 

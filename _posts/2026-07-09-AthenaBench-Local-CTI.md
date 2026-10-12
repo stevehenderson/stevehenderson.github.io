@@ -74,7 +74,7 @@ A locally served 8-bit model posts the strongest open-weights row on the board.
 It is ahead of GPT-4 on threat-intel knowledge (CKT, +3.8) and technique extraction (ATE, +7.0), essentially tied on CVE root-cause mapping, and within five points on CVSS severity.
 The two *generative* tasks, mitigation recommendations and actor attribution, keep it from closing the remaining gap to GPT-4's combined score.
 
-## What this actually means for security work
+## What this means for security work
 
 **The classification half of CTI work is now viable on-prem.**
 Technique tagging, CVE-to-CWE mapping, severity triage, and knowledge lookup all run at roughly GPT-4 level, with the data never leaving the laptop, let alone the building.

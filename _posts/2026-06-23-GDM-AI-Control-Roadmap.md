@@ -5,7 +5,7 @@ categories: ['blog']
 tags: ['cyber', 'ai', 'agents', 'ai-safety', 'insider-threat']
 summary: "A summary of Google DeepMind's AI Control Roadmap, which treats capable AI agents as potential insider threats, followed by eight practical lessons for teams building cyber agents, from per-agent identity and choke points to kill switches and red-teaming the controls themselves."
 tldr: >-
-  Google DeepMind's AI Control Roadmap treats capable AI agents as potential insider threats and ties detection and prevention controls to each model's capability tier. I summarize the roadmap, including its TRAIT&R threat taxonomy and two control invariants, and draw eight practical lessons for teams building cyber agents, from per-agent identity and choke points to kill switches and red-teaming the controls themselves.
+  Google DeepMind's AI Control Roadmap treats capable AI agents as potential insider threats and ties detection and prevention controls to each model's capability tier. I summarize the roadmap, including its TRAIT&R threat taxonomy and two control invariants, and draw eight lessons for teams building cyber agents, including per-agent identity, choke points, kill switches, and red-teaming the controls themselves.
 ---
 
 I build cyber agents and think about them a lot: AI systems that read code, call tools, touch infrastructure, and increasingly do real work without a human watching every step.
@@ -27,7 +27,7 @@ The authors are explicit that control is a *second* line of defense that sits al
 Their working assumption is deliberately paranoid: adopt a **"security mindset"** and treat sufficiently capable internally deployed agents as **untrusted**.
 That means assuming they may be pursuing an adversarial objective, such as exfiltrating their own weights or standing up a rogue deployment, and building defenses robust to that worst case.
 
-> **The key reframe:** control asks "if this model were bad, could it actually hurt us?"
+> Control reframes the question as "if this model were bad, could it actually hurt us?"
 > I think that is a question we can engineer against today.
 
 The paper also separates trusted from untrusted models.

@@ -183,7 +183,7 @@ He pulled the thread, found the backdoor, and disclosed it before 5.6.x had prop
 ### Artifact 3: the disclosure, in his own words
 
 The entire industry found out from a single mailing-list post.
-The understated opening is worth reading; this is what "we got lucky" sounds like in real time:
+The opening of the email is understated, considering what it disclosed:
 
 > After observing a few odd symptoms around liblzma (part of the xz package) on
 > Debian sid installations over the last weeks (logins with ssh taking a lot of
@@ -308,9 +308,9 @@ ubuntu@xz-lab:~$ sha256sum lab1/xz-5.6.1.tar.gz
 Looking up this hash on [VirusTotal](https://www.virustotal.com/gui/home/search) confirms it is malicious:
 
 
-![Virus Total Search](../images/xz/image.png)
+![VirusTotal search](../images/xz/image.png)
 
-![Virus Total Results](../images/xz/image-1.png)
+![VirusTotal results](../images/xz/image-1.png)
 
 
 Note this file in the VirusTotal report: `xz-5.6.1/m4/build-to-host.m4`
@@ -743,13 +743,13 @@ Unfortunately (or reassuringly), there is not, for several reasons:
 
 The closest thing to "real" capture infrastructure is the honeypots researchers stood up *after* disclosure: **[lockness-Ko/xz-vulnerable-honeypot](https://github.com/lockness-Ko/xz-vulnerable-honeypot)** (genuine vulnerable xz 5.6.1 + Fedora `sshd`, watched with `bpftrace`, `strace`, `tcpdump`, and `sshd` logs) and **[xzbot](https://github.com/amlweems/xzbot)**'s logging `sshd`.
 Note the asymmetry, though: a honeypot can log a connection *shaped* like the backdoor trigger, yet it can **never** observe a *valid* activation, because that needs the unknown private key.
-Post-disclosure hits come from scanners and researchers probing the format; the author has not returned to the scene.
+Post-disclosure hits come from scanners and researchers probing the format; there is no public evidence the author has used it since.
 
 So the only valid trigger traffic that exists anywhere is the kind **you generate yourself** in the lab above.
 Because the pcap is encrypted, the most useful artifact is the **host-side trace**: `bpftrace`/`strace` catching the hook fire, alongside the `xzbot: magic 1` log line.
-That is the stack the honeypots instrument, and it shows what the wire never can.
+That host-side layer is what the honeypots instrument, because it shows activity the encrypted traffic hides.
 
-## The real takeaways for defenders
+## Takeaways for defenders
 
 XZ is already patched, so the lessons I think are worth keeping concern posture against the **next** attack of this kind:
 
