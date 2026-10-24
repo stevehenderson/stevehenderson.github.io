@@ -95,5 +95,6 @@ exclude:
   - "*.pdf"               # never publish PDFs (e.g. résumé) from the repo root
   - henderson_resume_mar2026.pdf
   - inputs                # working/source drop folder — never publish
+  - research              # post research notes and social drafts - never publish
   - vendor                # local `bundle install --path vendor/bundle` gems
   - .bundle

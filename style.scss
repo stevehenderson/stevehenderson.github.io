@@ -93,6 +93,14 @@ table {
   margin: 1.5em 0;
   font-size: 15px;
 }
+// On phones, wide data tables scroll sideways inside their own box instead of
+// widening the page. Rouge's line-number tables keep their own layout.
+@include mobile {
+  table:not(.rouge-table) {
+    display: block;
+    overflow-x: auto;
+  }
+}
 th, td {
   border: 1px solid $line;
   padding: 8px 12px;

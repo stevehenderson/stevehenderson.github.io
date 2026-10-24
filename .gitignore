@@ -4,6 +4,7 @@ _site/
 .jekyll-metadata
 .DS_Store
 inputs
+research
 *.pdf
 
 # Local Jekyll preview (gems installed via `bundle install --path vendor/bundle`)
